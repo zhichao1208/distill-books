@@ -117,29 +117,26 @@ If you can't fill in any row honestly, the skill isn't ready.
 
 ---
 
-## Step 4 — A/B eval
+## Step 4 — User test (the actual quality gate)
 
-Run 30+ scenarios (minimum). For each:
+After v0.2.4 we **stopped using formal A/B evals as the ship gate**. Reasons:
 
-1. Same user utterance to baseline LLM (no skill) and to LLM with skill loaded
-2. Independent grader (not the author) scores 5 dimensions (0-20 each)
-3. Calculate delta = with_skill - baseline
+- Single-model self-eval is fundamentally circular (model favors its own writing style)
+- Independent-evaluator runs cost real API spend with marginal signal
+- The honest test is: does the skill behave humanely under pressure when a real user invokes it?
 
-**Skill ships only if delta ≥ +25 averaged across scenarios.**
+**The new ship gate**: a working "paste block" version of the skill, tested by the project owner across at least 5 risky-branch scenarios (must include `vulnerable` and `not_for` branches), in a fresh AI chat. If the skill misbehaves, fix the SKILL.md and re-test. Only ship when the risky branches behave as designed.
 
-EVAL.md must include:
+`tools/eval.py` and `tools/scenarios.json` are preserved for future regression testing once the skill set stabilizes, but **EVAL.md is no longer a required artifact** for new books.
 
-- Methodology (which model, how scenarios chosen, who graded)
-- Aggregate numbers (n, baseline, with_skill, delta)
-- Per-scenario-type breakdown
-- All scenarios where delta < 0 or skill was actively harmful (transparency about failure)
-- not_for list confirmation (the harmful cases should all be in not_for)
+Old EVAL.md files for Atomic Habits / Psychology of Money / Deep Work are kept as historical record of the methodology we explored.
 
-Failure modes that disqualify a skill from shipping:
+Failure modes that still disqualify a skill from shipping (checked manually by the project owner during testing):
 
-- Any scenario where skill **deepens** a vulnerable user's distress (harmful must = 0 after applying not_for filter)
-- Any scenario where skill gives advice the book explicitly cautions against
-- Any scenario where skill pretends emotion / pretends memory of past sessions (violates principle 7)
+- The skill **deepens** a vulnerable user's distress instead of routing to professional help
+- The skill gives advice the book explicitly cautions against (e.g. specific medical or investment recommendations)
+- The skill pretends emotion / pretends memory of past sessions (violates principle 7)
+- The skill leaves a reply without a destination close
 
 ---
 
@@ -176,7 +173,7 @@ Currently planned packages (none implemented yet, post-v0.1):
 - Skills that skip the not_for / crisis exit ("but my book is positive, no one will be hurt")
 - Skills that imitate therapist / coach / teacher voice
 - Skills that pretend to remember past conversations
-- Skills with EVAL.md showing delta < +25 or any unmitigated harmful case
+- Skills where user testing reveals unmitigated harmful behavior on `vulnerable` / `not_for` branches
 - Summary-flavored skills ("this book says X, Y, Z. Here are 5 tips.")
 
 ---

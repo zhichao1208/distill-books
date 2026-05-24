@@ -1,8 +1,8 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.2.3-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-3-purple.svg)](#books-current--planned)
+[![Version](https://img.shields.io/badge/version-v0.2.4-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-4-purple.svg)](#books-current--planned)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-second-quickstart)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
@@ -90,7 +90,7 @@ Skills are plain markdown. Any model that reads markdown can run them. Zero API 
 | 1 | **Atomic Habits** · James Clear (2018) | identity vote + atomic unit | ✓ v0.2 (delta +54.3) | [→ BOOKS#atomic-habits](BOOKS.md#1-atomic-habits--james-clear-2018) |
 | 2 | **The Psychology of Money** · Morgan Housel (2020) | wealth-invisible + enough + tail events + room for error | ✓ v0.2 (delta +34.3) | [→ BOOKS#psychology-of-money](BOOKS.md#2-the-psychology-of-money--morgan-housel-2020) |
 | 3 | **Deep Work** · Cal Newport (2016) | shallow audit + 4 scheduling philosophies | ✓ v0.2.3 (pre-eval) | [→ BOOKS#deep-work](BOOKS.md#3-deep-work--cal-newport-2016) |
-| 4 | **Outlive** · Peter Attia (2023) | Medicine 3.0; 30-year-horizon risk | 🟡 v0.3 (proposal locked) | [→ proposals/outlive.md](proposals/outlive.md) |
+| 4 | **Outlive** · Peter Attia (2023) | Medicine 3.0 + Centenarian Decathlon | ✓ v0.2.4 (medical-warning-prominent) | [→ BOOKS#outlive](BOOKS.md#4-outlive--peter-attia-md-2023) |
 | 5 | **Tiny Habits** · BJ Fogg (2019) | B = MAP; celebration as cement | 🟡 v0.5 candidate | — |
 | 6 | **Mindset** · Carol Dweck (2006) | growth vs fixed; response to feedback | 🟡 v0.5 candidate | — |
 | 7 | **Why We Sleep** · Matthew Walker (2017) | sleep as performance multiplier | 🟡 v0.5 candidate | — |
@@ -143,7 +143,8 @@ Full data, methodology limits, failure cases: [Atomic Habits EVAL](books/atomic-
 - [x] **v0.2.1** — README bilingual (English primary + Chinese mirror)
 - [x] **v0.2.2** — Meta-skill blueprint surfaced as repo's main IP · Book detail folded into [BOOKS.md](BOOKS.md) · 10-book seed slate planned with archetype balance
 - [x] **v0.2.3** — Third book shipped: [Deep Work](books/deep-work/SKILL.md) (cognitive/focus archetype) · Phase 3 of 10-book methodology · Outlive proposal locked
-- [ ] **v0.3** — Outlive built (with health-warning prominently in boot) · `tools/eval.py` runs real-API eval (20 scenarios per book) · Independent evaluator model · Boot-quality added to scoring rubric
+- [x] **v0.2.4** — Fourth book shipped: [Outlive](books/outlive/SKILL.md) (health archetype, medical-warning-prominent in boot, emergency-detection before boot) · EVAL.md dropped as required artifact going forward (user testing IS the gate now); CONTRIBUTING updated
+- [ ] **v0.3** — Tiny Habits (second behavior book) · Mindset (first identity archetype) · half the seed slate complete
 - [ ] **v0.5** — First `packages/` bundle (midlife-health-pack: *Outlive* + *Atomic Habits* + *Why We Sleep*)
 - [ ] **v0.8** — 5 seed books, second package (new-grad-pack)
 - [ ] **v1.0** — 10 seed books · External contributions open · GitHub Actions CI runs eval on every PR
@@ -263,4 +264,4 @@ Book copyrights belong to authors and publishers. Takedown requests handled with
 
 ---
 
-*v0.2.3 · 2026-05-24 · 3 shipped + 7 planned · Deep Work joins (cognitive archetype)*
+*v0.2.4 · 2026-05-24 · 4 shipped + 6 planned · Outlive joins (health archetype, medical-warning design)*

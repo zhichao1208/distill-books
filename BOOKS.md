@@ -99,7 +99,38 @@ Open the skill and you first see the boot: a 3-5 minute flow expectation and 5 e
 Then one of three cold-starts: immediate digital tidying (phone+tabs) if you're distracted now, a shallow-audit letter choice if you're reviewing the week, or the 4-philosophy picker if your schedule itself is the problem.  
 Skill never recommends GTD / PARA / time-blocking jargon — Newport's frame only. If your attention pattern looks clinical, the skill routes you to a GP / psychiatrist, not to scheduling tricks.
 
-→ Skill: [books/deep-work/SKILL.md](books/deep-work/SKILL.md) · Eval: [EVAL.md](books/deep-work/EVAL.md) (pre-eval; runs after first user test)
+→ Skill: [books/deep-work/SKILL.md](books/deep-work/SKILL.md) · Sources: [source-notes.md](books/deep-work/source-notes.md)
+
+---
+
+### 4. Outlive · Peter Attia, MD (2023)
+
+**About**  
+Practicing longevity physician's framework for adding healthy years. Core ideas: **Medicine 3.0** (forecast and intervene 20-30 years out vs. treat after symptoms) and the **Centenarian Decathlon** (pick concrete physical things you want to do at 90, reverse-engineer fitness now from there). The book also organizes major adult mortality around the **4 Horsemen**: atherosclerotic cardiovascular disease, cancer, neurodegenerative disease, metabolic dysfunction.
+
+**Reach**  
+- #1 NYT non-fiction bestseller across 2023-2024
+- Peter Attia hosts *The Drive*, the #1 medical podcast (multi-year)
+- Only mainstream longevity book treated seriously by practicing clinicians (vs. more speculative entries in the genre)
+- Strong sustained sales 2 years after release — durability signal
+
+**Why this book**  
+Of the health archetype, Attia is the only author who combines clinical practice + book-length framework + the "frame the conversation with your physician" stance the skill needs. *Lifespan* (Sinclair) is too supplement-prescriptive for the skill's hard rule. *Why We Sleep* is single-domain (planned for v0.5 as companion). *Body Keeps the Score* is trauma-specific (different scene). Outlive's lenses — **Medicine 3.0** + **Centenarian Decathlon** — are the cleanest fit for the meta-skill blueprint.
+
+**Copy this skill when you say**  
+- "I want to live longer / be healthier / not die young"
+- "My parent or sibling had [heart attack / Alzheimer's / cancer / diabetes] — am I at risk?"
+- "I'm 40+ and starting to feel things shifting"
+- "My labs are 'normal' but I feel off"
+- "I want to start training but don't know where"
+- "Should I take [a specific drug / supplement / test]?" (skill will refuse and redirect)
+
+**What you get**  
+Open the skill and you first see the boot with a **prominent ⚠ hard rule** before anything else: the skill never gives specific medical advice (no drug names, doses, lab interpretation, training prescriptions). It also catches acute emergencies (chest pain, sudden weakness, suicidal thought) BEFORE the boot, routing immediately to 112 / 911 / crisis hotline.  
+Then one of three cold-starts: name a 90-year-old physical scene (Centenarian Decathlon), or frame a family-history conversation (4 horsemen routing), or sharpen "labs normal but I feel off" into a question for your physician.  
+Every output points to a real professional (physician, RD, qualified trainer, sleep medicine specialist) for the actual decision. Skill helps you frame the question, never makes the call.
+
+→ Skill: [books/outlive/SKILL.md](books/outlive/SKILL.md) · Sources: [source-notes.md](books/outlive/source-notes.md)
 
 ---
 
@@ -121,11 +152,10 @@ Seven more books to round out the 10-book seed. Selection rule: span ≥4 archet
 | **Stolen Focus** | Johann Hari, 2022 | Attention as collectively stolen; environmental fix > willpower | v0.5 candidate |
 | **Make It Stick** | Brown / Roediger / McDaniel, 2014 | Retrieval > re-reading; spaced retrieval as default | v0.8 candidate |
 
-### Archetype: health / body (none shipped yet)
+### Archetype: health / body (1 shipped: Outlive)
 
 | Book | Author / year | Distinctive lens | Status |
 |---|---|---|---|
-| **Outlive** | Peter Attia, 2023 | Medicine 3.0; risk over 30-year horizon, not annual checkup | v0.3 candidate (matches user's fitness project) |
 | **Why We Sleep** | Matthew Walker, 2017 | Sleep as performance multiplier; 8h non-negotiable | v0.5 candidate |
 | **Breath** | James Nestor, 2020 | Nasal-only + slow exhale; breathing as posture | v0.8 candidate |
 
@@ -150,7 +180,7 @@ Picking from the above, an opinionated 10-book seed:
 1. **Atomic Habits** ✓
 2. **Psychology of Money** ✓
 3. **Deep Work** ✓ (first cognitive/focus archetype)
-4. **Outlive** — health archetype, current (2023) · proposal locked, build pending
+4. **Outlive** ✓ (first health archetype; medical-warning-prominent design)
 5. **Tiny Habits** — second behavior book, contrasts AH (smaller-than-atomic)
 6. **Mindset** — first identity archetype
 7. **Why We Sleep** — health, sleep as foundation
@@ -189,4 +219,4 @@ If a draft can't fill in any one of those, the book isn't ready.
 
 ---
 
-*v0.2.3 · 2026-05-24 · 3 shipped + 7 planned · seed-slate methodology in place*
+*v0.2.4 · 2026-05-24 · 4 shipped + 6 planned · seed-slate methodology in place*
