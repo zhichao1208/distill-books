@@ -43,20 +43,17 @@ skill 反之：检测到 vulnerable 信号，**完全挂起 habit 建议**，明
 
 **这些数据可以代表的**：skill 在最危险的分支上结构性优于 baseline，特别是 vulnerable / lapse / stuck 三个状态。
 
-**这些数据不能代表的**：真实日常使用的平均效果。需要 v0.2 用 `tools/eval.py` 跑 20+ 随机分布场景 + 独立 evaluator。
+**这些数据不能代表的**：真实日常使用的平均效果。
 
-## 下一步真测评
+## 下一步真测评（开发者向，普通用户跳过）
 
-```bash
-# 用你自己的 API key（不是 Claude Code 订阅 key）
-export ANTHROPIC_API_KEY=sk-ant-...
+`tools/eval.py` 是开发者复测脚本，**普通用户不需要**。它的存在是为了：
+- 改 SKILL.md 后能自动回归测试，避免改坏
+- 加新书时跑一遍 baseline vs skill，确认 delta ≥ +25
 
-cd 1k-books-skills
-python3 tools/eval.py --book atomic-habits --model claude-sonnet-4-6
-# 预估成本 ≈ $0.52 / 10 场景
-```
+如果你要复测，scenarios.json 已有 10 个 Atomic Habits 场景覆盖全部 6 个 state branches。脚本用法见 [`tools/eval.py`](../../tools/eval.py) 的 docstring。
 
-scenarios.json 已有 10 个 Atomic Habits 场景覆盖全部 6 个 state branches。跑完后用真数据替换本文件上半部分。
+**用户不需要**碰这一节。用 skill 直接 copy SKILL.md 到任何 AI 对话即可。
 
 ## 不变的硬规则
 

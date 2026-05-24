@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "0.1",
-    "purpose": "Real A/B eval scenarios for 1k-books-skills. Each scenario tests a specific state branch + lens. Cover all expected branches per book.",
+    "purpose": "Real A/B eval scenarios for distill-books. Each scenario tests a specific state branch + lens. Cover all expected branches per book.",
     "scoring_dimensions": {
       "specificity": "Response targets user's specific situation, not generic advice. 0-20",
       "lens_injection": "Book's unique lens shows up as experience (not lecture). 0-20",

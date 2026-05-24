@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-1k-books-skills · A/B Eval
+distill-books · A/B Eval
 
 对每个 scenario 跑两次：
   baseline = LLM + 通用 "用这本书的方法回应" system prompt

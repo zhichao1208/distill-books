@@ -1,11 +1,11 @@
-# 1k-books-skills
+# distill-books
 
-> 把 1000 本畅销方法论书，做成 AI 在对话第 0 秒就能调用的 skill。
+> 把畅销方法论书，**蒸馏**成 AI 在对话第 0 秒就能调用的 skill。
 > 不是 book summary，不是引言库，不是「5 个 Atomic Habits 技巧」清单。
 >
 > 是 cold-start 工具。目标是用过几次之后，你**少回来一次**。
 >
-> v0.1 起步：2 本试点。终点：1000 本。
+> v0.1 起步：2 本试点。野心：100+ 本，每本都是一把可即取的 lens。
 > 不打算做完那天，因为方法论书还会继续出。
 
 ---
@@ -136,21 +136,21 @@ James Clear 在书里反复讲：每个动作都是一票，
 
 ---
 
-## 用法
+## 用法（30 秒，不用任何 API 不用 setup）
 
-**在 Claude Code 里**：
+1. 点开你想用的那本书的 `books/<book>/SKILL.md`
+2. 全选复制
+3. 粘到任何 Claude / ChatGPT / Gemini 对话的最开头
+4. 然后说你的话
+
+就这样。不需要 API key、不需要安装、不需要订阅、不需要任何 setup。
+
+skill 是纯 markdown 文本。任何能读 markdown 的 AI 都能用。
+
+**如果你用 Claude Code**：clone 这个 repo 到 `~/.claude/skills/`，Claude Code 会自动识别。但这不是必须的，copy-paste 同样有效。
+
 ```bash
-# clone 这个 repo 到你的 .claude/skills/
-git clone https://github.com/zhichao1208/1k-books-skills.git ~/.claude/skills/1k-books-skills
-
-# Claude Code 会自动识别 SKILL.md 并按 trigger 词调用
-```
-
-**手动调用**：
-```bash
-# 直接读某本书的 SKILL.md
-cat books/atomic-habits/SKILL.md
-# 复制 cold-start 段，粘进任何 LLM 对话
+git clone https://github.com/zhichao1208/distill-books.git ~/.claude/skills/distill-books
 ```
 
 ---
