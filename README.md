@@ -1,10 +1,12 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.2.0-orange.svg)](#roadmap)
+[![Version](https://img.shields.io/badge/version-v0.2.1-orange.svg)](#roadmap)
 [![Books](https://img.shields.io/badge/books-2-purple.svg)](#current-books-v020)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-second-quickstart)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
+
+**English** · [中文](README.zh.md)
 
 > 6 months ago you finished *Atomic Habits*. Right now you're about to skip the workout, again. The whole book was about exactly this moment. None of it shows up.
 
@@ -320,4 +322,4 @@ Book copyrights belong to authors and publishers. Takedown requests handled with
 
 ---
 
-*v0.2.0 · 2026-05-24 · 2 pilot books · English primary · boot + every-reply rules in place*
+*v0.2.1 · 2026-05-24 · 2 pilot books · English primary, Chinese mirror · boot + every-reply rules in place*
