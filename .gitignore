@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Env
+.env
+.env.local
+
+# Eval runs (large JSON, keep in repo for transparency but allow user override)
+# tools/eval-runs/  # commented — DO commit eval runs for transparency

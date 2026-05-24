@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "version": "0.1",
+    "purpose": "Real A/B eval scenarios for 1k-books-skills. Each scenario tests a specific state branch + lens. Cover all expected branches per book.",
+    "scoring_dimensions": {
+      "specificity": "Response targets user's specific situation, not generic advice. 0-20",
+      "lens_injection": "Book's unique lens shows up as experience (not lecture). 0-20",
+      "min_action": "Suggests smallest possible next step (e.g. atomic 2-min). 0-20",
+      "reversibility": "Explicitly offers skip/redirect/exit. 0-20",
+      "not_therapist": "Avoids 'you should / let me help you / I understand' coach voice. 0-20"
+    },
+    "max_score": 100,
+    "ship_threshold": 25
+  },
+
+  "atomic-habits": [
+    {
+      "id": "ah_001",
+      "type": "curious_explicit",
+      "user_input": "我想每天早上起床后跑步 30 分钟",
+      "memory_context": {"age": 40, "city": "Berlin", "constraint": "训练时间预算有限", "health": "TMJ 病史夜里戴咬合板"},
+      "expected_state": "curious_motivated",
+      "expected_lens": ["identity_vote", "atomic_unit"]
+    },
+    {
+      "id": "ah_002",
+      "type": "curious_vague",
+      "user_input": "我想变成更自律的人",
+      "memory_context": {"age": 40, "city": "Berlin"},
+      "expected_state": "curious_motivated",
+      "expected_lens": ["identity_vote"]
+    },
+    {
+      "id": "ah_003",
+      "type": "stuck",
+      "user_input": "锻炼坚持了 2 周，最近 1 周完全没动，一上班就累得不想动，感觉撑不住了",
+      "memory_context": {"age": 40, "city": "Berlin", "work": "Lead of Solutions Team, 12 直接下属"},
+      "expected_state": "stuck",
+      "expected_lens": ["system_not_willpower", "4_gears_diagnose"]
+    },
+    {
+      "id": "ah_004",
+      "type": "lapse",
+      "user_input": "戒糖 3 天，今天暴吃了一整桶冰淇淋，又破戒了",
+      "memory_context": {"age": 40, "city": "Berlin"},
+      "expected_state": "lapse",
+      "expected_lens": ["never_miss_twice", "no_shame"]
+    },
+    {
+      "id": "ah_005",
+      "type": "vulnerable",
+      "user_input": "我没用，又坚持不下来，可能我就是个废物，所有事都做不到",
+      "memory_context": {"age": 40, "city": "Berlin"},
+      "expected_state": "vulnerable",
+      "expected_lens": []
+    },
+    {
+      "id": "ah_006",
+      "type": "urgent",
+      "user_input": "下周一开始新工作，必须早睡 11 点，剩 3 天怎么办",
+      "memory_context": {"age": 40, "city": "Berlin"},
+      "expected_state": "urgent",
+      "expected_lens": ["atomic_unit", "environment_design"]
+    },
+    {
+      "id": "ah_007",
+      "type": "quick_q",
+      "user_input": "habit stacking 具体怎么和现有习惯绑定？",
+      "memory_context": {},
+      "expected_state": "quick_q",
+      "expected_lens": ["habit_stacking"]
+    },
+    {
+      "id": "ah_008",
+      "type": "break_bad",
+      "user_input": "我想戒掉睡前刷手机的习惯，每次都刷到 1 点多",
+      "memory_context": {"age": 40, "city": "Berlin", "health": "TMJ 病史夜里戴咬合板"},
+      "expected_state": "curious_motivated",
+      "expected_lens": ["cue_invisible", "environment_design"]
+    },
+    {
+      "id": "ah_009",
+      "type": "recover_lapse",
+      "user_input": "上次连续做了 30 天冥想，昨天忘了，今天纠结要不要重头开始计数",
+      "memory_context": {},
+      "expected_state": "lapse",
+      "expected_lens": ["never_miss_twice"]
+    },
+    {
+      "id": "ah_010",
+      "type": "too_many",
+      "user_input": "我想同时养成 5 个习惯：早起、跑步、读书、写日记、冥想，从哪个开始？",
+      "memory_context": {"age": 40, "city": "Berlin"},
+      "expected_state": "curious_motivated",
+      "expected_lens": ["one_at_a_time", "atomic_unit"]
+    }
+  ],
+
+  "psychology-of-money": [
+    {
+      "id": "pom_001",
+      "type": "big_purchase",
+      "user_input": "想买一辆新车，价格 4 万欧。现在家里有辆 12 年的旧车还能开",
+      "memory_context": {"age": 40, "city": "Berlin", "family": "2 kids"},
+      "expected_state": "decision_pending",
+      "expected_lens": ["wealth_invisible", "man_in_car"]
+    },
+    {
+      "id": "pom_002",
+      "type": "fomo_clear",
+      "user_input": "我朋友 2020 年买了 Nvidia 现在涨了 5 倍，我当时没买，现在该不该追？",
+      "memory_context": {"age": 40, "city": "Berlin"},
+      "expected_state": "fomo",
+      "expected_lens": ["different_games", "tail_events"]
+    },
+    {
+      "id": "pom_003",
+      "type": "enough_question",
+      "user_input": "我 40 岁，存了 30 万欧，2 个孩子，够退休吗？",
+      "memory_context": {"age": 40, "city": "Berlin", "family": "2 kids in Humboldt-Oberschule"},
+      "expected_state": "enough_question",
+      "expected_lens": ["enough", "room_for_error"]
+    },
+    {
+      "id": "pom_004",
+      "type": "acute_stress",
+      "user_input": "信用卡欠了 1.5 万欧，下个月还款日就还不上了，怎么办",
+      "memory_context": {"age": 40, "city": "Berlin"},
+      "expected_state": "acute_stress",
+      "expected_lens": []
+    },
+    {
+      "id": "pom_005",
+      "type": "seeking_specific_advice",
+      "user_input": "我手里 5 万欧，现在是该买 ETF 还是个股？告诉我具体买什么",
+      "memory_context": {"age": 40, "city": "Berlin"},
+      "expected_state": "seeking_advice",
+      "expected_lens": ["no_specific_advice"]
+    },
+    {
+      "id": "pom_006",
+      "type": "windfall",
+      "user_input": "公司奖金 1 万欧刚到账，不知道该怎么分配",
+      "memory_context": {"age": 40, "city": "Berlin", "family": "2 kids"},
+      "expected_state": "decision_pending",
+      "expected_lens": ["compounding", "lifestyle_creep"]
+    },
+    {
+      "id": "pom_007",
+      "type": "big_decision_complex",
+      "user_input": "在 Berlin，租房 vs 买房，租了 8 年了，最近房价好像跌了，该不该买？",
+      "memory_context": {"age": 40, "city": "Berlin", "family": "2 kids in public school until 17"},
+      "expected_state": "decision_pending",
+      "expected_lens": ["room_for_error", "wealth_invisible"]
+    },
+    {
+      "id": "pom_008",
+      "type": "comparison_anxiety",
+      "user_input": "同事工资是我 2 倍但他天天加班看起来比我更焦虑，我是不是应该求加薪",
+      "memory_context": {"age": 40, "city": "Berlin"},
+      "expected_state": "fomo",
+      "expected_lens": ["enough", "freedom"]
+    },
+    {
+      "id": "pom_009",
+      "type": "lifestyle_creep",
+      "user_input": "刚升职涨工资 800/月，想换个大房子和好车犒劳自己",
+      "memory_context": {"age": 40, "city": "Berlin", "family": "2 kids"},
+      "expected_state": "decision_pending",
+      "expected_lens": ["lifestyle_creep", "compounding"]
+    },
+    {
+      "id": "pom_010",
+      "type": "time_horizon_confusion",
+      "user_input": "我 30 岁，是该激进投资还是稳健？",
+      "memory_context": {"age": 30},
+      "expected_state": "decision_pending",
+      "expected_lens": ["different_games", "room_for_error"]
+    }
+  ]
+}
