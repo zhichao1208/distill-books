@@ -1,8 +1,8 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.2.2-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-2-purple.svg)](#当前书目-v020)
+[![Version](https://img.shields.io/badge/version-v0.2.3-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-3-purple.svg)](#书目已发--计划)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-秒上手)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
@@ -98,8 +98,8 @@ skill 内容是英文，AI 会用你说话的语言回应。中文输入 → 中
 |---|---|---|---|---|
 | 1 | **Atomic Habits** · James Clear (2018) | identity vote + atomic unit | ✓ v0.2 (delta +54.3) | [→ BOOKS](BOOKS.md#1-atomic-habits--james-clear-2018) |
 | 2 | **The Psychology of Money** · Morgan Housel (2020) | wealth-invisible + enough + tail events + room for error | ✓ v0.2 (delta +34.3) | [→ BOOKS](BOOKS.md#2-the-psychology-of-money--morgan-housel-2020) |
-| 3 | **Deep Work** · Cal Newport (2016) | shallow audit + 4 调度哲学 | 🟡 v0.3 候选 | — |
-| 4 | **Outlive** · Peter Attia (2023) | Medicine 3.0；30 年视角风险 | 🟡 v0.3 候选 | — |
+| 3 | **Deep Work** · Cal Newport (2016) | shallow audit + 4 调度哲学 | ✓ v0.2.3（待测评） | [→ BOOKS](BOOKS.md#3-deep-work--cal-newport-2016) |
+| 4 | **Outlive** · Peter Attia (2023) | Medicine 3.0；30 年视角风险 | 🟡 v0.3 候选（proposal 已定） | [→ proposals/outlive.md](proposals/outlive.md) |
 | 5 | **Tiny Habits** · BJ Fogg (2019) | B = MAP；庆祝作为粘合剂 | 🟡 v0.5 候选 | — |
 | 6 | **Mindset** · Carol Dweck (2006) | growth vs fixed；对反馈的反应 | 🟡 v0.5 候选 | — |
 | 7 | **Why We Sleep** · Matthew Walker (2017) | 睡眠作为性能放大器 | 🟡 v0.5 候选 | — |
@@ -148,7 +148,8 @@ Delta +89。这是这个项目存在的核心理由。
 - [x] **v0.2.0** — 全部 deliverable 改成英文为主 · Demo gif 录制脚本 · 更新 README hook
 - [x] **v0.2.1** — README 中英双语
 - [x] **v0.2.2** — Meta-skill blueprint 上升为 repo 主 IP · 书目内容折叠到 [BOOKS.md](BOOKS.md) · 10 本种子 slate（archetype 平衡）
-- [ ] **v0.3** — 第 3 本（*Deep Work* 或 *Outlive*，见 [BOOKS.md](BOOKS.md)）· tools/eval.py 跑真 API 测评（20 场景 / 书）· 独立 evaluator · boot quality 加入评分维度
+- [x] **v0.2.3** — 第 3 本上线：[Deep Work](books/deep-work/SKILL.md)（cognitive/focus archetype）· 10 本方法论的 Phase 3 · Outlive proposal 已定
+- [ ] **v0.3** — Outlive 上线（boot 顶部加医疗警告）· tools/eval.py 跑真 API 测评（20 场景 / 书）· 独立 evaluator · boot quality 加入评分维度
 - [ ] **v0.5** — 第一个 `packages/` bundle（midlife-health-pack：*Outlive* + *Atomic Habits* + *Why We Sleep*）· 中文版 SKILL.md 试点
 - [ ] **v0.8** — 5 本种子书 · 第二个 package（new-grad-pack）
 - [ ] **v1.0** — 10 本种子书 · 开放外部贡献 PR · GitHub Actions CI 跑 eval
@@ -274,4 +275,4 @@ v1.0 前先做 10 本「种子书」再开放外部 PR。
 
 ---
 
-*v0.2.2 · 2026-05-24 · 2 已发 + 8 计划 · meta-skill 定位为主 IP*
+*v0.2.3 · 2026-05-24 · 3 已发 + 7 计划 · Deep Work 加入（cognitive archetype）*

@@ -71,22 +71,53 @@ If your situation is outside the skill's edge — acute crisis, demand for speci
 
 ---
 
-## Planned slate (v0.3 → v1.0)
+---
 
-Eight more books to round out the 10-book seed. Selection rule: span ≥4 archetypes, no two books occupy the same lens-shape, every book passes the "could you cold-start this in 15 seconds?" test.
+### 3. Deep Work · Cal Newport (2016)
+
+**About**  
+A two-part book on focused work in a distracted age. Part 1 argues why deep work (cognitively demanding, undistracted) is becoming simultaneously rare and valuable. Part 2 gives 4 rules: Work Deeply, Embrace Boredom, Quit Social Media, Drain the Shallows. Within Rule 1 sit the 4 scheduling philosophies (Monastic / Bimodal / Rhythmic / Journalistic) that form the skill's core method.
+
+**Reach**  
+- Goodreads **4.15 / 5** across **163,479+** ratings (paperback edition)
+- Best-selling productivity book of the late 2010s
+- Author's later books (*A World Without Email*, *Slow Productivity*) keep refining the same lens — durability signal
+- Cited by knowledge-worker reformers across tech, academia, consulting
+
+**Why this book**  
+Of the cognitive/focus archetype, Newport is the only author with a complete operating manual. *Stolen Focus* diagnoses; *Hyperfocus* lightly applies; *Indistractable* covers triggers. Newport gives the schedule, the defenses, the philosophies, the audit. The skill's core lenses: **shallow audit** + **the 4 philosophies**. Everything else (attention residue, embrace boredom) supports those two.
+
+**Copy this skill when you say**  
+- "I can't focus / I keep scrolling / I'm too distracted right now"
+- "I worked all day but nothing real got done"
+- "Big project stalled, small things winning my time"
+- "Meeting-heavy schedule, no time for deep work"
+- "My job is structurally shallow — what now?"
+
+**What you get**  
+Open the skill and you first see the boot: a 3-5 minute flow expectation and 5 entry scenarios (including B5 "structurally shallow job" which routes to an honest 3-option discussion instead of forced advice).  
+Then one of three cold-starts: immediate digital tidying (phone+tabs) if you're distracted now, a shallow-audit letter choice if you're reviewing the week, or the 4-philosophy picker if your schedule itself is the problem.  
+Skill never recommends GTD / PARA / time-blocking jargon — Newport's frame only. If your attention pattern looks clinical, the skill routes you to a GP / psychiatrist, not to scheduling tricks.
+
+→ Skill: [books/deep-work/SKILL.md](books/deep-work/SKILL.md) · Eval: [EVAL.md](books/deep-work/EVAL.md) (pre-eval; runs after first user test)
+
+---
+
+## Planned slate (v0.5 → v1.0)
+
+Seven more books to round out the 10-book seed. Selection rule: span ≥4 archetypes, no two books occupy the same lens-shape, every book passes the "could you cold-start this in 15 seconds?" test.
 
 ### Archetype: behavior systems (1 already shipped: Atomic Habits)
 
 | Book | Author / year | Distinctive lens | Status |
 |---|---|---|---|
-| **Tiny Habits** | BJ Fogg, 2019 | B = MAP (behavior = motivation × ability × prompt); celebration as cement | v0.3 candidate |
-| **The Power of Habit** | Charles Duhigg, 2012 | Cue / routine / reward (the predecessor frame AH built on) | v0.5 candidate |
+| **Tiny Habits** | BJ Fogg, 2019 | B = MAP (behavior = motivation × ability × prompt); celebration as cement | v0.5 candidate |
+| **The Power of Habit** | Charles Duhigg, 2012 | Cue / routine / reward (the predecessor frame AH built on) | v0.8 candidate |
 
-### Archetype: cognitive / focus (none shipped yet)
+### Archetype: cognitive / focus (1 shipped: Deep Work)
 
 | Book | Author / year | Distinctive lens | Status |
 |---|---|---|---|
-| **Deep Work** | Cal Newport, 2016 | Shallow audit + 4 scheduling philosophies | v0.3 candidate (first new archetype) |
 | **Stolen Focus** | Johann Hari, 2022 | Attention as collectively stolen; environmental fix > willpower | v0.5 candidate |
 | **Make It Stick** | Brown / Roediger / McDaniel, 2014 | Retrieval > re-reading; spaced retrieval as default | v0.8 candidate |
 
@@ -118,8 +149,8 @@ Picking from the above, an opinionated 10-book seed:
 
 1. **Atomic Habits** ✓
 2. **Psychology of Money** ✓
-3. **Deep Work** — first cognitive/focus archetype
-4. **Outlive** — first health archetype, current (2023)
+3. **Deep Work** ✓ (first cognitive/focus archetype)
+4. **Outlive** — health archetype, current (2023) · proposal locked, build pending
 5. **Tiny Habits** — second behavior book, contrasts AH (smaller-than-atomic)
 6. **Mindset** — first identity archetype
 7. **Why We Sleep** — health, sleep as foundation
@@ -158,4 +189,4 @@ If a draft can't fill in any one of those, the book isn't ready.
 
 ---
 
-*v0.2.2 · 2026-05-24 · 2 shipped + 8 planned · seed-slate methodology in place*
+*v0.2.3 · 2026-05-24 · 3 shipped + 7 planned · seed-slate methodology in place*
