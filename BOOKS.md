@@ -269,9 +269,72 @@ The core methodology is one cognitive interrupt phrase: "Let them" (release rumi
 
 ---
 
-## 10-book seed slate: COMPLETE ✓
+## Batch 2 (v0.5.0) — 10 more books shipped, 5 new archetypes added
 
-All 10 books shipped as of v0.4.0 (2026-05-24).
+### 11. The Power of Habit · Charles Duhigg (2012)
+
+**Lens**: Habit Loop (Cue/Routine/Reward) + Golden Rule of Habit Change (keep cue + reward, swap routine). The QUIT-and-REPLACE tool neither Atomic Habits nor Tiny Habits provides — those are additive frameworks, PoH is the surgical-routine-replacement tool. **Honest about**: Ch 5 willpower-as-muscle relies on Baumeister ego-depletion that failed 2016 multi-lab replication; case studies (Alcoa, Target, Pepsodent) are journalism not causal evidence. 5M+ copies. → [books/power-of-habit/SKILL.md](books/power-of-habit/SKILL.md)
+
+### 12. Thinking, Fast and Slow · Daniel Kahneman (2011)
+
+**Lens**: System 1 / System 2 dual-process + specific cognitive bias catalog (anchoring, loss aversion, availability, framing, hindsight, outcome bias). **Honest about replication**: prospect theory (Part 4) survived well (Ruggeri 2020 Nature replicated 12 of 13); priming chapter (Ch 4) failed replication and **Kahneman publicly retracted in Feb 2017** ("I placed too much faith in underpowered studies"); ego depletion (Ch 3) failed replication. Skill cites biases with replication support, flags when contested. Nobel 2002 · ~10M copies · Kahneman died March 2024. → [books/thinking-fast-slow/SKILL.md](books/thinking-fast-slow/SKILL.md)
+
+### 13. Range · David Epstein (2019)
+
+**Lens**: Kind vs wicked learning environments (Hogarth) + match quality > head start + late specialization advantage in wicked domains + Dark Horse paths. Legitimating vocabulary for non-linear careers. **Honest about survivorship bias**: case studies are late-specializers who succeeded; the much larger pool who sampled-and-failed isn't represented. Tiger Woods archetype is partially mythologized (Earl Woods did systematic varied training). #1 NYT bestseller, Bill Gates 2020 pick. → [books/range/SKILL.md](books/range/SKILL.md)
+
+### 14. So Good They Can't Ignore You · Cal Newport (2012)
+
+**Lens**: Passion is OUTPUT of mastery (not input you discover) + Career Capital model + Law of Financial Viability. The cold-shower test against passion-driven career exits. **Honest scope**: framework works best for skill-based/craft fields (STEM, writing, consulting); under-fits service workers, caregivers, contingent creative careers. The opposite-axis counterpart to Range. → [books/so-good/SKILL.md](books/so-good/SKILL.md)
+
+### 15. Crucial Conversations · Patterson / Grenny / McMillan / Switzler (2002, 3rd ed 2021)
+
+**Lens**: STATE script (Share facts / Tell story / Ask others' paths / Talk tentatively / Encourage testing) + Path to Action + Mutual Purpose / Mutual Respect. For high-stakes workplace dialogue. **Honest about**: corporate-training origin (Crucial Learning's $1k-$3k workshops); acronyms stack fast; works for workplace, under-fits intimate relationships and East-Asian / hierarchical cultural contexts; assumes good-faith counterpart. 5M+ copies. → [books/crucial-conversations/SKILL.md](books/crucial-conversations/SKILL.md)
+
+### 16. Nonviolent Communication · Marshall B. Rosenberg (2003, 3rd ed 2015)
+
+**Lens**: OFNR (Observation / Feeling / Need / Request) — one-sentence template + universal human needs framework + requests vs demands. **Honest about**: cult-like reception in some communities (Rosenberg himself cautioned); serious POWER-IMBALANCE FAILURE MODE — in abuse/coercive control, "express your needs" can be used against the less-powerful party. Skill REFUSES OFNR application to abuse. Robotic script application in intimate relationships paradoxically distances. → [books/nonviolent-communication/SKILL.md](books/nonviolent-communication/SKILL.md)
+
+### 17. Daring Greatly · Brené Brown (2012)
+
+**Lens**: Vulnerability redefined (uncertainty + risk + emotional exposure, NOT weakness) + shame vs guilt distinction ("I AM bad" vs "I DID bad") + shame resilience 4 elements + vulnerability armor (perfectionism / numbing / foreboding joy). **Honest about**: "Vulnerability Inc." — corporate-buzzword version often means its opposite (curated story-sharing as performance); grounded-theory research solid for theory-building, popular voice universalizes; order matters (vulnerability without trust is danger). 4M+ copies · TED talk 60M+ views. → [books/daring-greatly/SKILL.md](books/daring-greatly/SKILL.md)
+
+### 18. The Whole-Brain Child · Daniel J. Siegel & Tina Payne Bryson (2011)
+
+**Lens**: Integration framework — connect-before-redirect (regulate first via right-brain emotion-attunement, then engage left-brain reasoning) + "name it to tame it" (affect labeling) + upstairs/downstairs brain (simplified prefrontal vs limbic). **Honest about neuroscience simplification**: strict hemispheric separation is retired; upstairs/downstairs is metaphor not literal anatomy. Strategies tuned for **NEUROTYPICAL low-acuity moments** — NOT substitute for clinical evaluation of ADHD / autism / anxiety / OCD / trauma. 2M+ copies · NYT bestseller. → [books/whole-brain-child/SKILL.md](books/whole-brain-child/SKILL.md)
+
+### 19. Decisive · Chip Heath & Dan Heath (2013)
+
+**Lens**: WRAP framework — Widen options / Reality-test assumptions / Attain distance / Prepare to be wrong — counters 4 decision villains (narrow framing / confirmation bias / short-term emotion / overconfidence). **Honest about**: case studies are post-hoc storytelling not causal evidence; WRAP doesn't manufacture options that don't exist (forced-choice limit); doesn't address info-vacuum decisions. Differentiates from existing apple-ouyang Decisive skill by single-format + opinionated WHEN-to-use guidance. → [books/decisive/SKILL.md](books/decisive/SKILL.md)
+
+### 20. Thinking in Bets · Annie Duke (2018)
+
+**Lens**: "Resulting" (the most common decision error: judging decision QUALITY by outcome QUALITY) + all decisions as probabilistic bets + calibrated confidence + truthseeking pods. Author: World Series of Poker bracelet + cognitive psychology PhD work. **Pairs with Decisive**: Decisive is structural / one-off; Thinking in Bets is probabilistic / repeated. Use Decisive for job offer; use TIB for hiring policy across many hires. **Honest about**: poker metaphor distancing in non-poker domains; truthseeking pods assume social context many lack. → [books/thinking-in-bets/SKILL.md](books/thinking-in-bets/SKILL.md)
+
+---
+
+## 20-book shelf status (v0.5.0)
+
+5 archetypes from batch 1 + 5 NEW archetypes from batch 2 = 10 archetypes covered.
+
+| Archetype | Books |
+|---|---|
+| Behavior systems | Atomic Habits · Tiny Habits · **Power of Habit** |
+| Mental models / money | Psychology of Money · Die With Zero · **Thinking Fast and Slow** |
+| Cognitive / focus | Deep Work · Stolen Focus |
+| Health / body | Outlive · Why We Sleep |
+| Mindset / identity | Mindset · The Let Them Theory |
+| **Career** (new) | **Range · So Good They Can't Ignore You** |
+| **Communication** (new) | **Crucial Conversations · Nonviolent Communication** |
+| **Vulnerability / shame** (new) | **Daring Greatly** |
+| **Parenting** (new) | **The Whole-Brain Child** |
+| **Decision-making** (new) | **Decisive · Thinking in Bets** |
+
+**12+ honest-scope / safety designs across the 20-book shelf** — Outlive, Mindset, Why We Sleep, Stolen Focus, Die With Zero, Let Them Theory + Power of Habit (ego depletion), Thinking Fast Slow (priming retraction), Range (survivorship), Crucial Conversations (corporate pitch), NVC (power imbalance), Daring Greatly (Vulnerability Inc.), Whole-Brain Child (neuroscience simplification). Plus structural Decisive and TIB scope-honest design. Effectively **every skill in the shelf** carries some honest-scope feature.
+
+This is the repo's defining feature vs other book-to-skill projects.
+
+## Original 10-book seed slate (COMPLETE ✓ in v0.4.0)
 
 | # | Book | Archetype | Notable design feature |
 |---|---|---|---|
@@ -404,4 +467,4 @@ If a draft can't fill in any one of those, the book isn't ready.
 
 ---
 
-*v0.4.0 · 2026-05-24 · **10-book seed slate COMPLETE** · 6 honest-scope designs across slate · hybrid agent-research methodology validated at scale (4 books in one round)*
+*v0.5.0 · 2026-05-24 · **20-book shelf** · 10 archetypes covered · honest-scope design across nearly every skill · hybrid methodology shipped 10 books in one round*

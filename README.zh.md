@@ -1,9 +1,9 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.4.0-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-10-purple.svg)](#书目已发--计划)
-[![Seed Slate](https://img.shields.io/badge/种子-完成-success.svg)](BOOKS.md)
+[![Version](https://img.shields.io/badge/version-v0.5.0-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-20-purple.svg)](BOOKS.md)
+[![Archetypes](https://img.shields.io/badge/archetype-10-success.svg)](BOOKS.md)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-秒上手)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
@@ -107,6 +107,16 @@ skill 内容是英文，AI 会用你说话的语言回应。中文输入 → 中
 | 8 | **Stolen Focus** · Johann Hari (2022) | 注意力被集体偷走；诊断不操作 | ✓ v0.4（cite-researchers）| [→ BOOKS](BOOKS.md#8-stolen-focus--johann-hari-2022) |
 | 9 | **Die With Zero** · Bill Perkins (2020) | 反 PoM；只给 over-savers | ✓ v0.4（wrong-reader 路由）| [→ BOOKS](BOOKS.md#9-die-with-zero--bill-perkins-2020) |
 | 10 | **The Let Them Theory** · Mel Robbins (2024) | "Let them / Let me" 认知中断 | ✓ v0.4（refusal-when-wrong 设计）| [→ BOOKS](BOOKS.md#10-the-let-them-theory--mel-robbins-2024) |
+| 11 | **The Power of Habit** · Charles Duhigg (2012) | Habit Loop + Golden Rule（保留 cue + reward，只换 routine）| ✓ v0.5（ego-depletion 诚实）| [→ BOOKS](BOOKS.md#11-the-power-of-habit--charles-duhigg-2012) |
+| 12 | **Thinking, Fast and Slow** · Daniel Kahneman (2011) | System 1/2 + bias 目录（replication-aware）| ✓ v0.5（Kahneman 2017 retraction）| [→ BOOKS](BOOKS.md#12-thinking-fast-and-slow--daniel-kahneman-2011) |
+| 13 | **Range** · David Epstein (2019) | Kind vs wicked + match quality + 晚专门化 | ✓ v0.5（survivorship-bias 诚实）| [→ BOOKS](BOOKS.md#13-range--david-epstein-2019) |
+| 14 | **So Good They Can't Ignore You** · Cal Newport (2012) | 激情是输出不是输入 + Career Capital | ✓ v0.5（Law of Financial Viability）| [→ BOOKS](BOOKS.md#14-so-good-they-cant-ignore-you--cal-newport-2012) |
+| 15 | **Crucial Conversations** · Patterson et al. (2002/2021) | STATE 脚本 + Path to Action | ✓ v0.5（corporate-pitch 诚实）| [→ BOOKS](BOOKS.md#15-crucial-conversations--patterson--grenny--mcmillan--switzler-2002-3rd-ed-2021) |
+| 16 | **Nonviolent Communication** · Marshall B. Rosenberg (2003) | OFNR 模板（观察/感受/需要/请求）| ✓ v0.5（power-imbalance 拒绝）| [→ BOOKS](BOOKS.md#16-nonviolent-communication--marshall-b-rosenberg-2003-3rd-ed-2015) |
+| 17 | **Daring Greatly** · Brené Brown (2012) | 脆弱性重新定义 + 羞耻韧性 | ✓ v0.5（Vulnerability Inc. 批评）| [→ BOOKS](BOOKS.md#17-daring-greatly--brené-brown-2012) |
+| 18 | **The Whole-Brain Child** · Siegel & Bryson (2011) | 连接-再-引导 + "name it to tame it" | ✓ v0.5（neuroscience 简化诚实）| [→ BOOKS](BOOKS.md#18-the-whole-brain-child--daniel-j-siegel--tina-payne-bryson-2011) |
+| 19 | **Decisive** · Heath brothers (2013) | WRAP framework + 4 决策反派 | ✓ v0.5（WRAP 适用 / 不适用观点）| [→ BOOKS](BOOKS.md#19-decisive--chip-heath--dan-heath-2013) |
+| 20 | **Thinking in Bets** · Annie Duke (2018) | Resulting + calibrated confidence + 下注思维 | ✓ v0.5（与 Decisive 配对）| [→ BOOKS](BOOKS.md#20-thinking-in-bets--annie-duke-2018) |
 
 完整 per-book 内容（介绍 / 影响 / 特点 / 用法 / 期待）见 [**BOOKS.md**](BOOKS.md)（英文），含 10 本种子书的 archetype 平衡逻辑 + 不做哪几类书。
 
@@ -153,7 +163,9 @@ Delta +89。这是这个项目存在的核心理由。
 - [x] **v0.2.4** — 第 4 本上线：[Outlive](books/outlive/SKILL.md)（health archetype，boot 顶部显眼医疗警告，急救词在 boot 之前先拦）· EVAL.md 不再是必需 artifact（用户测试就是质量门）；CONTRIBUTING 已更新
 - [x] **v0.3.0** — 第 5 + 6 本上线：[Tiny Habits](books/tiny-habits/SKILL.md)（celebration-as-engine，与 Atomic Habits 形成对照）+ [Mindset](books/mindset/SKILL.md)（honest-scope-warning 设计，正面引用 Sisk 2018 / Yeager 2019 学术批评）· **Hybrid 方法验证**：研究 agent 并行跑 + 我写 SKILL.md + 你测。10 本种子 slate 走完一半
 - [x] **v0.4.0** — **10 本种子 slate 完成。** 一轮 ship 4 本（Why We Sleep, Stolen Focus, Die With Zero, The Let Them Theory），用 4 个并行 research agent + 我写 SKILL.md。Slate 横跨 5 个 archetype，每个 2 本。**6 个 honest-scope / safety 设计**（Outlive 医疗 / Mindset 学术批评 / Why We Sleep Guzey 批评 / Stolen Focus 引用底层研究者 / Die With Zero 错误读者路由 / Let Them 安全拒绝）—— 这是 repo 与其它 book-to-skill 项目的最强差异化
-- [ ] **v0.5** — 第一个 `packages/` bundle（拟选 midlife-health-pack）· 开始接受外部贡献者 PR · 用户可选自带 API key 跑真测评
+- [x] **v0.5.0** — **第二批：10 本上线 = 20 本书架。** 10 个并行 research agent + 我写 SKILL.md。5 个新 archetype 加入（职业 / 沟通 / 脆弱性 / 育儿 / 决策）。几乎每本书都带 honest-scope 设计（ego depletion retraction / Kahneman priming retraction / survivorship bias / corporate-pitch flag / power-imbalance refusal / Vulnerability Inc. 批评 / neuroscience 简化 flag 等）。**Scenes 推迟到 v0.5.1** — 这轮先 ship SKILL.md + source-notes，scene 深度文件下一轮跟上。
+- [ ] **v0.5.1** — batch 2 的 10 本 + batch 1 的 4 本（PoH / TFAS / Range / SGTCIY）的 scene 文件补齐
+- [ ] **v0.6** — 第一个 `packages/` bundle · 开始接受外部贡献者 PR
 - [ ] **v0.5** — 第一个 `packages/` bundle（midlife-health-pack：*Outlive* + *Atomic Habits* + *Why We Sleep*）· 中文版 SKILL.md 试点
 - [ ] **v0.8** — 5 本种子书 · 第二个 package（new-grad-pack）
 - [ ] **v1.0** — 10 本种子书 · 开放外部贡献 PR · GitHub Actions CI 跑 eval
@@ -279,4 +291,4 @@ v1.0 前先做 10 本「种子书」再开放外部 PR。
 
 ---
 
-*v0.4.0 · 2026-05-24 · **10 本种子 slate 完成** · 5 archetype × 2 本 · 6 个 honest-scope 设计 · hybrid 方法规模化验证*
+*v0.5.0 · 2026-05-24 · **20 本书架** · 10 个 archetype · 几乎每本都带 honest-scope 设计 · hybrid 方法一轮 ship 10 本*

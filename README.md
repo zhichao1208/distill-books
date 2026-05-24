@@ -1,9 +1,9 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.4.0-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-10-purple.svg)](#books-current--planned)
-[![Seed Slate](https://img.shields.io/badge/seed%20slate-complete-success.svg)](BOOKS.md)
+[![Version](https://img.shields.io/badge/version-v0.5.0-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-20-purple.svg)](BOOKS.md)
+[![Archetypes](https://img.shields.io/badge/archetypes-10-success.svg)](BOOKS.md)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-second-quickstart)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
@@ -98,6 +98,16 @@ Skills are plain markdown. Any model that reads markdown can run them. Zero API 
 | 8 | **Stolen Focus** · Johann Hari (2022) | attention as collectively stolen; diagnostic-not-operational | ✓ v0.4 (cite-researchers approach) | [→ BOOKS#stolen-focus](BOOKS.md#8-stolen-focus--johann-hari-2022) |
 | 9 | **Die With Zero** · Bill Perkins (2020) | counter-frame to PoM; over-savers only | ✓ v0.4 (wrong-reader routing) | [→ BOOKS#die-with-zero](BOOKS.md#9-die-with-zero--bill-perkins-2020) |
 | 10 | **The Let Them Theory** · Mel Robbins (2024) | "Let them / Let me" cognitive interrupt; narrower skill | ✓ v0.4 (refusal-when-wrong design) | [→ BOOKS#let-them-theory](BOOKS.md#10-the-let-them-theory--mel-robbins-2024) |
+| 11 | **The Power of Habit** · Charles Duhigg (2012) | Habit Loop + Golden Rule (swap routine; keep cue + reward) | ✓ v0.5 (ego-depletion honest) | [→ BOOKS#11](BOOKS.md#11-the-power-of-habit--charles-duhigg-2012) |
+| 12 | **Thinking, Fast and Slow** · Daniel Kahneman (2011) | System 1/2 + bias catalog (replication-aware) | ✓ v0.5 (Kahneman 2017 retraction integrated) | [→ BOOKS#12](BOOKS.md#12-thinking-fast-and-slow--daniel-kahneman-2011) |
+| 13 | **Range** · David Epstein (2019) | Kind vs wicked + match quality + late-specialization | ✓ v0.5 (survivorship-bias honest) | [→ BOOKS#13](BOOKS.md#13-range--david-epstein-2019) |
+| 14 | **So Good They Can't Ignore You** · Cal Newport (2012) | Passion is output not input + Career Capital | ✓ v0.5 (Law of Financial Viability) | [→ BOOKS#14](BOOKS.md#14-so-good-they-cant-ignore-you--cal-newport-2012) |
+| 15 | **Crucial Conversations** · Patterson et al. (2002/2021) | STATE script + Path to Action | ✓ v0.5 (corporate-pitch honest) | [→ BOOKS#15](BOOKS.md#15-crucial-conversations--patterson--grenny--mcmillan--switzler-2002-3rd-ed-2021) |
+| 16 | **Nonviolent Communication** · Marshall B. Rosenberg (2003) | OFNR template (Observation/Feeling/Need/Request) | ✓ v0.5 (power-imbalance refusal) | [→ BOOKS#16](BOOKS.md#16-nonviolent-communication--marshall-b-rosenberg-2003-3rd-ed-2015) |
+| 17 | **Daring Greatly** · Brené Brown (2012) | Vulnerability redefined + shame resilience | ✓ v0.5 (Vulnerability Inc. critique) | [→ BOOKS#17](BOOKS.md#17-daring-greatly--brené-brown-2012) |
+| 18 | **The Whole-Brain Child** · Siegel & Bryson (2011) | Connect-before-redirect + "name it to tame it" | ✓ v0.5 (neuroscience-simplification honest) | [→ BOOKS#18](BOOKS.md#18-the-whole-brain-child--daniel-j-siegel--tina-payne-bryson-2011) |
+| 19 | **Decisive** · Heath brothers (2013) | WRAP framework + 4 villains of decision-making | ✓ v0.5 (opinion-on-when-WRAP-applies) | [→ BOOKS#19](BOOKS.md#19-decisive--chip-heath--dan-heath-2013) |
+| 20 | **Thinking in Bets** · Annie Duke (2018) | Resulting + calibrated confidence + bet framing | ✓ v0.5 (pairs with Decisive) | [→ BOOKS#20](BOOKS.md#20-thinking-in-bets--annie-duke-2018) |
 
 Full per-book entries (intro / reach / what's distinctive / when to copy / what you get) live in [**BOOKS.md**](BOOKS.md), including archetype rationale for the 10-book seed slate and what we will *not* ship.
 
@@ -147,7 +157,9 @@ Full data, methodology limits, failure cases: [Atomic Habits EVAL](books/atomic-
 - [x] **v0.2.4** — Fourth book shipped: [Outlive](books/outlive/SKILL.md) (health archetype, medical-warning-prominent in boot, emergency-detection before boot) · EVAL.md dropped as required artifact going forward (user testing IS the gate now); CONTRIBUTING updated
 - [x] **v0.3.0** — Fifth + sixth books shipped: [Tiny Habits](books/tiny-habits/SKILL.md) (celebration-as-engine, contrasts Atomic Habits) + [Mindset](books/mindset/SKILL.md) (honest-scope-warning design, openly cites Sisk 2018 / Yeager 2019 critiques). **Hybrid methodology validated**: research-only agents (in parallel) + I write SKILL.md + user tests. Halfway through 10-book seed slate.
 - [x] **v0.4.0** — **10-BOOK SEED SLATE COMPLETE.** Shipped 4 books in one round (Why We Sleep, Stolen Focus, Die With Zero, The Let Them Theory) using 4 parallel research agents + me writing SKILL.md. Slate now spans 5 archetypes with 2 books each. **Six honest-scope / safety designs across the slate** (Outlive medical / Mindset academic critique / Why We Sleep Guzey critique / Stolen Focus researcher-citing / Die With Zero wrong-reader-routing / Let Them safety-refusal). This is the repo's most distinctive feature vs other book-to-skill projects.
-- [ ] **v0.5** — First `packages/` bundle (proposed: midlife-health-pack = Outlive + Why We Sleep + Atomic Habits + Atomic Habits). External contributor PRs accepted from here. Real-API eval option for users with their own API key.
+- [x] **v0.5.0** — **BATCH 2: 10 more books = 20-BOOK SHELF.** Shipped Power of Habit, Thinking Fast and Slow, Range, So Good They Can't Ignore You, Crucial Conversations, Nonviolent Communication, Daring Greatly, Whole-Brain Child, Decisive, Thinking in Bets. 5 NEW archetypes added (Career, Communication, Vulnerability, Parenting, Decision-making). 10 parallel research agents + me writing SKILL.md. Nearly every skill in 20-book shelf carries honest-scope design (ego depletion retraction / Kahneman priming retraction / survivorship bias / corporate-pitch flag / power-imbalance refusal / Vulnerability Inc. critique / neuroscience simplification flag / etc.). **Scenes deferred to v0.5.1** — SKILL.md + source-notes shipped; scene depth files coming next round.
+- [ ] **v0.5.1** — Scene files for all 10 batch-2 books (2 scenes each, ~20 files) + scene files for the 4 batch-1 books that had only stub scenes. Bring scenes to parity with batch-1 books.
+- [ ] **v0.6** — First `packages/` bundle (midlife-health-pack = Outlive + Why We Sleep + Atomic Habits) · external contributor PRs accepted
 - [ ] **v0.5** — First `packages/` bundle (midlife-health-pack: *Outlive* + *Atomic Habits* + *Why We Sleep*)
 - [ ] **v0.8** — 5 seed books, second package (new-grad-pack)
 - [ ] **v1.0** — 10 seed books · External contributions open · GitHub Actions CI runs eval on every PR
@@ -267,4 +279,4 @@ Book copyrights belong to authors and publishers. Takedown requests handled with
 
 ---
 
-*v0.4.0 · 2026-05-24 · **10-book seed slate COMPLETE** · 5 archetypes × 2 books · 6 honest-scope designs · hybrid methodology proven at scale*
+*v0.5.0 · 2026-05-24 · **20-book shelf** · 10 archetypes covered · honest-scope nearly every skill · hybrid methodology shipped 10 books in one round*
