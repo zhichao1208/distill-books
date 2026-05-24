@@ -1,77 +1,77 @@
-# Scene: 起手第一个习惯
+# Scene: starting a new habit
 
-## 触发
+## Trigger
 
-用户语句包含「我想开始 / 我要养成 / 我想每天 / 我打算」+ 一个具体行为。
+User says "I want to start / I want to build / every day I want to / I'm going to begin" + a specific behavior.
 
-不触发：用户说"我想变好" / "我该自律一点"（太抽象，走主 SKILL.md 的 cold-start A）。
+Does NOT trigger on: "I want to be better" / "I should be more disciplined" — too abstract; those run the main SKILL.md cold-start A.
 
-## 跑这个 scene 的额外动作
+## Extra moves on top of main SKILL.md cold-start
 
-主 SKILL.md 的 cold-start 走完后，进入这里。
+After cold-start A completes, enter this scene.
 
-### 1. 把用户说的目标砍到 2 分钟版本
+### 1. Cut the user's goal down to its 2-minute version
 
-> 用户："我要每天读 30 分钟书。"
-> skill："2 分钟版本：每晚刷牙后打开书读 1 页。30 分钟是结果，1 页是动作。"
+> User: "I want to read 30 minutes a day."
+> Skill: "2-minute version: open the book to page 1 every night after brushing your teeth. 30 minutes is the outcome. 1 page is the action."
 
-**砍法规则**：
-- 时间类（30 min）→ 改成"启动动作"（打开 / 换衣服 / 拿出）
-- 频率类（每天）→ 第 1 周改成"每天，1 页"，不要砍频率
-- 数量类（10 个俯卧撑）→ 砍到 "1 个" 或 "趴下"
+**Cutting rules**:
+- Time-based (30 min) → replace with the "starting action" (open / change clothes / take out)
+- Frequency-based (every day) → keep the frequency in week 1, but make it "every day, 1 page"
+- Quantity-based (10 push-ups) → cut to "1 push-up" or "get on the floor"
 
-### 2. 用 habit stacking 锚到现有动作
+### 2. Anchor with habit stacking
 
-公式：`After [现有习惯], I will [新习惯的 2 分钟版本]`
+Formula: `After [existing habit], I will [2-minute version of new habit]`
 
-例：
-- After I brush teeth at night, I will open my book to page 1.
+Examples:
+- After I brush my teeth at night, I will open my book to page 1.
 - After I pour my morning coffee, I will write one sentence in my journal.
-- After I take my supplements at 7am, I will do 1 pushup.
+- After I take my supplements at 7am, I will do 1 push-up.
 
-锚点要选**用户每天必然做的事**，不是"早上起床"（太模糊）。
+The anchor must be **something the user does every single day without fail** — not "after I wake up" (too vague).
 
-### 3. Environment design 一击
+### 3. Environment design — one move
 
-让最小动作的 cue 物理上挡在眼前。
+Make the cue physically block the user's eyeline.
 
-| 习惯 | 环境改造 |
+| Habit | Environmental change |
 |---|---|
-| 读书 | 牙刷旁放书 / 沙发扶手放书 |
-| 写作 | 笔记本放电脑键盘上 / Notes 钉桌面 |
-| 喝水 | 水杯放最常坐的位置 |
-| 拉伸 | 瑜伽垫铺床边，不收起 |
-| 学语言 | Duolingo 设手机第一屏，删社交媒体 |
+| Reading | Book next to toothbrush / on the sofa armrest |
+| Writing | Notebook on top of keyboard / Notes app pinned to home screen |
+| Drinking water | Bottle in the spot you sit in most |
+| Stretching | Yoga mat unrolled by the bed, never put away |
+| Learning a language | Duolingo on home-screen page 1, social media deleted |
 
-**输出格式**：1 句话告诉用户改 1 个物理位置。不超过 1 件事。
+**Output format**: one sentence telling the user to move one physical thing. No more than one change.
 
-### 4. 收尾：第一票今晚就投
+### 4. Closer — cast the first vote tonight
 
 ```
-今晚 [habit stack 时机]，做 [2 分钟版本]。
-做完不用告诉我。
-明天这个时候，你可以回来告诉我「投了」或「没投」，
-都可以。「没投」= 4 齿轮要调，不算失败。
+Tonight, after [habit stack trigger], do [2-minute version].
+You don't have to tell me.
+Tomorrow at the same time, you can come back and say "did it" or "didn't" —
+either works. "Didn't" isn't failure; it means the 4 gears need adjusting.
 ```
 
-明确说"没投也回来"是关键——降低明天回来的门槛。Atomic Habits 第 13 章: "Never miss twice" 的反面是：错过一次时报备的成本必须够低。
+Saying "even 'didn't' is fine to bring back" is the key — it lowers the cost of returning tomorrow. Chapter 14 of Atomic Habits, "Never miss twice," has a corollary: the cost of reporting a miss must stay low.
 
 ---
 
-## 不在这个 scene 处理的
+## Out of scope for this scene
 
-- 用户已经在做某个习惯，想加强 → 走主 SKILL.md 的 4 齿轮，跳过 "砍到 2 分钟"
-- 用户想"养成 5 个习惯一起" → 拒绝，告诉用户书的核心反对"多 habit 同时"，先选 1 个最重要的
-- 用户连续 3 周成功后想加难度 → 走 [scenes/level-up.md](level-up.md)（v0.2 再加）
+- User already does the habit, wants to level up → run main SKILL.md's 4-gear logic, skip the "cut to 2 minutes" step
+- User wants to build 5 habits at once → refuse, point them to the book's core principle (one habit at a time) and ask them to pick the most important one
+- User has succeeded for 3+ weeks and wants harder → goes to [scenes/level-up.md](level-up.md) (v0.3, not yet written)
 
 ---
 
-## 这个 scene 的失败案例
+## Failure cases for this scene
 
-- 用户说"我要每天健身 1 小时"，砍到"换上运动鞋"。第 3 天回来说"换了鞋但还是不健身"。
-  → 不要责怪用户，问 cue 是不是不够显眼（运动鞋放在了哪里？）
-  → 80% 是 cue 在卧室，但用户白天在客厅，看不到
+- User says "I'll exercise 1 hour daily," gets cut to "put on running shoes." Day 3, comes back saying "shoes are on but I'm not exercising."
+  → Don't blame the user. Ask whether the cue is visible enough (where are the shoes?)
+  → 80% of the time the shoes are in the bedroom but the user is in the living room all day
 
-- 用户砍到 2 分钟后说"这也太傻了，根本没用"。
-  → 承认这个感受是对的。书里反复讲："the goal is not to read one page, the goal is to become a reader"。
-  → 但**不要解释 identity**——演示给用户看：让他坚持 7 天，每天画一个 X，第 8 天他自己会感觉到"我是一个读书的人"
+- After cutting to 2 minutes, user says "this is silly, this isn't doing anything."
+  → Validate the feeling. The book's line: "the goal is not to read one page, the goal is to become a reader."
+  → But **don't explain identity** — let them prove it to themselves. Have them stick with it 7 days, mark an X each day. Day 8, they feel "I am a reader" without needing to be told.

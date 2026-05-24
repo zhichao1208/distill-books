@@ -1,97 +1,101 @@
-# Scene: 戒掉某个行为
+# Scene: breaking a behavior
 
-## 触发
+## Trigger
 
-用户语句包含「我想戒 / 我要戒 / 不想再 / 怎么不」+ 一个具体行为（糖、烟、酒、刷手机、咬指甲、熬夜）。
+User says "I want to quit / I'm trying to stop / I don't want to anymore / how do I not" + a specific behavior (sugar, smoking, alcohol, phone scrolling, nail biting, late nights).
 
-## 主 SKILL.md cold-start 后，进入这里
+Price range doesn't matter — for someone on a tight budget, €500 is a large purchase. **Judge "big" by the user's tone, not the absolute number.**
 
-### 1. 戒掉 = 4 齿轮反向设计
+## After main SKILL.md cold-start, enter this scene
 
-戒掉一个习惯靠改 4 齿轮的方向，不靠意志力顶住：
+### 1. Quitting = inverse 4-gear design
 
-| 齿轮 | 想戒掉的版本 |
+Breaking a habit isn't a willpower fight. It's an inverse design across the 4 gears:
+
+| Gear | "Quitting" version |
 |---|---|
-| Cue | 让它**隐形**：把触发物搬出视线 |
-| Craving | 让它**无吸引力**：拆掉它和好感的绑定 |
-| Response | 让它**困难**：增加摩擦步骤 |
-| Reward | 让它**不满**：让代价立刻可见 |
+| Cue | Make it **invisible**: move the trigger object out of sight |
+| Craving | Make it **unattractive**: break the link to the good feeling |
+| Response | Make it **hard**: add friction steps |
+| Reward | Make it **unsatisfying**: make the cost immediately visible |
 
-### 2. Cue 隐形（最强一招）
+### 2. Cue invisibility (the strongest single move)
 
-> 用户："我想戒掉睡前刷手机。"
-> skill："核心一招：手机充电器从床头搬到客厅。物理距离 = 决心。其它都是辅助。"
+> User: "I want to stop scrolling my phone before bed."
+> Skill: "Core move: move your charger from the bedside to the living room. Physical distance equals commitment. Everything else is secondary."
 
-例：
-- 戒糖 → 家里不存任何零食。要吃下楼买。
-- 戒烟 → 烟不放兜里，放车里 / 放楼下，每根烟都得走一段。
-- 戒短视频 → 删 app，不是设时长。
-- 戒熬夜 → Wifi 路由器定时 23:00 断电。
+Examples:
+- Quit sugar → no snacks at home. If you want some, you walk to the store.
+- Quit smoking → cigarettes not in your pocket, in your car or downstairs. Every cigarette costs a walk.
+- Quit short video → delete the app, don't set time limits.
+- Quit late nights → router on a timer; Wi-Fi off at 23:00.
 
-**这一条够用 80% 的场景**。如果用户已经做了，再走下面。
+**This one move covers 80% of cases**. If the user already did it, move down.
 
-### 3. Craving 拆绑
+### 3. Craving — unbundle
 
-把"坏习惯"和它绑定的好感觉拆开。
+Separate the bad habit from the good feeling it's linked to.
 
-| 习惯 | 拆什么 |
+| Habit | What to unbundle |
 |---|---|
-| 睡前刷手机 | 它绑的是"独处时间" → 给独处时间另一个出口（纸质书 / 写字 / 静坐） |
-| 抽烟 | 它绑的是"工作间隙休息" → 用其他仪式占领（下楼走 3 圈、喝水） |
-| 喝酒 | 它绑的是"社交润滑" → 找一个非酒社交（咖啡 / 茶 / 气泡水） |
-| 咬指甲 | 它绑的是"焦虑出口" → 给手另一个东西（捏球 / 转笔） |
+| Late-night phone | It's bundled with "alone time" → give alone time another outlet (paper book, writing, sitting still) |
+| Smoking | It's bundled with "work break ritual" → take the break differently (walk 3 laps, drink water) |
+| Drinking | It's bundled with "social lubrication" → find non-alcohol social rituals (coffee, tea, sparkling water) |
+| Nail biting | It's bundled with "anxiety outlet" → give the hands something else (stress ball, fidget) |
 
-**给好的留位置**。压住坏的本身没用。
+**Make room for the good**. Just suppressing the bad doesn't work.
 
-### 4. Response 加摩擦
+### 4. Response — add friction
 
-让"做坏事"的步骤多 3-5 步：
+Make the bad behavior take 3-5 extra steps:
 
-- 手机锁屏密码改成 20 位
-- 零食柜上锁，钥匙放车里
-- 浏览器装 LeechBlock，刷某网站要输 100 字理由
-- 信用卡放保险柜，要现金消费
+- Phone lock screen password set to 20 characters
+- Snack cabinet locked, key in the car
+- LeechBlock in the browser, requiring 100 typed characters before unblocking
+- Credit cards in a safe; spend cash only
 
-**摩擦的目的是让你做时回到意识**。多数坏习惯靠自动驾驶，加摩擦逼你清醒。
+**Friction isn't to make it impossible — it's to make it conscious**. Most bad habits run on autopilot. Friction forces the user awake.
 
-### 5. Reward 不满
+### 5. Reward — collapse the future into the present
 
-让代价立刻可见，不是 10 年后：
+Make the cost immediately visible, not 10 years out:
 
-- 抽烟 → 每根烟记一次到 app，年度账单年底寄给自己
-- 刷手机 → 屏幕时间报告每周一截图发给一个朋友（人比 app 有效）
-- 喝酒 → 每喝一杯往一个罐子放 5 欧元，年底数
-- 熬夜 → 第二天早上称体重，记录"昨夜睡多久 / 今天体重"
+- Smoking → log every cigarette in an app, mail yourself a year-end invoice in December
+- Phone scrolling → screenshot weekly screen-time report, send it to one friend (people are stronger than apps)
+- Drinking → put €5 in a jar for every drink, count at year-end
+- Late nights → weigh yourself the next morning. Log "hours slept / today's weight"
 
-**人对"立即"敏感，对"未来"麻木**。把未来代价拉到现在。
+**Humans are sensitive to "now," numb to "future."** Collapse the future cost into the present.
 
-### 6. 收尾
+### 6. Closer
 
 ```
-你今晚做哪一招？
-A. cue 隐形（搬 [触发物] 到 [位置]）
-B. craving 拆绑（用 [替代行为] 占领那个时段）
-C. response 加摩擦（[具体步骤]）
-D. reward 拉到现在（[追踪方式]）
+Pick one move tonight:
+A. Cue invisible (move [trigger object] to [location])
+B. Craving unbundle (use [replacement] for that time slot)
+C. Response friction ([specific step])
+D. Reward in the present ([tracking method])
 
-只选一招。两招以上下周再加。
-做了不用告诉我。如果今晚没做，明天告诉我哪一招最难，我们换。
+Only one. Add more next week if you want.
+You don't need to tell me whether you did it.
+If you didn't do it tonight, come back tomorrow and say which one was hardest —
+we'll switch.
 ```
 
 ---
 
-## 不在这个 scene 处理的
+## Out of scope for this scene
 
-- 物质成瘾（酒精依赖、药物、毒品）→ 这本书不够，skill 直接转介戒断医生
-- 进食障碍（暴食 / 厌食）→ 同上，转介临床心理或营养师
-- 行为成瘾达到病理级（赌博、性瘾、屏幕成瘾严重影响工作）→ 转介 12-step 或 CBT
+- **Substance dependence** (alcohol use disorder, drugs) → this book is not enough; the skill routes directly to addiction medicine
+- **Eating disorders** (binge / restrictive) → same, route to clinical psych or a dietitian
+- **Pathological behavioral addiction** (gambling, sex, screen addiction that's wrecking work) → route to 12-step or CBT
 
-如果用户输入包含这些关键词，**不走这个 scene**，直接走 vulnerable 出口。
+If the user's input contains these keywords, **do not run this scene** — go straight to the vulnerable exit in main SKILL.md.
 
 ---
 
-## 失败案例
+## Failure cases
 
-- 用户:"戒糖 3 天，第 4 天暴吃一桶冰淇淋"
-  → 不要分析"哪里做错了"。走 [recover-from-lapse.md](recover-from-lapse.md)。
-  → 90% 是 4 齿轮的 craving 没拆，只压了 cue。糖的 craving 在情绪，不在嘴。
+- User quits sugar 3 days, day 4 binges a whole tub of ice cream.
+  → Don't analyze "what went wrong." Route to [recover-from-lapse.md](recover-from-lapse.md).
+  → 90% of the time the craving wasn't unbundled — only the cue was suppressed. Sugar's craving is emotional, not oral.

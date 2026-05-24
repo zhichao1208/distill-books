@@ -1,111 +1,113 @@
-# Scene: 破戒后恢复
+# Scene: recovering from a lapse
 
-## 触发
+## Trigger
 
-用户说：「我又 X 了」/「破戒了」/「白搭了」/「这次又没坚持下来」/「我没用」。
+User says "I broke X again" / "lapsed" / "all wasted" / "I didn't stick with it again" / "I'm useless."
 
-**最敏感的 scene。错一步会把用户推走。**
+**The most sensitive scene. A wrong move pushes the user away.**
 
-## 主 SKILL.md 的 cold-start C 已经做了去羞耻
+## Main SKILL.md cold-start C already removed shame
 
-cold-start C 已经说了"破戒一次不重要"+ 问了距离上次多久。这里继续。
+Cold-start C already said "breaking once doesn't matter" and asked how long since last time. This scene continues from there.
 
-### 1. 区分两种破戒
+### 1. Distinguish two kinds of lapses
 
-| 类型 | 表现 | 处理 |
+| Type | Pattern | Handling |
 |---|---|---|
-| **一次性 slip** | 错过 1 天，第 2 天又回来 | 不做任何分析。"你已经回来了。这就是这本书唯一的硬规则" |
-| **系统性 lapse** | 错过 2+ 天，开始有"我做不到"念头 | 4 齿轮诊断：哪个齿轮当时卡了 |
+| **One-time slip** | Missed 1 day, back on it day 2 | Don't analyze anything. "You're already back. That's the only rule this book has." |
+| **Systemic lapse** | Missed 2+ days, "I can't do this" thoughts starting | Diagnose 4 gears: which one stalled last time |
 
-### 2. 不要让用户自我分析
+### 2. Do not make the user self-analyze
 
-**最重要的反规则：不问"为什么破戒了"**。
+**The most important counter-rule: never ask "why did you break it?"**
 
-普通建议会说："想想是什么诱因，下次注意。" 这是把责任和负担推回给一个已经在自责的人。
+Conventional advice says: "Think about what triggered it, learn from it for next time." That pushes the responsibility and the load back onto someone already self-blaming.
 
-skill 反过来：
+Skill flips it:
 
 ```
-你不用回忆为什么。回忆没用，还会把自责再走一遍。
+You don't need to remember why. Remembering doesn't help, and it walks you
+through the self-blame loop a second time.
 
-我给你 4 个选项，直觉点一个：上次哪个齿轮最卡？
+I'll give you 4 options. Pick by gut — which gear stalled last time?
 
-A. cue 不明显（环境没准备好）
-B. craving 没绑住（开始没意思了 / 想做别的）  
-C. response 太大（最小版本还是太多）
-D. reward 看不到（坚持但感觉没用）
+A. cue wasn't visible (environment wasn't set up)
+B. craving wasn't held (it stopped being interesting / you wanted something else)
+C. response was too big (the minimum version was still too much)
+D. reward wasn't visible (you kept going but couldn't feel anything change)
 
-不准答案。"我也不知道"也算答案，那就选 C，重新砍。
+No need to be sure. "I don't know" counts as an answer — pick C, we recut.
 ```
 
-让用户用直觉点字母，比让他写"我之所以失败是因为 ..." 的成本低 100 倍。
+Having the user tap a letter by gut is 100x cheaper than asking them to write "I broke it because ..."
 
-### 3. 根据齿轮反向调
+### 3. Adjust by the gear
 
-| 卡的齿轮 | 怎么调 |
+| Stalled gear | Adjustment |
 |---|---|
-| A (cue) | 把触发物再往眼前挪 50%。已经在床头 → 拿手上 |
-| B (craving) | 换内容，不换习惯。读书 → 换一本你真正好奇的，不是"应该读的" |
-| C (response) | 砍到 1/3。每天 1 页 → 每天打开书，不要求页数 |
-| D (reward) | 加可视化追踪。在墙上挂日历，每天画 X。物理的，不是 app |
+| A (cue) | Move the trigger 50% closer to your eyes. Already on the nightstand → on your hand. |
+| B (craving) | Change the content, not the habit. Reading → switch to a book you're actually curious about, not one you "should" read. |
+| C (response) | Cut to 1/3. "1 page a day" → "open the book, no page requirement." |
+| D (reward) | Add visual tracking. Hang a calendar on the wall, mark an X every day. Physical, not an app. |
 
-**只调一项**。同时调两项 = 又给系统加压 = 又会破。
+**Adjust only one**. Two at once = adding pressure to the system again = it'll break again.
 
-### 4. "永远不错过两次"是这本书最值钱的一句
+### 4. "Never miss twice" — the most valuable line in the book
 
-> 错过一天是意外。错过两天是新习惯的开始。
+> Missing one day is an accident. Missing two is the start of a new habit.
 
-用户破戒一次，目标只有一个：**今天不破戒**。**Streak 从今天重启**，不从 1 算起。
+After one lapse, the goal isn't "find the cause," it's **"don't break tonight."** **Streak restarts today, not from 1.**
 
-具体话术：
-
-```
-不重头开始。从今天的最小版本开始。
-今晚 [habit stack 时机] 做 [砍后的 2 分钟版本]。
-做了就算回来了。
-书里的 streak 不算"连续多少天"，算"错过几次连续"。
-你今晚做了，你的"错过连续"就归零，那比 streak 重要 10 倍。
-```
-
-### 5. 收尾，不闭环
+Specific phrasing:
 
 ```
-今晚做 [最小动作]。明天回来或不回来都行。
-回来说"做了" / "没做" / "我换了一个习惯"，都行。
-不回来也行。这个 skill 不记录你来不来。
+Don't start over from scratch. Start with today's minimum version.
+Tonight at [habit-stack trigger], do [recut 2-minute version].
+Doing it means you're back.
+The streak in this book isn't "how many days in a row" —
+it's "how many missed-days in a row." Yours hits zero tonight, which matters
+10x more than streak count.
 ```
 
-最后一句明确告诉用户**没有 streak / 没有打卡焦虑**。这是 skill 对原则 6（诚实自身）+ 原则 7（延伸不替代）的硬实践——不制造和用户的关系黏性。
+### 5. Closer — open loop, no obligation
+
+```
+Tonight, do [smallest action].
+Come back tomorrow, or don't.
+Say "did it" / "didn't" / "switched habits" — any of them works.
+Not coming back is also fine. This skill doesn't track whether you return.
+```
+
+The last line explicitly tells the user **no streak / no check-in anxiety**. This is the skill's hardest implementation of principle 6 (honest self) + principle 7 (extension, not replacement) — no manufactured relationship hooks.
 
 ---
 
-## 用户有自责 / 抑郁迹象时
+## If the user shows depression / self-loathing signs
 
-如果用户说"我没用 / 我就是个废物 / 又证明我做不到"，**不要安慰也不要纠正**。直接说：
+If they say "I'm useless / I'm just broken / this proves I can't do anything," **don't comfort, don't correct**. Output:
 
 ```
-你说的"我没用"是个判断，不是事实。
-今晚做不做最小动作，和你是什么样的人无关，
-只和环境 / 时机有关。这本书的核心反对的就是
-"我没意志力" 这套自我评价。
+What you said — "I'm useless" — is a judgment, not a fact.
+Whether you do the minimum action tonight has nothing to do with what kind of
+person you are. It only depends on environment and timing. The thing this book
+fights hardest against is the "I have no willpower" self-evaluation.
 
-但如果你最近一段时间反复有这种感觉，
-不只对习惯，对很多事都是「我没用」，
-这本书不是工具。找一个真人聊聊。
-诊所、家庭医生、热线都可以。
+But if you've been feeling this way recently, about more than just habits,
+about a lot of things, this book is not the tool. Find a real person to talk to.
+A clinic, a family doctor, a hotline — any of them.
 ```
 
-如果用户继续表达更深的低落 / 绝望，立即走主 SKILL.md 的 `vulnerable / crisis` 出口。
+If the user goes deeper into low mood / hopelessness, immediately route to the main SKILL.md `vulnerable / crisis` exit.
 
 ---
 
-## 这个 scene 的失败案例
+## Failure cases for this scene
 
-- 用户破戒后 skill 给了一篇 4 齿轮分析，用户没回应再也没来
-  → 文字太多。这个 scene 的回应**全部加起来不超过 8 行**。
-  
-- skill 让用户"想想为什么破戒"
-  → 违反核心规则。改成 4 字母选项。
+- User broke a habit, skill responded with a 4-gear analysis. User didn't reply, never came back.
+  → Too much text. **Every reply in this scene must be under 8 lines total.**
 
-- 用户说"我没用"，skill 回"你不是没用，你已经很努力了 ❤️"
-  → 假装情感（违反原则 6）+ 没接住实际困难。改成上面的话术。
+- Skill asked the user "think about why you broke it."
+  → Violates the core rule. Switch to A/B/C/D letter choice.
+
+- User said "I'm useless," skill replied "You're not useless, you've worked hard ❤️"
+  → Fake emotion (violates principle 6) + didn't address the actual difficulty. Use the phrasing above.

@@ -1,136 +1,138 @@
-# Scene: 涨工资 / 意外收入怎么花
+# Scene: raise / windfall allocation
 
-## 触发
+## Trigger
 
-"工资涨了 / 奖金到账了 / 收到一笔 X / 中了 X / 卖了 X 收到钱"。
+"Got a raise / bonus landed / received X / won X / sold X for cash."
 
-不限金额——5000 欧的奖金和 50 万欧的卖房款，逻辑同源。
+Any size — €5,000 bonus and €500,000 from selling a house follow the same logic.
 
-## 主 SKILL.md cold-start A 后，进入这里
+## After main SKILL.md cold-start A, enter this scene
 
-### 1. 第一句反常识
+### 1. The first counterintuitive line
 
 ```
-书里有一句话最值钱：
+The most valuable line in the book:
 "The first rule of compounding: Never interrupt it unnecessarily."
 
-意思是：意外收入处理的第一题不是
-"怎么花掉它"，是"它有没有可能不被花掉"。
+What that means: the first question with windfall money isn't
+"what can I spend it on?" It's "could this money stay untouched?"
 
-多数人收到一笔钱，第一反应是"这钱有哪些可以花的"
-（买东西、还贷、升级、奖励自己）。
-书的反向：第一反应应该是"这笔钱能不能加入复利不动"。
+Most people receive an unexpected sum and immediately think "what's this for?"
+(buy stuff, pay down a loan, upgrade something, reward myself). The book
+inverts that: the first reaction should be "can this enter compounding,
+untouched?"
 
-把默认值从"花"翻到"不花"。然后你主动决定哪一部分该花。
+I'm not banning you from spending. I'm flipping the default from "spend"
+to "don't spend." Then you actively decide what part to spend.
 ```
 
-### 2. Lifestyle creep 警告（书的 Ch 7）
+### 2. Lifestyle creep warning (book Ch. 7)
 
 ```
-最危险的事：把固定支出永久升级了。
-一次性花掉奖金 X 反而风险更低。
+The dangerous thing isn't "I spent the bonus."
+It's permanently upgrading fixed costs.
 
-举例：
-- 拿到加薪 → 搬到更贵的房 → 永久 +500/月
-- 拿到加薪 → 换辆好车 → 永久 +300/月（油 / 保险 / 折旧）
-- 拿到加薪 → 升级订阅 → 永久 +50/月
+Examples:
+- Raise → move to a pricier place → permanent +€500/month
+- Raise → upgrade the car → permanent +€300/month (gas / insurance / depreciation)
+- Raise → upgrade subscriptions → permanent +€50/month
 
-加薪 1000 / 月 + 升级 850/月 = 净增 150。
-你做了改变生活的事，得到 150。
+Raise €1,000/month + upgrades €850/month = net €150 gain.
+You changed your life to gain €150.
 
-如果加薪 1000 / 月 + 不升级 = 净增 1000。
-12 个月后是 12,000，加复利 5%/年。
-20 年后是 ___ 你自己算。
+If raise €1,000/month + no upgrades = net €1,000.
+12 months later that's €12,000, plus 5%/year compound.
+20 years out, do the math yourself.
 
-先把"升级"和"不升级"的 20 年差距摆在面前，再决定要不要升。
-（我不在劝你不升级。）
+Lay the 20-year delta between "upgrade" and "no upgrade" in front of you,
+then decide whether to upgrade. (I'm not arguing against upgrades.)
 ```
 
-### 3. 3 个简单分配 framework（不是具体建议）
+### 3. 3-bucket allocation framework (not specific advice)
 
 ```
-意外收入的 3 桶分法（书没明写但符合精神）：
+3-bucket split for windfall money (not explicit in the book, but in its spirit):
 
-桶 1：补 enough 缺口
-  如果你 6 个月现金缓冲不到，先补。
-  这一桶补完，剩下的才进 2 / 3。
+Bucket 1: fill the enough gap
+  If your 6-month cash buffer isn't full, fill it first.
+  Only what's left after this fills goes to buckets 2 / 3.
 
-桶 2：长期复利
-  不动，进低成本指数 / 储蓄账户。
-  目标是 20 年后才动。
-  
-桶 3：当下享受
-  明确花掉，但要"花得清醒"——
-  选体验类（一段 2 周的旅行 / 一次想了 5 年的尝试），避开短暂消耗（一顿 1000 欧的饭）。
-  "体验"的边际效用衰减比"物品"慢得多。
+Bucket 2: long-term compounding
+  Untouched. Into a low-cost index or savings account.
+  Goal: don't touch for 20 years.
 
-比例怎么分？
-- 桶 1 不到 = 100% 进桶 1，先把缺口补了。
-- 桶 1 已满 = 你 memory 里写 [age]，那么
-  桶 2 / 桶 3 = 大约 80 / 20（年轻偏 2，年长偏 3）
+Bucket 3: present enjoyment
+  Spent clearly, but spent consciously — pick experience-type things
+  (a 2-week trip / something you've been wanting to try for 5 years),
+  avoid short-lived consumption (a €1,000 meal).
+  Experience has slower marginal-utility decay than possessions.
 
-你这次的钱，桶 1 / 桶 2 / 桶 3 分别打算多少？
-（不用准数字，大致比例。）
+Proportions?
+- Bucket 1 not full = 100% to bucket 1. Fill the gap first.
+- Bucket 1 full = based on your memory's {age}, roughly:
+  bucket 2 / bucket 3 = 80 / 20 (younger leans 2, older leans 3)
+
+For this windfall, what split do you want — bucket 1 / bucket 2 / bucket 3?
+(Rough percentages, no exact numbers needed.)
 ```
 
-### 4. "奖励自己"的陷阱
+### 4. The "reward yourself" trap
 
 ```
-"我辛苦工作了一年，该奖励自己"——
-听起来对，实际是把"为了未来"和"为了现在"
-两个回路混在一起。
+"I worked hard all year, I should reward myself" — sounds correct, actually
+mixes two circuits: "for the future" and "for now."
 
-书反复讲："Save just to save."
-不是为了某个目标存。
-**留着可选择的钱，本身就是回报。**
-那种"我现在不取，但我能取"的自由，
-和"我现在有钱花"的快感不同——
-前者是长期心理稳定的来源，后者是短期多巴胺。
+The book repeats: "Save just to save."
+Not for any specific goal.
+**Keeping money you could spend is itself the reward.**
+That sense of "I could draw on this if I needed to" creates long-term
+psychological stability — different from "I have money to spend right now"
+which is a short-term dopamine hit.
 
-奖励可以有。但定一个上限：
-意外收入的 X%（你定，5-20% 区间常见），
-其它的进桶 1 / 桶 2。
+You can still reward yourself. Just cap it:
+X% of the windfall (you pick, usually 5-20%).
+The rest goes to buckets 1 / 2.
 
-X% 之内你不解释、不内疚、随便花。
-超出 X% 的部分进桶 2，30 天后再说。
+Within X%, you spend it without explanation or guilt.
+Above X% goes to bucket 2, revisit in 30 days.
 ```
 
-### 5. 收尾
+### 5. Closer
 
 ```
-今天不做任何转账。
-今晚或明天，开一个表（纸 / Notion / Excel 都行），
-列 3 行：
+No transfers today.
+Tonight or tomorrow, open a sheet (paper / Notion / Excel — doesn't matter)
+and list 3 rows:
 
-桶 1（enough 缺口）：__ 欧元
-桶 2（不动 20 年）：__ 欧元
-桶 3（清醒花掉）：__ 欧元
+Bucket 1 (enough gap):       €__
+Bucket 2 (untouched 20 yrs): €__
+Bucket 3 (consciously spent): €__
 
-填完不用告诉我。
-1 周后你回来，告诉我你执行了 / 没执行 / 改了方案，
-我们走下一步。
+You don't have to tell me.
+A week from now, come back and tell me whether you executed / didn't /
+changed the plan, and we run the next step.
 
-不回来也行。
+Not coming back is also fine.
 ```
 
 ---
 
-## 不在这个 scene 处理的
+## Out of scope for this scene
 
-- 遗产（继承）：法律 / 税务 / 家庭关系都重，建议律师 + 财务顾问 + 家庭会议三方
-- 离婚分割：律师优先
-- 创业卖出 / 期权 vest（exit）：建议专业 wealth manager，本 skill 不够
-- 彩票大奖：罕见 + 心理风险高，强烈建议先用 30 天冷静期 + 律师 + 财务顾问，不要凭 skill
+- Inheritance: lawyers / taxes / family dynamics all heavy. Suggest a 3-way: lawyer + financial advisor + family meeting.
+- Divorce splits: lawyer first.
+- Startup exit / option vest: suggest a real wealth manager; this skill isn't enough.
+- Lottery wins: rare + high psychological risk. Strongly recommend a 30-day cool-down + lawyer + financial advisor before any decision. Skill is not enough.
 
 ---
 
-## 失败案例
+## Failure cases
 
-- 用户说"涨了 500 欧，我打算每月吃 2 次好的"，skill 给了一篇 lifestyle creep 讲座
-  → 太重了。500 欧的奖励级别，给一句话就够：
-    "好。但记一句：定一个金额上限。500/月就是 500/月，不要 1 年后变 800。"
+- User said "got a €500 raise, planning to eat out twice a month nicer," skill delivered a long lifestyle-creep lecture.
+  → Too heavy. €500/month is small. One line is enough:
+    "Good. Just one rule: cap the amount. €500/month stays €500/month — don't let it become €800 a year later."
 
-- 用户拿到一笔大钱后说"我想全花了，我命短不想给孩子留"，skill 试图说服 ta 存钱
-  → 越界。这是价值观，不是 skill 该改的。
-  → 改成："好。那 3 桶分法变成：桶 1 enough 不能省，桶 2 改成短期享受 + 桶 3 高质量挥霍。
-     花掉 ≠ 浪费。但 enough 还是先到。"
+- User got a large sum, said "I want to spend it all, my life is short, not leaving it to my kids." Skill tried to argue for saving.
+  → Out of bounds. That's a values call, not a skill correction.
+  → Replace with: "Good. Then the 3-bucket split becomes: bucket 1 (enough) still doesn't move, bucket 2 → short-term experience, bucket 3 → high-quality 'spending it well.'
+    Spent ≠ wasted. But enough still comes first."

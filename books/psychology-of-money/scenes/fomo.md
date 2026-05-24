@@ -1,131 +1,135 @@
-# Scene: FOMO 处理
+# Scene: handling FOMO
 
-## 触发
+## Trigger
 
-"朋友买了 X 赚了 / 别人都在 / 我没赶上 / 我是不是错过了 / 早知道我就 ..."
+"Friend bought X and made / everyone is / I missed it / am I too late / I should have just ..."
 
-不限资产类别（股票、币、房、AI 公司期权、初创、艺术品）。
+Any asset class — stocks, crypto, real estate, AI startup options, art.
 
-## 主 SKILL.md cold-start B 后，进入这里
+## After main SKILL.md cold-start B, enter this scene
 
-### 1. 区分 3 种 FOMO
-
-```
-你说的"没赶上"，先分一下类：
-
-A. 这个东西现在还能上车，只是没那么便宜（股票、ETF）
-B. 这个东西窗口关了，不可能再来（IPO、早期投资、特定波段）
-C. 这个东西本来就是泡沫，你"错过"的是损失（多数币、Meme 股、热门花式产品）
-
-凭直觉选一个。不准答案。
-```
-
-### 2A · 还能上车
+### 1. Sort 3 kinds of FOMO
 
 ```
-那就走 cold-start A 路径，把它当一个新的消费决定。
-问题从"我错过了"换成"我现在做不做这个新决定"——错过已经过去。
+What you said — "I missed it" — let's sort it first:
 
-3 个反思题（不要答，只要想 30 秒）：
-- 如果朋友没买、没赚，你今天还会想这个东西吗？
-- 你打算入的额度，是你愿意全部归零的额度吗？
-- 这笔钱进去后，你 12 个月内会不会因为别的事
-  需要把它取出来（婚礼、生孩子、换工作 gap）？
+A. This thing is still investable, just not as cheap (stocks, ETFs)
+B. The window is closed and won't reopen (IPO, early-stage, specific waves)
+C. This thing was a bubble; what you "missed" is the loss (most coins,
+   meme stocks, fad products)
 
-3 题都通过 → 这是清醒决定。具体数额你定。
-有一题卡了 → 不做。等到 3 题都通过那天再做。
+Pick one by gut. No need to be sure.
 ```
 
-### 2B · 窗口关了
+### 2A · Still investable
 
 ```
-这一类最折磨。但书里有句话：
+Then it routes to cold-start A — treat it as a new purchase decision.
+The question switches from "I missed it" to "do I make this decision now"
+(the missing-out part is in the past).
+
+3 reflection prompts (don't answer them out loud, just think 30 seconds):
+- If the friend hadn't bought or made money, would you still want this today?
+- The amount you're about to put in — is it money you're willing to lose entirely?
+- After this money goes in, will you need to pull it out in the next 12 months
+  for something else (wedding, baby, gap between jobs)?
+
+All 3 cleared → this is a clean decision. You set the amount.
+Any one stuck → don't do it. Wait until all 3 clear, then revisit.
+```
+
+### 2B · Window closed
+
+```
+This category hurts the most. But the book has a line:
 "You can't replicate luck."
 
-那个朋友赚到的，**部分是运气**——
-他可能没意识到，但你看的时候得诚实分清。
-你"复制"他的路径，复制不了那部分运气。
+What the friend made — **part of it is luck**.
+They may not see it, but you have to see it clearly when you watch.
+You can replicate their path; you can't replicate that part.
 
-更诚实的事：
-- 他赚的那一票，5 年后大概率不是他的主要收入
-- 复利的真主角是时间，不是单次大赢
-- 你 5 年、10 年、20 年不间断的"无聊"，
-  累积起来大概率超过他这一次"高光"
+More honest pieces:
+- The big win they hit probably won't be their main income source 5 years out
+- The real protagonist of compounding is time, not single big wins
+- Your 5, 10, 20 years of uninterrupted "boring" will most likely beat their
+  one "highlight"
 
-所以问题换成：你手里有没有不需要赌运气的长期路径？
-有 → 继续走那个路径。
-没有 → 这件事真正的提示：去建那个路径。补这次错过没意义。
+So the question switches from "what did I miss" to:
+Do I have a long-run path that doesn't require betting on luck?
+Yes → keep walking it.
+No → the real signal this event is sending: build that path. Compensating
+for this miss is meaningless.
 ```
 
-### 2C · 泡沫
+### 2C · Bubble
 
 ```
-你没有"错过"。你**躲过**了。
+You didn't "miss" it. You **avoided** it.
 
-书第 5 章 ("Getting Wealthy vs. Staying Wealthy")：
-"Getting money requires taking risks, being optimistic.
-But keeping money requires the opposite of taking risk."
+Book Chapter 5 ("Getting Wealthy vs. Staying Wealthy"):
+"Getting money requires taking risks, being optimistic. But keeping money
+requires the opposite of taking risk."
 
-赚到泡沫的人下一步要做的事，
-比你今天的事难 10 倍——他们要在所有人都看好的时候
-卖掉，且还要躲过下一轮自己更大的贪心。
-绝大多数人做不到。
+What the bubble-winners have to do next is 10x harder than what you have to do
+today — they have to sell when everyone is bullish, and dodge the next round
+of their own greed. Most can't.
 
-所以"他赚了"准确说法是"他暂时纸上赚了，未结算"。
-你今天不焦虑，反而是 5 年后那个能讲"我躲过了"的人。
+So "they made money" is more accurately "they're up on paper, unsettled."
+You not being anxious today is exactly why you'll be the person 5 years from
+now saying "I avoided that."
 
-要不要把这个朋友的更新静音 30 天？
-（给自己一个不被打扰的窗口，30 天后再打开。）
+Want to mute this friend's updates for 30 days?
+(Give yourself a window without the noise. Open it again in 30 days.)
 ```
 
-### 3. 收尾
+### 3. Closer
 
 ```
-今晚做 1 件事：
-打开你的银行 / 投资 app，
-看一眼你账上的钱，记住那个数字。
+One thing tonight:
+Open your bank / investment app, look at your balance, remember the number.
 
-那是你财富的真实部分。
-朋友的"赚了"是 Instagram，你这个数字是事实。
-两个不在一个维度，没法比较。
+That's the real part of your wealth.
+The friend's "made money" is Instagram; your number is fact.
+They're not on the same axis, so they don't compare.
 
-明天起，FOMO 还会回来。
-回来的时候再来 skill，我们重走一遍。
-```
-
----
-
-## 严重 FOMO 信号 → 走 not_for 出口
-
-如果用户表达以下任一，**不继续这个 scene**：
-
-- "我已经借钱进去了 / 我用了信用贷 / 我用了房贷增贷"
-- "我每天看盘 6 小时以上，吃不好睡不好"
-- "我跟家人吵了 / 瞒着伴侣"
-- "我已经亏了 70%+，想再投翻本"
-
-直接：
-```
-我听到了。这超出了"心态"层面，
-进入了财务结构 / 关系 / 心理健康。
-
-我不是合格的咨询人。优先级：
-1. 暂停所有新动作 24 小时
-2. 找一个真人（伴侣 / 父母 / 朋友 / 心理咨询师）
-3. 如果有杠杆 → 找债务咨询机构
-4. 等情况稳定，再来想"心态"
+Tomorrow, FOMO might come back.
+When it does, come back to the skill and we run it again.
 ```
 
 ---
 
-## 失败案例
+## Severe FOMO signals → route to not_for exit
 
-- 用户说"朋友赚了 100 万欧"，skill 走了大段 wealth-is-what-you-don't-see 说教
-  → 用户没回。
-  → 太长。FOMO 状态下，每多 1 段话都让用户觉得"你不懂我"。
-  → 改成 cold-start B 的 8 行版本，结尾 YES/NO 让用户回字母。
+If the user mentions any of the following, **do not continue this scene**:
 
-- 用户说"早知道 5 年前买 Nvidia"，skill 解释为什么后视镜没用
-  → 用户回"道理我都懂"，关掉了。
-  → "道理我都懂"是 FOMO 的标准防御。skill 不要再讲道理，
-     换成"那今天买不买"的具体问题，把对话拉回当下。
+- "I already borrowed to put in / used credit line / drew against my mortgage"
+- "I watch the market 6+ hours a day, I'm not eating or sleeping right"
+- "I'm fighting with family / hiding it from my partner"
+- "I've lost 70%+ and want to put more in to recover"
+
+Direct output:
+
+```
+I hear you. This goes beyond a "mindset" question into financial structure,
+relationships, or mental health.
+
+I'm not the right counselor here. Priority order:
+1. Pause all new moves for 24 hours
+2. Find a real person (partner / parent / friend / therapist)
+3. If there's leverage involved → debt counselor
+4. Once things stabilize, then come back to the mindset question
+```
+
+---
+
+## Failure cases
+
+- User said "friend made €1M," skill launched into a long "wealth is what you don't see" sermon.
+  → User went silent.
+  → Too long. In FOMO state, every extra paragraph reads as "you don't get me."
+  → Replace with the 8-line cold-start B version, end with YES/NO and have the user reply with a letter.
+
+- User said "should've bought Nvidia 5 years ago," skill explained why hindsight is useless.
+  → User said "I know the principle" and closed the chat.
+  → "I know the principle" is the standard FOMO defense. The skill shouldn't keep teaching principles —
+    switch to "do you buy now or not" to pull the conversation back to the present.

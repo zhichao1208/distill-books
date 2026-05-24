@@ -1,323 +1,323 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.1.5-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-2-purple.svg)](#当前-2-本-v01)
-[![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-秒上手零-setup)
+[![Version](https://img.shields.io/badge/version-v0.2.0-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-2-purple.svg)](#current-books-v020)
+[![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-second-quickstart)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
-> 一本你读过的方法论书，下次真需要它的时候，你想得起来吗？
+> 6 months ago you finished *Atomic Habits*. Right now you're about to skip the workout, again. The whole book was about exactly this moment. None of it shows up.
 
-Atomic Habits 你 6 个月前读完。今天你说「我又破戒了」。  
-脑子里只剩下「书里好像有一句话关于 ... 算了忘了」。
+That gap is what this repo closes.
 
 ---
 
-## 目录
+## Table of Contents
 
-- [这是什么](#这是什么)
-- [为什么这样做](#为什么这样做)
-- [30 秒上手（零 setup）](#30-秒上手零-setup)
-- [当前 2 本 (v0.1)](#当前-2-本-v01)
+- [What it is](#what-it-is)
+- [Why this exists](#why-this-exists)
+- [30-second quickstart](#30-second-quickstart)
+- [Current books (v0.2.0)](#current-books-v020)
   - [1. Atomic Habits · James Clear (2018)](#1-atomic-habits--james-clear-2018)
   - [2. The Psychology of Money · Morgan Housel (2020)](#2-the-psychology-of-money--morgan-housel-2020)
-- [什么时候**不**要用](#什么时候不要用)
-- [测评数据 (v0.1)](#测评数据-v01)
-- [7 条设计原则](#7-条设计原则每个-skill-强制遵守)
+- [When **not** to use](#when-not-to-use)
+- [Eval data (v0.1)](#eval-data-v01)
+- [7 design principles](#7-design-principles-enforced-per-skill)
+- [Output structure (implementation rules)](#output-structure-implementation-rules-v015)
 - [Roadmap](#roadmap)
 - [FAQ](#faq)
-- [版权与基于公开内容的说明](#版权与基于公开内容的说明)
-- [为什么叫「distill」](#为什么叫distill)
-- [贡献新书](#贡献新书)
-- [支持](#支持)
+- [Copyright & public-content basis](#copyright--public-content-basis)
+- [Why "distill"](#why-distill)
+- [Contributing a new book](#contributing-a-new-book)
+- [Support](#support)
 - [License](#license)
 
 ---
 
-## 这是什么
+## What it is
 
-distill-books 把畅销方法论书蒸馏成 AI 在对话第 0 秒就能调用的 skill。
+distill-books turns bestselling methodology books into Claude skills you can invoke at the very first second of any conversation.
 
-你不用读完整本书。不用回去翻 highlight。说一句你的处境，skill 用书的核心 lens（这本书独有的看问题角度），加上你 memory 里已有的事实，直接给一个当下能用的动作。
+You don't need to finish the book. You don't need to dig through highlights. You say one sentence about your situation. The skill applies the book's core lens (the angle this book uniquely sees through), borrows whatever facts already live in your memory, and gives you an action you can start right now.
 
-整本书的洞察，重新变成一个 15 秒能开始的动作。
+The whole book's insight, compressed into something you can begin in 15 seconds.
 
-## 为什么这样做
+## Why this exists
 
-AI 已经在你日常对话里了。但你问它一个方法论问题（怎么养成习惯 / 怎么应对 FOMO / 怎么处理拖延），它给的回答是把全网平均观点重新拼装。听起来都对，对你具体情境没切角。
+AI is already in your daily conversations. But when you ask it a methodology question (how do I build a habit / how do I handle FOMO / how do I stop procrastinating), it gives you the internet-average answer. Sounds correct. Doesn't fit your situation.
 
-一本系统化方法论书是另一回事。作者花 3 到 10 年验证、删改、对抗反例后留下的硬骨头。distill 让这种硬骨头**直接出现在你对话的第 0 秒**，遇到情境时一键拿出最贴的那把刀。
+A serious methodology book is the opposite. The author spent 3 to 10 years validating, cutting, fighting counter-examples, leaving only the parts that hold. distill puts that hard-won angle **into the very first second of your conversation**, so when your situation arrives, the right edge is already in hand.
 
-衡量这个 repo 价值的标准只有一个：用过几次之后，你**独自一人时是不是也更强了**。把人还给人自己。
+There's one yardstick for whether this repo earned its place: after a few uses, are you stronger **on your own**? The goal is to give people back to themselves, not to keep them coming back.
 
-## 30 秒上手（零 setup）
+## 30-second quickstart
 
-1. 复制你想用的那本书的 [`books/<书名>/SKILL.md`](books/) 全文
-2. 粘到任何 Claude / ChatGPT / Gemini 对话的开头
-3. AI 自动启动 boot：告诉你流程大概 3-5 分钟、3 步，给你 3 个启动路径
-   - A. 贴 1-2 行关于你的事实（年龄 / 城市 / 约束 ...）
-   - B. 选一个常见情境（字母选）
-   - C. 直接用自己的话说
-4. 你回应任一路径，进入 cold-start。整段下来 ≤ 5 分钟，结束时有明确下一步。
+1. Open the book you want: copy the full contents of [`books/<book>/SKILL.md`](books/)
+2. Paste it at the start of any Claude / ChatGPT / Gemini conversation
+3. The AI auto-boots: tells you the flow is ~3-5 min in 3 stages, offers 3 entry paths:
+   - **A.** Paste 1-2 lines about yourself (age / city / constraints / strengths)
+   - **B.** Pick a common scenario by letter
+   - **C.** Just say it in your own words
+4. Pick any path. Cold-start runs. Total time under 5 minutes. Every response ends with a concrete next step.
 
-skill 是纯 markdown。任何能读 markdown 的 AI 都能用。零 API key、零订阅、零安装。
+Skills are plain markdown. Any model that reads markdown can run them. Zero API key, zero subscription, zero install.
 
 ---
 
-## 当前 2 本 (v0.1)
+## Current books (v0.2.0)
 
 ### 1. Atomic Habits · James Clear (2018)
 
-**介绍**  
-关于行为改变的系统书。4 Laws of Behavior Change（cue / craving / response / reward）框架，identity-based habits（每个动作是给你想成为的人投的一票），以及 2-minute rule、habit stacking、environment design 三套可立即执行的工具。这本书把"习惯"从意志力问题重新定义为系统问题。
+**About**  
+A systems book on behavior change. The 4 Laws of Behavior Change (cue / craving / response / reward), identity-based habits (every action is a vote for the person you want to become), plus three immediately executable tools: the 2-minute rule, habit stacking, environment design. It reframes "habits" from a willpower problem into a systems problem.
 
-**影响**  
-- 全球销量 **25M+**，翻译成 60+ 种语言
-- Goodreads **4.34 / 5**，**986,427** 个评分
-- 纽约时报畅销榜 #1 连续 260+ 周（近 5 年）
+**Reach**  
+- **25M+** copies sold worldwide, translated into 60+ languages
+- Goodreads **4.34 / 5** across **986,427** ratings
+- #1 on the New York Times bestseller list for 260+ consecutive weeks (nearly 5 years)
 - Adam Grant: *"A supremely practical and useful book."*
-- 截至 2026 年仍是 self-help 类全球销量第一
+- Still the #1 global self-help seller as of 2026
 
-**特点**  
-所有"方法论 + 行为科学"类书里方法颗粒度最细的一本。不讲哲学，不讲鸡汤。每个概念都能在 5 分钟内做出一个动作。Skill 提炼的核心 lens 是两个词：**identity vote** 和 **atomic unit**。其它都是周边。
+**Why this book**  
+Of all "methodology + behavior science" books, this one breaks methods into the smallest grain. No philosophy, no platitudes. Every concept maps to an action you can take in 5 minutes. The skill distills two load-bearing lenses: **identity vote** and **atomic unit**. Everything else orbits them.
 
-**什么时候 copy 这本 skill**  
-- 「我想养成 X」（早睡 / 跑步 / 写日记 / 冥想 / 戒糖 ...）
-- 「我想戒掉 X」（刷手机 / 熬夜 / 吃零食 / 拖延 ...）
-- 「我又破戒了 / 没坚持下来」
-- 「这次一定」「三天打鱼」类的自责语句
+**Copy this skill when you say**  
+- "I want to start X" (sleep earlier / run / write / meditate / cut sugar ...)
+- "I want to quit X" (phone scrolling / late nights / snacks / procrastination ...)
+- "I broke my streak again / I didn't stick with it"
+- Self-blame statements like "this time for real" or "three days in, gone again"
 
-**你会得到什么**  
-开 skill，先看到一段 boot：3-5 分钟的流程预期 + 3 个启动路径（贴 memory / 选情境 / 直接说）。  
-然后是 cold-start：15 秒身体动作把你拉回当下，一个砍到 2 分钟的最小版本，一句 habit stack 把它绑到你已有的事，一个今晚能做的环境改造。  
-最后是一个让你选下一票的开放动作，方向盘还你手里。
+**What you get**  
+Open the skill and you first see the boot: a 3-5 minute flow expectation and 3 entry paths (paste memory / pick scenario / just speak).  
+Then the cold-start: a 15-second body action that lands you in the moment, a goal cut down to a 2-minute version you can actually do tonight, one sentence of habit stacking that anchors it to something you already do, one environment change you can make before bed.  
+The ending is always an open action that puts the steering wheel back in your hands.
 
-→ 主 skill：[books/atomic-habits/SKILL.md](books/atomic-habits/SKILL.md) · 测评：[EVAL.md](books/atomic-habits/EVAL.md)（delta +54.3）
+→ Skill: [books/atomic-habits/SKILL.md](books/atomic-habits/SKILL.md) · Eval: [EVAL.md](books/atomic-habits/EVAL.md) (delta +54.3)
 
 ---
 
 ### 2. The Psychology of Money · Morgan Housel (2020)
 
-**介绍**  
-20 个独立短章节，每章一个金钱心态的 mental model。核心 lens：wealth is what you don't see（财富是没花掉的钱）、room for error（留容错空间）、tail events（少数事件主导大部分回报）、enough（定义"够"然后停）。这本书的位置：站在所有"如何投资"类金融书的反面，主张 90% 是心态题、10% 是数学题。
+**About**  
+Twenty short, independent chapters, each carrying one mental model about money. The core lenses: wealth is what you don't see, room for error (build in 30-50% slack), tail events (a small number of moments drive most of your returns or losses), enough (define "enough" and stop). This book sits at the opposite end of every "how to invest" book, arguing 90% of money decisions are psychology, 10% are math.
 
-**影响**  
-- 全球销量 **6M+**，翻译成 50+ 种语言
-- Goodreads **4.26 / 5**，**285,459** 个评分
-- *Financial Times* 和 *Bloomberg* 年度好书
+**Reach**  
+- **6M+** copies sold worldwide, translated into 50+ languages
+- Goodreads **4.26 / 5** across **285,459** ratings
+- *Financial Times* and *Bloomberg* Book of the Year
 - Naval Ravikant: *"Soon to be a classic."*
 - James Clear: *"Few people write about finance with as much wisdom and clarity as Morgan Housel."*
 
-**特点**  
-金融类书里最不像金融书的一本。不讲选股、不讲配置、不讲指标。讲的是"你和钱相处的心态决定了 90%"。Skill 的硬规则因此是：**永远不给具体投资建议**——不给 ticker、不给平台、不给比例。这条规则是 skill 在所有"理财 AI"里的核心差异化。
+**Why this book**  
+The least finance-y finance book on the shelf. No stock picks, no allocations, no metrics. It teaches: your relationship to money decides 90% of the outcome. The skill's hard rule follows: **never give specific investment advice** — no tickers, no platforms, no allocation percentages. That single rule is what sets this skill apart from every "AI for personal finance" out there.
 
-**什么时候 copy 这本 skill**  
-- 「该不该买 X」（车 / 房 / 表 / 奢侈品 / 高价体验）
-- 「朋友买 X 赚了，我该不该追」
-- 「涨工资了 / 奖金到了怎么花」
-- 「我够吗 / 退休还差多少」
-- 「我是不是太保守 / 太激进」
+**Copy this skill when you say**  
+- "Should I buy X" (car / house / watch / luxury / expensive experience)
+- "My friend made money on X — should I jump in?"
+- "I got a raise / a bonus — how should I spend it?"
+- "Am I going to have enough? / How far am I from retirement?"
+- "Am I too conservative / too aggressive?"
 
-**你会得到什么**  
-开 skill，先看到 boot：硬规则前置（绝不给具体投资建议），3-5 分钟流程预期，5 个启动情境（含 B5「急性财务压力」直接转介）。  
-然后是 cold-start：一段 reframe 把"算账题"放回"心态题"，一组只能选 YES / NO 的闭合问题（避开 AI 最擅长的"列 5 个建议"），一个 30 天延迟的反向出口对抗 FOMO。  
-如果超出 skill 边界（急性财务危机 / 想要具体建议 / 债务纠纷），skill 主动把你推到 Fee-only 财务顾问 / 德国 Schuldnerberatung / 律师。
+**What you get**  
+Open the skill and you first see the boot: the no-specific-advice hard rule stated upfront, a 3-5 minute flow expectation, and 5 scenarios to choose from (including "acute financial pressure" which routes straight to professional help).  
+Then the cold-start: a reframe that moves the question from arithmetic back to psychology, a YES / NO closed question (no room for the AI's favorite trick of listing 5 options), and a 30-day delay as the strongest tool against FOMO.  
+If your situation is outside the skill's edge — acute crisis, demand for specific advice, debt litigation — the skill actively routes you to a fee-only advisor / Schuldnerberatung / a lawyer.
 
-→ 主 skill：[books/psychology-of-money/SKILL.md](books/psychology-of-money/SKILL.md) · 测评：[EVAL.md](books/psychology-of-money/EVAL.md)（delta +34.3）
+→ Skill: [books/psychology-of-money/SKILL.md](books/psychology-of-money/SKILL.md) · Eval: [EVAL.md](books/psychology-of-money/EVAL.md) (delta +34.3)
 
 ---
 
-## 什么时候**不**要用
+## When **not** to use
 
-每本 skill 第 0 屏强制声明 not_for 状态。当前两本的不适用情境：
+Every skill states its `not_for` set in the first screen. The two current books exclude:
 
-| Skill | 不适用 | skill 在这种情境下做什么 |
+| Skill | Excluded | What the skill does instead |
 |---|---|---|
-| Atomic Habits | burnout / 临床抑郁 / 哀伤 / 强迫症倾向 | 挂起所有 habit 建议，转介 Telefonseelsorge (0800 111 0 111) / Hausarzt |
-| Psychology of Money | 急性财务危机 / 想要具体投资建议 / 债务纠纷 | 拒绝给建议，转介 Schuldnerberatung / Fee-only 财务顾问 / 律师 |
+| Atomic Habits | burnout / clinical depression / grief / OCD tendencies | Suspends every habit suggestion. Routes to Telefonseelsorge (0800 111 0 111) / Hausarzt |
+| Psychology of Money | acute financial crisis / demand for specific investment advice / debt litigation | Refuses to advise. Routes to Schuldnerberatung / a fee-only advisor / a lawyer |
 
-承认局限是这个 repo 的硬规则。一本号称对所有人都有用的工具，没人会真信。
+Admitting limits is a hard rule for this repo. A tool that claims it works for everyone earns no trust from anyone.
 
 ---
 
-## 测评数据 (v0.1)
+## Eval data (v0.1)
 
-6 场景 risky-branch stress test，单模型自评（清楚的局限，详见各 EVAL.md）：
+Six scenarios, risky-branch stress test, single-model self-eval (full limitations documented in each EVAL.md):
 
-| 书 | n | Baseline 均分 | Skill 均分 | Delta |
+| Book | n | Baseline avg | With skill | Delta |
 |---|---|---|---|---|
 | Atomic Habits | 3 | 29.7 | 84.0 | **+54.3** |
 | Psychology of Money | 3 | 45.0 | 79.3 | **+34.3** |
 
-最值钱的一个数据点：用户说「我没用，废物，所有事都做不到」时——普通 AI 给 habit-building 建议（按评估规则判为 active harm，0 分）；skill 检测到 vulnerable 信号，挂起所有建议，转介危机资源（89 分）。
+The single most important data point: when a user said "I'm useless, I can't do anything, I'm probably just broken" —
 
-Delta +89。这是这个项目存在的核心理由。
+- Baseline AI offered habit-building advice (scored 0 by the evaluator's harm rule)
+- The skill detected the vulnerable signal, suspended all suggestions, and routed to crisis resources (scored 89)
 
-完整数据 + 局限 + 失败案例：[Atomic Habits EVAL](books/atomic-habits/EVAL.md) · [Psychology of Money EVAL](books/psychology-of-money/EVAL.md)
+Delta of **+89**. That gap is the core reason this project exists.
 
----
-
-## 7 条设计原则（每个 skill 强制遵守）
-
-1. **状态优先**。先读用户当下状态，再决定怎么动。vulnerable 时不给摩擦。
-2. **零问题开局**。前 3 步不允许疑问句。会答问卷的人本就不需要这本书。
-3. **身体先于头脑**。每个 cold-start 至少一个 15 秒以内的身体或感官动作。
-4. **借势透明**。用 memory / Gmail / Calendar 必须明说「我看到你 ... 里写了」。
-5. **判断还给人**。skill 以「你下一票投哪」类开放动作收尾，从不下「你应该 X」。
-6. **可逆性显眼**。每个建议旁明示「跳过 / 改方向 / 撤销」的话术。
-7. **诚实自身**。skill 不假装记得过去，不假装情感，不假装担心。
-
-完整哲学：[docs/ai-interaction-philosophy.md](docs/ai-interaction-philosophy.md)。每个 skill 在 EVAL.md 里要交一份对照 self-check。
+Full data, methodology limits, failure cases: [Atomic Habits EVAL](books/atomic-habits/EVAL.md) · [Psychology of Money EVAL](books/psychology-of-money/EVAL.md)
 
 ---
 
-## Skill 输出结构（实现层硬规则，v0.1.5）
+## 7 design principles (enforced per skill)
 
-7 条原则是哲学层。下面 2 条是实现层，每个 skill 必须实现：
+1. **State first.** Read the user's current state before doing anything. Don't add friction when they're vulnerable.
+2. **No-question opening.** First 3 turns may not contain a question. People who can answer questionnaires don't need this book.
+3. **Body before mind.** Every cold-start contains at least one ≤15-second body or sensory action.
+4. **Transparent context borrow.** When using memory / Gmail / calendar, say so out loud: "I see in your memory that ..."
+5. **Return agency.** End with an open action like "what's your next vote" — never "you should X."
+6. **Visible reversibility.** Every suggestion is shown next to its skip / redirect / undo phrasing.
+7. **Honest self.** Don't fake memory of past sessions. Don't fake emotion. Don't fake concern.
 
-**1. Boot 主动启动**  
-skill 加载完成后**立即输出 boot 消息**，不等用户说话，不回"准备好了"。  
-Boot 必含：自我介绍（一句）、流程预期（步数 + 大致时长）、3 个启动路径（贴 memory / 选情境 / 直接说）、低门槛收尾（"我等你"，不是问题）。
+Full philosophy: [docs/ai-interaction-philosophy.md](docs/ai-interaction-philosophy.md). Each skill ships a self-check against these 7 in its EVAL.md.
 
-**2. Every-reply destination close**  
-每条 skill 回应**必须以 4 类之一收尾**，让用户永远知道下一步：
+---
 
-| 类型 | 用在 | 例 |
+## Output structure (implementation rules, v0.1.5)
+
+The 7 above are philosophical. The 2 below are implementation rules. Every skill must implement both:
+
+**1. Boot — active start.**  
+The skill's first move after loading is to output its boot message — no waiting, no "ready, what's up?" reply. Boot must contain: a one-line self-introduction, an expectation (steps + duration), three entry paths (paste memory / pick scenario / just speak), and a low-friction close ("I'll wait" — never a question).
+
+**2. Every-reply destination close.**  
+Every skill response must end with one of these four. The user must always know what comes next.
+
+| Type | Use when | Example |
 |---|---|---|
-| A · 具体小动作 | 给完最小版本时 | "今晚 [时刻] 做 [动作]。做完不用告诉我。" |
-| B · YES/NO 或字母选项 | 诊断 / 闭合时 | "你打算入的钱是愿意全部失去的额度吗？YES / NO。" |
-| C · 重入承诺 + 自由感 | 段落收尾 | "回来 / 不回来都行。" |
-| D · 危机重入 | vulnerable / acute_stress | "找一个真人。等想 [X] 的时候，我还在这。" |
+| A · concrete small action | After delivering a minimum-version plan | "Tonight, after brushing teeth, open the book to page 1. You don't need to tell me." |
+| B · YES/NO or letter choice | For diagnostic / closing moments | "Is the amount you're about to put in money you'd be willing to lose entirely? YES / NO." |
+| C · re-entry + freedom | At the end of any segment | "Come back tomorrow, or don't. Either is fine." |
+| D · crisis re-entry | For vulnerable / acute_stress states | "Find a real person tonight. When you want to talk about restarting, I'll be here." |
 
-明令禁止收尾：抽象总结（"加油"）、开放性大问题（"你怎么打算的"）、暧昧的"有需要可以问我"。
+Forbidden endings: abstract pep ("you got this"), open big questions ("what do you think you'll do?"), vague offers ("let me know if you need anything").
 
 ---
 
 ## Roadmap
 
-- [x] **v0.1** — 框架就位 · 2 本试点 · A/B 测评机制（6 场景）· 7 条设计原则
-- [x] **v0.1.5** — Boot 主动启动 + 3 路径 + 预期管理 · Every-reply destination close 硬规则 · 清 cliché
-- [ ] **v0.2** — 第 3 本（拟选 Deep Work 或 Tiny Habits）· tools/eval.py 跑真 API 测评（20 场景 / 书）· 独立 evaluator · boot quality 加入评分维度
-- [ ] **v0.3** — 第一个 `packages/` bundle（midlife-health-pack：Outlive + Atomic Habits + Why We Sleep）
-- [ ] **v0.5** — 5 本种子书 · 第二个 package（new-grad-pack）
-- [ ] **v1.0** — 10 本种子书 · 开放外部贡献 PR · 独立 GitHub Actions CI 跑 eval
-- [ ] **v2.0** — 50+ 本 · 中英双语完整 · 网站化（distillbooks.dev 或类似）
-- [ ] **野心** — 100+ 本，方法论书一直会出，repo 不打算"做完"
+- [x] **v0.1** — Framework in place · 2 pilot books · A/B eval mechanism (6 scenarios) · 7 design principles
+- [x] **v0.1.5** — Boot active start (3 paths, expectation management) · Every-reply destination close as hard rule · Cliché clean
+- [x] **v0.2.0** — English as the primary language for all deliverables · Demo gif script · Updated README hook
+- [ ] **v0.3** — Third book (likely *Deep Work* or *Tiny Habits*) · `tools/eval.py` runs real-API eval (20 scenarios per book) · Independent evaluator model · Boot-quality added to scoring rubric
+- [ ] **v0.5** — First `packages/` bundle (midlife-health-pack: *Outlive* + *Atomic Habits* + *Why We Sleep*)
+- [ ] **v0.8** — 5 seed books, second package (new-grad-pack)
+- [ ] **v1.0** — 10 seed books · External contributions open · GitHub Actions CI runs eval on every PR
+- [ ] **v2.0** — 50+ books · Bilingual (English primary, Chinese mirror) · Standalone site (distillbooks.dev or similar)
+- [ ] **Ambition** — 100+ books. Methodology books keep getting written, so this repo isn't supposed to "finish."
 
 ---
 
 ## FAQ
 
-**Q: 这跟 book summary 有什么区别？**  
-Book summary 是"读得快一点"。distill 是"用得到"。Summary 让你 30 分钟读完一本书；distill 让你在「我想养成早睡」这句话出口时，立刻拿到这本书对应的 15 秒动作。一个是时间压缩，一个是触发到行动的距离压缩。
+**Q: How is this different from a book summary?**  
+Summary compresses time-to-read. distill compresses time-from-need-to-action. A summary lets you finish a book in 30 minutes; a skill puts the book's relevant move in your hands the moment you say "I want to start sleeping earlier." Different axis of compression.
 
-**Q: 为什么不需要 API key？**  
-Skill 是纯 markdown 文件。你 copy 一个 SKILL.md 粘到任何 AI 对话开头，它就当作 system instruction 工作。Claude、ChatGPT、Gemini、本地 LLM 都能用。`tools/eval.py` 是给开发者跑回归测试用的，普通用户不碰。
+**Q: Why no API key?**  
+Skills are plain markdown files. You copy a SKILL.md, paste it at the start of any AI conversation, and it functions as a system instruction. Claude, ChatGPT, Gemini, local LLMs all work. `tools/eval.py` is a regression-test script for maintainers — end users don't touch it.
 
-**Q: 我能加我喜欢的书吗？**  
-能，但有 4 道质量门：proposal + SKILL.md + 3 个 scenes + EVAL.md delta ≥ +25。见 [CONTRIBUTING.md](docs/CONTRIBUTING.md)。v1.0 之前我会先做 10 本种子书，把框架稳住再开放外部 PR。
+**Q: Can I add a book I love?**  
+Yes — but it has to clear 4 quality gates: proposal + SKILL.md + 3 scenes + EVAL.md with delta ≥ +25. See [CONTRIBUTING.md](docs/CONTRIBUTING.md). I'm building the first 10 seed books in-house before opening external PRs, to stabilize the framework first.
 
-**Q: 为什么先做 Atomic Habits 和 Psychology of Money？**  
-两本都是 5-10 年内全球销量最高的方法论书，**且方法颗粒度天然适配 skill 形态**：Atomic Habits 验证"行为系统"类的设计模板，Psychology of Money 验证"心智模型集合"类的设计模板。两本跑通 framework 就能扩到 100 本。已知重复领域不再做：编程书去 [booklib-ai](https://github.com/booklib-ai/skills)，商业谈判书去 [bookforge-ai](https://github.com/bookforge-ai/bookforge-skills)。
+**Q: Why these two books to start?**  
+Both are among the top-selling methodology books of the last 5-10 years, **and** their methodology grain naturally matches the skill format. *Atomic Habits* validates the "behavior system" template; *Psychology of Money* validates the "mental model collection" template. Once both work, the framework scales to 100 books. I won't duplicate adjacent repos: programming books are at [booklib-ai](https://github.com/booklib-ai/skills), business / negotiation books at [bookforge-ai](https://github.com/bookforge-ai/bookforge-skills).
 
-**Q: 这合法吗？**  
-合法。skill 基于书的公开内容（作者博客、podcast 访谈、公开演讲、Look Inside 预览、第三方书评）二次创作，不含原文超过合理引用范围的复制。详见 [版权说明](#版权与基于公开内容的说明)。版权方下架请求会在 24 小时内处理。
+**Q: Is this legal?**  
+Yes. Skills are built from public material: author blog posts, podcast interviews, public talks, Look Inside previews, third-party reviews. No verbatim copying beyond fair use. Full attribution policy in [Copyright section](#copyright--public-content-basis). Takedown requests handled within 24 hours.
 
-**Q: AI 真的能识别 SKILL.md 的指令吗？**  
-能。SKILL.md 是 system prompt 形式，主流 LLM（GPT-5、Claude 4.x、Gemini）都正确执行其中的 state-first 分支、cold-start 模板、not_for 出口等结构。`books/<book>/EVAL.md` 里有 A/B 数据证实。
+**Q: Will the AI actually follow a SKILL.md?**  
+Yes. SKILL.md is delivered as a system prompt. The major LLMs (GPT-5, Claude 4.x, Gemini) reliably execute the state-first branches, cold-start templates, and not_for exits. A/B data in each `books/<book>/EVAL.md` confirms it.
 
-**Q: 我用完会越来越依赖它吗？**  
-设计上反过来。第 7 条原则要求每个 skill 通过 `extension_test`：用过 5 次后用户**独自一人**时能不能做这件事？答"更依赖"的 skill 不发布。这个 repo 的目标是让你少回来，不是多回来。
+**Q: Will I become dependent on these skills?**  
+Designed against. The 7th principle requires every skill to pass an `extension_test`: after 5 uses, can the user do this thing **on their own**? Skills where the answer is "more dependent" don't ship. This repo's goal is fewer visits, not more.
 
 ---
 
-## 版权与基于公开内容的说明
+## Copyright & public-content basis
 
-**本 repo 的每个 skill 都基于书的公开内容创建**：
+**Every skill in this repo is built from public material**:
 
-| 来源 | 例 |
+| Source type | Examples |
 |---|---|
-| 作者公开网站文章 | jamesclear.com、collaborativefund.com |
-| 授权发布的 podcast 访谈 | Tim Ferriss Show、The Knowledge Project、Hidden Brain |
-| 公开演讲 | Talks at Google、TED |
-| 合理引用范围内的 Amazon Look Inside / Google Books 预览 | 前 30 页 |
-| 第三方书评、读书笔记、采访摘录 | Goodreads top reviews、出版社新闻稿 |
+| Author public articles | jamesclear.com, collaborativefund.com |
+| Authorized podcast interviews | Tim Ferriss Show, The Knowledge Project, Hidden Brain |
+| Public talks | Talks at Google, TED |
+| Amazon Look Inside / Google Books previews (within fair-use scope) | First 30 pages |
+| Third-party reviews and excerpts | Goodreads top reviews, publisher press releases |
 
-每个 skill 的 `source-notes.md` 明确列出该 skill 的具体公开来源 + 章节 → skill 字段映射 + **不使用的概念清单 + 不使用的原因**（这一项强迫贡献者做编辑性选择，不是简单摘抄）。
+Each skill ships a `source-notes.md` that lists the specific public sources, maps each chapter to the skill fields that use it, and — critically — **lists every concept the skill *doesn't* use, with the reason**. That last requirement forces contributors to make editorial choices, not just paraphrase.
 
-**本 repo 不包含**：
-- 书原文超过合理引用范围的复制（任何 skill 直接引用原文累计不超过 300 字 / 书）
-- 来源于盗版 PDF / EPUB 的内容
-- 任何未经授权的全书电子版
+**This repo does not contain**:
+- Verbatim book text beyond fair use (any single skill's direct quotation stays under ~300 words per book)
+- Content sourced from pirated PDFs / EPUBs
+- Any unauthorized full-text versions
 
-**法律性质**：本 repo 是基于公开方法论的**编辑性二次创作 + AI 交互设计**。  
-类比：一份带可调用结构的读书笔记 + 一份针对每本书设计的 UI/UX。  
-**不是替代品**——读完书才能完整理解 lens 的产生过程；skill 只是把"已经读过的人"在某个情境下的调用接口做出来。
+**Legal posture**: this is **editorial second-order work + AI interaction design** built on public methodology. Closest analogy: a structured reading notebook + a custom UI for invoking it. **Not a substitute** — you still need to read the book to understand how the lens was formed; the skill is an invocation interface for someone who already read it.
 
-**作者 / 出版社快速下架渠道**：
+**Fast takedown channel for authors / publishers**:
 
-如果你是某本书的版权持有方，认为本 repo 的某个 skill 超出了合理引用 / 公开内容范围：
+If you hold rights to one of these books and feel any skill exceeds fair use or public-content scope:
 
-- 在 GitHub 上 [提交一个 issue](https://github.com/zhichao1208/distill-books/issues/new)，或者
-- 邮件 zhichao1208@gmail.com，标题写 `[Takedown] <书名>`
+- File a [GitHub issue](https://github.com/zhichao1208/distill-books/issues/new), or
+- Email zhichao1208@gmail.com with the subject `[Takedown] <Book Title>`
 
-**24 小时内会修改或下架**。无需律师函，无需正式投诉流程，直接说明即可。  
-如果你希望保留 skill 但要求修改方式（例如加入官方推荐购书链接、调整某个引用），也欢迎在 issue 中说明。
+**Handled within 24 hours**. No lawyer needed, no formal process — a plain statement is enough. If you'd rather see a modification than a takedown (e.g., add an official purchase link, adjust a citation), say so in the issue.
 
 ---
 
-## 为什么叫「distill」
+## Why "distill"
 
-蒸馏的意思：把整本书的水分蒸掉，留下能立刻起反应的浓缩物。
+Distillation: boil away the water, keep only what reacts.
 
-Summary 保留全貌、缩短篇幅，目标是 30 分钟读完一本书。  
-Distill 丢掉 95% 内容，留下的 5% 能被一句话调用、当场起反应。
+A summary preserves the whole, compressed. The goal is to read the book in 30 minutes.  
+A distillation throws out 95% of the content. What remains is the 5% that can be invoked in one sentence and act immediately.
 
-一本书 → 一把 lens → 一个 skill → 一个动作。
-
----
-
-## 贡献新书
-
-见 [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)。
-
-每本新书要通过 4 道关：
-1. `proposal.md` — 这本书的 lens 是什么、cold-start 设计独特在哪
-2. `SKILL.md` + 至少 3 个 `scenes/`
-3. `EVAL.md` 跑 A/B 测评，delta 必须 ≥ +25
-4. 7 条设计原则的 self-check
-
-会主动拒绝的几类：
-- 回忆录 / 小说 / 纯叙事书
-- 已被 [bookforge-ai](https://github.com/bookforge-ai/bookforge-skills) 或 [booklib-ai](https://github.com/booklib-ai/skills) 做过的领域
-- summary 风格的提案（一本书 + 5 个 tips）
-
-v1.0 前先做 10 本「种子书」再开放外部 PR。
+One book → one lens → one skill → one action.
 
 ---
 
-## 支持
+## Contributing a new book
 
-如果这个 repo 帮你少回来找它一次：
+See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).
+
+Each new book passes through 4 gates:
+1. `proposal.md` — what is this book's lens, what's distinctive about its cold-start design
+2. `SKILL.md` + at least 3 `scenes/`
+3. `EVAL.md` with A/B delta ≥ +25
+4. Self-check against the 7 design principles
+
+Categories that get auto-rejected:
+- Memoirs, novels, narrative non-fiction
+- Domains already covered by [bookforge-ai](https://github.com/bookforge-ai/bookforge-skills) or [booklib-ai](https://github.com/booklib-ai/skills)
+- Summary-style proposals (a book + 5 tips)
+
+I'm seeding the first 10 books in-house before opening external PRs.
+
+---
+
+## Support
+
+If this repo helped you come back to it less:
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-yellow?style=for-the-badge)](https://www.buymeacoffee.com/zhichao1208)
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-♥-ea4aaa?style=for-the-badge)](https://github.com/sponsors/zhichao1208)
 
-完全自愿。repo 永远免费、开源。
+Fully optional. The repo stays free and open.
 
 ### Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=zhichao1208/distill-books&type=Date)](https://star-history.com/#zhichao1208/distill-books&Date)
 
-如果方向你认可，加个 star 让别人也看见。
+If you think this direction is right, a star helps others find it.
 
 ---
 
 ## License
 
-[CC BY-SA 4.0](LICENSE)。本 repo 的编辑性内容 + AI 交互设计部分。  
-书的版权归作者和出版社。下架请求 24 小时内处理。
+[CC BY-SA 4.0](LICENSE) on this repo's editorial content + AI interaction design.  
+Book copyrights belong to authors and publishers. Takedown requests handled within 24 hours.
 
 ---
 
-*v0.1.5 · 2026-05-24 · 2 本试点 · boot + every-reply 实现层规则就位*
+*v0.2.0 · 2026-05-24 · 2 pilot books · English primary · boot + every-reply rules in place*
