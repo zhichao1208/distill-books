@@ -1,7 +1,7 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.2.1-orange.svg)](#roadmap)
+[![Version](https://img.shields.io/badge/version-v0.2.2-orange.svg)](#roadmap)
 [![Books](https://img.shields.io/badge/books-2-purple.svg)](#current-books-v020)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-second-quickstart)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
@@ -18,14 +18,11 @@ That gap is what this repo closes.
 
 - [What it is](#what-it-is)
 - [Why this exists](#why-this-exists)
+- [The meta-skill](#the-meta-skill)
 - [30-second quickstart](#30-second-quickstart)
-- [Current books (v0.2.0)](#current-books-v020)
-  - [1. Atomic Habits · James Clear (2018)](#1-atomic-habits--james-clear-2018)
-  - [2. The Psychology of Money · Morgan Housel (2020)](#2-the-psychology-of-money--morgan-housel-2020)
+- [Books (current + planned)](#books-current--planned)
 - [When **not** to use](#when-not-to-use)
 - [Eval data (v0.1)](#eval-data-v01)
-- [7 design principles](#7-design-principles-enforced-per-skill)
-- [Output structure (implementation rules)](#output-structure-implementation-rules-v015)
 - [Roadmap](#roadmap)
 - [FAQ](#faq)
 - [Copyright & public-content basis](#copyright--public-content-basis)
@@ -52,6 +49,26 @@ A serious methodology book is the opposite. The author spent 3 to 10 years valid
 
 There's one yardstick for whether this repo earned its place: after a few uses, are you stronger **on your own**? The goal is to give people back to themselves, not to keep them coming back.
 
+## The meta-skill
+
+The IP of this repo isn't the individual books. It's the **meta-skill** — one blueprint that every per-book skill implements. The meta-skill is what makes a distill skill behave differently from a generic "act like Atomic Habits coach" prompt.
+
+The blueprint, in 9 points:
+
+1. **State-first reading** — before any output, classify the user's state (curious / stuck / lapse / vulnerable / urgent / quick_q). Wrong recipient turns even the right method into harm.
+2. **Active boot** — on load, output a 3-stage expectation and 3 entry paths (paste memory / pick scenario / just speak). Never wait for the user to figure out how to start.
+3. **No-question opening** — first 3 turns contain zero questions. Body action instead.
+4. **One book = one lens** — each cold-start carries ≤2 keyword lenses unique to that book (AH = identity vote + atomic; PoM = wealth-invisible + enough). Lenses don't transfer between books.
+5. **Memory borrow transparent** — using the user's stored context is allowed, but announced: "I see in your memory that ..."
+6. **Every reply has a next step** — concrete action / YES-NO / re-entry / crisis routing. Never "you got this."
+7. **Hard not_for** — when a situation is outside the skill's competence, route to a real human or professional service. Don't fake helpfulness.
+8. **Reversibility visible** — every suggestion is shown next to its skip / redirect / undo phrasing.
+9. **Extension test** — a skill that makes the user more dependent doesn't ship. Fewer return visits is the goal.
+
+(Points 1, 3, 5, 6, 7, 8, 9 derive from the 7 philosophical principles in [docs/ai-interaction-philosophy.md](docs/ai-interaction-philosophy.md). Points 2 and 6 are implementation-layer additions documented in detail in each [SKILL.md](books/atomic-habits/SKILL.md). Together they form the operating contract every new book signs.)
+
+**Why this is the project's main IP**: there are several "book → AI skill" repos in the wild ([booklib-ai](https://github.com/booklib-ai/skills), [bookforge-ai](https://github.com/bookforge-ai/bookforge-skills), [book2skills](https://github.com/simbajigege/book2skills), and others). The differentiator isn't the books — it's whether the resulting skills behave humanely under pressure: vulnerable users, demand for unauthorized advice, fragile psychological state. The meta-skill is the test.
+
 ## 30-second quickstart
 
 1. Open the book you want: copy the full contents of [`books/<book>/SKILL.md`](books/)
@@ -66,66 +83,22 @@ Skills are plain markdown. Any model that reads markdown can run them. Zero API 
 
 ---
 
-## Current books (v0.2.0)
+## Books (current + planned)
 
-### 1. Atomic Habits · James Clear (2018)
+| # | Book | Core lens | Status | Detail |
+|---|---|---|---|---|
+| 1 | **Atomic Habits** · James Clear (2018) | identity vote + atomic unit | ✓ v0.2 (delta +54.3) | [→ BOOKS#atomic-habits](BOOKS.md#1-atomic-habits--james-clear-2018) |
+| 2 | **The Psychology of Money** · Morgan Housel (2020) | wealth-invisible + enough + tail events + room for error | ✓ v0.2 (delta +34.3) | [→ BOOKS#psychology-of-money](BOOKS.md#2-the-psychology-of-money--morgan-housel-2020) |
+| 3 | **Deep Work** · Cal Newport (2016) | shallow audit + 4 scheduling philosophies | 🟡 v0.3 candidate | — |
+| 4 | **Outlive** · Peter Attia (2023) | Medicine 3.0; 30-year-horizon risk | 🟡 v0.3 candidate | — |
+| 5 | **Tiny Habits** · BJ Fogg (2019) | B = MAP; celebration as cement | 🟡 v0.5 candidate | — |
+| 6 | **Mindset** · Carol Dweck (2006) | growth vs fixed; response to feedback | 🟡 v0.5 candidate | — |
+| 7 | **Why We Sleep** · Matthew Walker (2017) | sleep as performance multiplier | 🟡 v0.5 candidate | — |
+| 8 | **Stolen Focus** · Johann Hari (2022) | attention as collectively stolen; environmental fix | 🟡 v0.5 candidate | — |
+| 9 | **Die With Zero** · Bill Perkins (2020) | when to spend, counter to PoM | 🟡 v0.8 candidate | — |
+| 10 | **The Let Them Theory** · Mel Robbins (2024) | boundary as release | 🟡 v0.8 candidate | — |
 
-**About**  
-A systems book on behavior change. The 4 Laws of Behavior Change (cue / craving / response / reward), identity-based habits (every action is a vote for the person you want to become), plus three immediately executable tools: the 2-minute rule, habit stacking, environment design. It reframes "habits" from a willpower problem into a systems problem.
-
-**Reach**  
-- **25M+** copies sold worldwide, translated into 60+ languages
-- Goodreads **4.34 / 5** across **986,427** ratings
-- #1 on the New York Times bestseller list for 260+ consecutive weeks (nearly 5 years)
-- Adam Grant: *"A supremely practical and useful book."*
-- Still the #1 global self-help seller as of 2026
-
-**Why this book**  
-Of all "methodology + behavior science" books, this one breaks methods into the smallest grain. No philosophy, no platitudes. Every concept maps to an action you can take in 5 minutes. The skill distills two load-bearing lenses: **identity vote** and **atomic unit**. Everything else orbits them.
-
-**Copy this skill when you say**  
-- "I want to start X" (sleep earlier / run / write / meditate / cut sugar ...)
-- "I want to quit X" (phone scrolling / late nights / snacks / procrastination ...)
-- "I broke my streak again / I didn't stick with it"
-- Self-blame statements like "this time for real" or "three days in, gone again"
-
-**What you get**  
-Open the skill and you first see the boot: a 3-5 minute flow expectation and 3 entry paths (paste memory / pick scenario / just speak).  
-Then the cold-start: a 15-second body action that lands you in the moment, a goal cut down to a 2-minute version you can actually do tonight, one sentence of habit stacking that anchors it to something you already do, one environment change you can make before bed.  
-The ending is always an open action that puts the steering wheel back in your hands.
-
-→ Skill: [books/atomic-habits/SKILL.md](books/atomic-habits/SKILL.md) · Eval: [EVAL.md](books/atomic-habits/EVAL.md) (delta +54.3)
-
----
-
-### 2. The Psychology of Money · Morgan Housel (2020)
-
-**About**  
-Twenty short, independent chapters, each carrying one mental model about money. The core lenses: wealth is what you don't see, room for error (build in 30-50% slack), tail events (a small number of moments drive most of your returns or losses), enough (define "enough" and stop). This book sits at the opposite end of every "how to invest" book, arguing 90% of money decisions are psychology, 10% are math.
-
-**Reach**  
-- **6M+** copies sold worldwide, translated into 50+ languages
-- Goodreads **4.26 / 5** across **285,459** ratings
-- *Financial Times* and *Bloomberg* Book of the Year
-- Naval Ravikant: *"Soon to be a classic."*
-- James Clear: *"Few people write about finance with as much wisdom and clarity as Morgan Housel."*
-
-**Why this book**  
-The least finance-y finance book on the shelf. No stock picks, no allocations, no metrics. It teaches: your relationship to money decides 90% of the outcome. The skill's hard rule follows: **never give specific investment advice** — no tickers, no platforms, no allocation percentages. That single rule is what sets this skill apart from every "AI for personal finance" out there.
-
-**Copy this skill when you say**  
-- "Should I buy X" (car / house / watch / luxury / expensive experience)
-- "My friend made money on X — should I jump in?"
-- "I got a raise / a bonus — how should I spend it?"
-- "Am I going to have enough? / How far am I from retirement?"
-- "Am I too conservative / too aggressive?"
-
-**What you get**  
-Open the skill and you first see the boot: the no-specific-advice hard rule stated upfront, a 3-5 minute flow expectation, and 5 scenarios to choose from (including "acute financial pressure" which routes straight to professional help).  
-Then the cold-start: a reframe that moves the question from arithmetic back to psychology, a YES / NO closed question (no room for the AI's favorite trick of listing 5 options), and a 30-day delay as the strongest tool against FOMO.  
-If your situation is outside the skill's edge — acute crisis, demand for specific advice, debt litigation — the skill actively routes you to a fee-only advisor / Schuldnerberatung / a lawyer.
-
-→ Skill: [books/psychology-of-money/SKILL.md](books/psychology-of-money/SKILL.md) · Eval: [EVAL.md](books/psychology-of-money/EVAL.md) (delta +34.3)
+Full per-book entries (intro / reach / what's distinctive / when to copy / what you get) live in [**BOOKS.md**](BOOKS.md), including archetype rationale for the 10-book seed slate and what we will *not* ship.
 
 ---
 
@@ -162,47 +135,14 @@ Full data, methodology limits, failure cases: [Atomic Habits EVAL](books/atomic-
 
 ---
 
-## 7 design principles (enforced per skill)
-
-1. **State first.** Read the user's current state before doing anything. Don't add friction when they're vulnerable.
-2. **No-question opening.** First 3 turns may not contain a question. People who can answer questionnaires don't need this book.
-3. **Body before mind.** Every cold-start contains at least one ≤15-second body or sensory action.
-4. **Transparent context borrow.** When using memory / Gmail / calendar, say so out loud: "I see in your memory that ..."
-5. **Return agency.** End with an open action like "what's your next vote" — never "you should X."
-6. **Visible reversibility.** Every suggestion is shown next to its skip / redirect / undo phrasing.
-7. **Honest self.** Don't fake memory of past sessions. Don't fake emotion. Don't fake concern.
-
-Full philosophy: [docs/ai-interaction-philosophy.md](docs/ai-interaction-philosophy.md). Each skill ships a self-check against these 7 in its EVAL.md.
-
----
-
-## Output structure (implementation rules, v0.1.5)
-
-The 7 above are philosophical. The 2 below are implementation rules. Every skill must implement both:
-
-**1. Boot — active start.**  
-The skill's first move after loading is to output its boot message — no waiting, no "ready, what's up?" reply. Boot must contain: a one-line self-introduction, an expectation (steps + duration), three entry paths (paste memory / pick scenario / just speak), and a low-friction close ("I'll wait" — never a question).
-
-**2. Every-reply destination close.**  
-Every skill response must end with one of these four. The user must always know what comes next.
-
-| Type | Use when | Example |
-|---|---|---|
-| A · concrete small action | After delivering a minimum-version plan | "Tonight, after brushing teeth, open the book to page 1. You don't need to tell me." |
-| B · YES/NO or letter choice | For diagnostic / closing moments | "Is the amount you're about to put in money you'd be willing to lose entirely? YES / NO." |
-| C · re-entry + freedom | At the end of any segment | "Come back tomorrow, or don't. Either is fine." |
-| D · crisis re-entry | For vulnerable / acute_stress states | "Find a real person tonight. When you want to talk about restarting, I'll be here." |
-
-Forbidden endings: abstract pep ("you got this"), open big questions ("what do you think you'll do?"), vague offers ("let me know if you need anything").
-
----
-
 ## Roadmap
 
 - [x] **v0.1** — Framework in place · 2 pilot books · A/B eval mechanism (6 scenarios) · 7 design principles
 - [x] **v0.1.5** — Boot active start (3 paths, expectation management) · Every-reply destination close as hard rule · Cliché clean
 - [x] **v0.2.0** — English as the primary language for all deliverables · Demo gif script · Updated README hook
-- [ ] **v0.3** — Third book (likely *Deep Work* or *Tiny Habits*) · `tools/eval.py` runs real-API eval (20 scenarios per book) · Independent evaluator model · Boot-quality added to scoring rubric
+- [x] **v0.2.1** — README bilingual (English primary + Chinese mirror)
+- [x] **v0.2.2** — Meta-skill blueprint surfaced as repo's main IP · Book detail folded into [BOOKS.md](BOOKS.md) · 10-book seed slate planned with archetype balance
+- [ ] **v0.3** — Third book (Deep Work or Outlive, see [BOOKS.md](BOOKS.md)) · `tools/eval.py` runs real-API eval (20 scenarios per book) · Independent evaluator model · Boot-quality added to scoring rubric
 - [ ] **v0.5** — First `packages/` bundle (midlife-health-pack: *Outlive* + *Atomic Habits* + *Why We Sleep*)
 - [ ] **v0.8** — 5 seed books, second package (new-grad-pack)
 - [ ] **v1.0** — 10 seed books · External contributions open · GitHub Actions CI runs eval on every PR
@@ -322,4 +262,4 @@ Book copyrights belong to authors and publishers. Takedown requests handled with
 
 ---
 
-*v0.2.1 · 2026-05-24 · 2 pilot books · English primary, Chinese mirror · boot + every-reply rules in place*
+*v0.2.2 · 2026-05-24 · 2 shipped + 8 planned · meta-skill positioned as main IP*
