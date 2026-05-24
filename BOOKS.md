@@ -134,15 +134,75 @@ Every output points to a real professional (physician, RD, qualified trainer, sl
 
 ---
 
+### 5. Tiny Habits · BJ Fogg (2019)
+
+**About**  
+The Stanford behavior scientist's framework: **B = MAP** (Behavior = Motivation × Ability × Prompt) plus the **ABC recipe** (After [Anchor], I will [Behavior]. To celebrate, I will [Shine]). Fogg's load-bearing claim: emotion at completion is what wires a habit, not repetition. The skill emphasizes celebration as the engine and troubleshoots failing habits in the counterintuitive order **Prompt → Ability → Motivation** (motivation last because it's the least reliable).
+
+**Reach**  
+- Goodreads **4.13 / 5** across ~19,172 ratings
+- NYT bestseller; Amazon editors' #1 leadership/business book of 2020
+- Fogg founded the Stanford Behavior Design Lab; previously trained Instagram founders
+- Translated into multiple languages; the book's 5-day Tiny Habits program reportedly has coached 60,000+ people
+
+**Why this book**  
+This is the **counterpart to Atomic Habits** in the behavior-systems archetype. Where Clear's lens is identity vote + atomic unit, Fogg's lens is **celebration as engine** + **B = MAP**. The two books are commonly conflated; the skill makes the difference explicit. Some users respond to identity framing (Clear); others respond to felt-emotion framing (Fogg). If one didn't land, the other is the natural alternative. Fogg also owns three concepts no other behavior book has: **Focus Mapping** (impact × feasibility 2×2 to PICK behaviors), **Pearl Habits** (turn irritant into anchor), and the **PROMPT → ABILITY → MOTIVATION** troubleshooting order.
+
+**Copy this skill when you say**  
+- "I want to start flossing / meditating / push-ups / writing" (any small daily behavior)
+- "I tried but it didn't stick" / "I do it for 3 days then stop"
+- "I'm just not motivated" (Fogg's response: motivation is rarely the actual problem)
+- "Every time X happens I get frustrated" (candidate for Pearl Habit)
+- "Atomic Habits didn't work for me" (different lens may fit better)
+
+**What you get**  
+Open the skill and you first see the boot with a **prominent honest disclaimer**: the celebration step requires real felt emotion (alone in your room, fist pump, "yes!"), it WILL feel silly the first 5 times, and if that's a hard no for you the Atomic Habits skill is a better fit. Then either: design a tiny ABC recipe with explicit celebration (new habit), diagnose your failing habit through the PROMPT → ABILITY → MOTIVATION sequence (most users arrive here), or design a Pearl Habit that turns an annoyance in your day into a positive prompt. The skill openly contrasts itself with Atomic Habits — they're both useful, they fit different users.
+
+→ Skill: [books/tiny-habits/SKILL.md](books/tiny-habits/SKILL.md) · Sources: [source-notes.md](books/tiny-habits/source-notes.md)
+
+---
+
+### 6. Mindset · Carol S. Dweck (2006, updated 2016)
+
+**About**  
+The Stanford psychologist's distillation of four decades of research on implicit theories of intelligence: **fixed mindset** (ability is set, effort signals deficiency, failure threatens identity) vs **growth mindset** (ability is cultivable, effort builds it, failure is feedback). Plus the "**yet**" reframe and the four-step protocol for catching the fixed-mindset voice in real time. The skill operates on the supported scope — individual self-talk, parenting language, processing personal failure — and openly tells users when their request exceeds what the evidence supports.
+
+**Reach**  
+- Goodreads **4.09 / 5** across ~179,400 ratings
+- **2M+** copies sold; routinely listed as a million-copy bestseller
+- TED talk "The Power of Believing That You Can Improve" (2014) ~14M views
+- "Growth mindset" became K-12 vernacular by 2014-2016
+- Translated into 20+ languages
+
+**Why this book — and where the evidence is honest**  
+Mindset is famous AND the empirical case for its widely-publicized applications is weaker than the popular framing implies. The skill makes this honest:
+- **What the data supports**: process-praise vs person-praise affects subsequent task choice + persistence (Mueller-Dweck 1998, replicated). The "yet" reframe as a personal linguistic tool. Sustained, contextually-supported intervention helps at-risk students modestly (Yeager 2019: +0.10 GPA).
+- **What the data does NOT support**: brief mindset interventions reliably moving grades for everyone (Sisk 2018 meta-analysis: d=0.08). A workshop or poster changing culture. Telling someone to "have growth mindset" fixing their performance — what Dweck herself calls "false growth mindset."
+
+The skill therefore: operates well on individual self-talk, parenting language, recovering from failure. Explicitly **declines** to oversell classroom-grade-fixing or corporate-culture-fixing claims. The honest-scope exit is unusual in this repo — most book skills oversell their book.
+
+**Copy this skill when you say**  
+- "I'm bad at X" / "I'm not a [math/writing/people/X] person" (the fixed-mindset voice)
+- "I told my kid 'you're so smart' for years and now they avoid hard things"
+- "I'm processing a public failure without spiraling"
+- "Someone on my team flinches from stretch assignments"
+- "I'm trying to use growth mindset to fix [grades/culture]" → skill will honestly push back
+
+**What you get**  
+Open the skill and the boot states the scope upfront: where the tools work (linguistic self-coaching, parenting, individual reframing) and where the evidence is weak (classroom grade-fixing, corporate culture). Then one of three scenes: catch the fixed-mindset voice in vivo and apply the "yet" reframe; switch parenting praise from person ("you're so smart") to process (strategy / effort-kind / progress) without guilt overhead; or diagnose when effort genuinely isn't working (often strategy / feedback / help is missing, not more effort). The skill cites the Sisk 2018 and Yeager 2019 critiques openly when a user asks for the over-claimed version.
+
+→ Skill: [books/mindset/SKILL.md](books/mindset/SKILL.md) · Sources: [source-notes.md](books/mindset/source-notes.md)
+
+---
+
 ## Planned slate (v0.5 → v1.0)
 
 Seven more books to round out the 10-book seed. Selection rule: span ≥4 archetypes, no two books occupy the same lens-shape, every book passes the "could you cold-start this in 15 seconds?" test.
 
-### Archetype: behavior systems (1 already shipped: Atomic Habits)
+### Archetype: behavior systems (2 shipped: Atomic Habits, Tiny Habits)
 
 | Book | Author / year | Distinctive lens | Status |
 |---|---|---|---|
-| **Tiny Habits** | BJ Fogg, 2019 | B = MAP (behavior = motivation × ability × prompt); celebration as cement | v0.5 candidate |
 | **The Power of Habit** | Charles Duhigg, 2012 | Cue / routine / reward (the predecessor frame AH built on) | v0.8 candidate |
 
 ### Archetype: cognitive / focus (1 shipped: Deep Work)
@@ -166,11 +226,10 @@ Seven more books to round out the 10-book seed. Selection rule: span ≥4 archet
 | **Thinking, Fast and Slow** | Daniel Kahneman, 2011 | System 1 / System 2; the bias menu | v0.8 candidate |
 | **Range** | David Epstein, 2019 | Sampling period before specialization | v1.0 candidate |
 
-### Archetype: mindset / identity (none shipped yet)
+### Archetype: mindset / identity (1 shipped: Mindset)
 
 | Book | Author / year | Distinctive lens | Status |
 |---|---|---|---|
-| **Mindset** | Carol Dweck, 2006 | Growth vs fixed framing; the response to feedback | v0.5 candidate |
 | **The Let Them Theory** | Mel Robbins, 2024 | Boundary as release (#1 bestseller 2025, freshly relevant) | v0.8 candidate |
 
 ### Candidate 10-book seed slate
@@ -181,8 +240,8 @@ Picking from the above, an opinionated 10-book seed:
 2. **Psychology of Money** ✓
 3. **Deep Work** ✓ (first cognitive/focus archetype)
 4. **Outlive** ✓ (first health archetype; medical-warning-prominent design)
-5. **Tiny Habits** — second behavior book, contrasts AH (smaller-than-atomic)
-6. **Mindset** — first identity archetype
+5. **Tiny Habits** ✓ (second behavior book, contrasts AH — celebration vs identity)
+6. **Mindset** ✓ (first identity archetype, honest-scope-warning design)
 7. **Why We Sleep** — health, sleep as foundation
 8. **Stolen Focus** — cognitive, current (2022)
 9. **Die With Zero** — money, counter to PoM (when to spend, not save)
@@ -219,4 +278,4 @@ If a draft can't fill in any one of those, the book isn't ready.
 
 ---
 
-*v0.2.4 · 2026-05-24 · 4 shipped + 6 planned · seed-slate methodology in place*
+*v0.3.0 · 2026-05-24 · 6 shipped + 4 planned · hybrid agent-research methodology validated*

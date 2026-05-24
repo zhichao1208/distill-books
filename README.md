@@ -1,8 +1,8 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.2.4-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-4-purple.svg)](#books-current--planned)
+[![Version](https://img.shields.io/badge/version-v0.3.0-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-6-purple.svg)](#books-current--planned)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-second-quickstart)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
@@ -91,8 +91,8 @@ Skills are plain markdown. Any model that reads markdown can run them. Zero API 
 | 2 | **The Psychology of Money** · Morgan Housel (2020) | wealth-invisible + enough + tail events + room for error | ✓ v0.2 (delta +34.3) | [→ BOOKS#psychology-of-money](BOOKS.md#2-the-psychology-of-money--morgan-housel-2020) |
 | 3 | **Deep Work** · Cal Newport (2016) | shallow audit + 4 scheduling philosophies | ✓ v0.2.3 (pre-eval) | [→ BOOKS#deep-work](BOOKS.md#3-deep-work--cal-newport-2016) |
 | 4 | **Outlive** · Peter Attia (2023) | Medicine 3.0 + Centenarian Decathlon | ✓ v0.2.4 (medical-warning-prominent) | [→ BOOKS#outlive](BOOKS.md#4-outlive--peter-attia-md-2023) |
-| 5 | **Tiny Habits** · BJ Fogg (2019) | B = MAP; celebration as cement | 🟡 v0.5 candidate | — |
-| 6 | **Mindset** · Carol Dweck (2006) | growth vs fixed; response to feedback | 🟡 v0.5 candidate | — |
+| 5 | **Tiny Habits** · BJ Fogg (2019) | celebration as engine + B = MAP | ✓ v0.3 | [→ BOOKS#tiny-habits](BOOKS.md#5-tiny-habits--bj-fogg-2019) |
+| 6 | **Mindset** · Carol S. Dweck (2006/2016) | fixed-vs-growth detection + "yet" + honest-scope warning | ✓ v0.3 | [→ BOOKS#mindset](BOOKS.md#6-mindset--carol-s-dweck-2006-updated-2016) |
 | 7 | **Why We Sleep** · Matthew Walker (2017) | sleep as performance multiplier | 🟡 v0.5 candidate | — |
 | 8 | **Stolen Focus** · Johann Hari (2022) | attention as collectively stolen; environmental fix | 🟡 v0.5 candidate | — |
 | 9 | **Die With Zero** · Bill Perkins (2020) | when to spend, counter to PoM | 🟡 v0.8 candidate | — |
@@ -144,7 +144,8 @@ Full data, methodology limits, failure cases: [Atomic Habits EVAL](books/atomic-
 - [x] **v0.2.2** — Meta-skill blueprint surfaced as repo's main IP · Book detail folded into [BOOKS.md](BOOKS.md) · 10-book seed slate planned with archetype balance
 - [x] **v0.2.3** — Third book shipped: [Deep Work](books/deep-work/SKILL.md) (cognitive/focus archetype) · Phase 3 of 10-book methodology · Outlive proposal locked
 - [x] **v0.2.4** — Fourth book shipped: [Outlive](books/outlive/SKILL.md) (health archetype, medical-warning-prominent in boot, emergency-detection before boot) · EVAL.md dropped as required artifact going forward (user testing IS the gate now); CONTRIBUTING updated
-- [ ] **v0.3** — Tiny Habits (second behavior book) · Mindset (first identity archetype) · half the seed slate complete
+- [x] **v0.3.0** — Fifth + sixth books shipped: [Tiny Habits](books/tiny-habits/SKILL.md) (celebration-as-engine, contrasts Atomic Habits) + [Mindset](books/mindset/SKILL.md) (honest-scope-warning design, openly cites Sisk 2018 / Yeager 2019 critiques). **Hybrid methodology validated**: research-only agents (in parallel) + I write SKILL.md + user tests. Halfway through 10-book seed slate.
+- [ ] **v0.4** — Why We Sleep (second health) + Stolen Focus (second cognitive) following same hybrid methodology
 - [ ] **v0.5** — First `packages/` bundle (midlife-health-pack: *Outlive* + *Atomic Habits* + *Why We Sleep*)
 - [ ] **v0.8** — 5 seed books, second package (new-grad-pack)
 - [ ] **v1.0** — 10 seed books · External contributions open · GitHub Actions CI runs eval on every PR
@@ -264,4 +265,4 @@ Book copyrights belong to authors and publishers. Takedown requests handled with
 
 ---
 
-*v0.2.4 · 2026-05-24 · 4 shipped + 6 planned · Outlive joins (health archetype, medical-warning design)*
+*v0.3.0 · 2026-05-24 · 6 shipped + 4 planned · Tiny Habits + Mindset join · hybrid methodology validated*

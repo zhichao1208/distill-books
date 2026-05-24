@@ -1,8 +1,8 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.2.4-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-4-purple.svg)](#书目已发--计划)
+[![Version](https://img.shields.io/badge/version-v0.3.0-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-6-purple.svg)](#书目已发--计划)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-秒上手)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
@@ -100,8 +100,8 @@ skill 内容是英文，AI 会用你说话的语言回应。中文输入 → 中
 | 2 | **The Psychology of Money** · Morgan Housel (2020) | wealth-invisible + enough + tail events + room for error | ✓ v0.2 (delta +34.3) | [→ BOOKS](BOOKS.md#2-the-psychology-of-money--morgan-housel-2020) |
 | 3 | **Deep Work** · Cal Newport (2016) | shallow audit + 4 调度哲学 | ✓ v0.2.3（待测评） | [→ BOOKS](BOOKS.md#3-deep-work--cal-newport-2016) |
 | 4 | **Outlive** · Peter Attia (2023) | Medicine 3.0 + Centenarian Decathlon | ✓ v0.2.4（医疗警告显眼） | [→ BOOKS](BOOKS.md#4-outlive--peter-attia-md-2023) |
-| 5 | **Tiny Habits** · BJ Fogg (2019) | B = MAP；庆祝作为粘合剂 | 🟡 v0.5 候选 | — |
-| 6 | **Mindset** · Carol Dweck (2006) | growth vs fixed；对反馈的反应 | 🟡 v0.5 候选 | — |
+| 5 | **Tiny Habits** · BJ Fogg (2019) | celebration as engine + B = MAP | ✓ v0.3 | [→ BOOKS](BOOKS.md#5-tiny-habits--bj-fogg-2019) |
+| 6 | **Mindset** · Carol S. Dweck (2006/2016) | fixed-vs-growth + "yet" + honest-scope warning | ✓ v0.3 | [→ BOOKS](BOOKS.md#6-mindset--carol-s-dweck-2006-updated-2016) |
 | 7 | **Why We Sleep** · Matthew Walker (2017) | 睡眠作为性能放大器 | 🟡 v0.5 候选 | — |
 | 8 | **Stolen Focus** · Johann Hari (2022) | 注意力被集体偷走；环境层面修复 | 🟡 v0.5 候选 | — |
 | 9 | **Die With Zero** · Bill Perkins (2020) | 何时该花，反 PoM | 🟡 v0.8 候选 | — |
@@ -150,7 +150,8 @@ Delta +89。这是这个项目存在的核心理由。
 - [x] **v0.2.2** — Meta-skill blueprint 上升为 repo 主 IP · 书目内容折叠到 [BOOKS.md](BOOKS.md) · 10 本种子 slate（archetype 平衡）
 - [x] **v0.2.3** — 第 3 本上线：[Deep Work](books/deep-work/SKILL.md)（cognitive/focus archetype）· 10 本方法论的 Phase 3 · Outlive proposal 已定
 - [x] **v0.2.4** — 第 4 本上线：[Outlive](books/outlive/SKILL.md)（health archetype，boot 顶部显眼医疗警告，急救词在 boot 之前先拦）· EVAL.md 不再是必需 artifact（用户测试就是质量门）；CONTRIBUTING 已更新
-- [ ] **v0.3** — Tiny Habits（第二本行为系统书）· Mindset（第一本身份认同书）· 种子 slate 过半
+- [x] **v0.3.0** — 第 5 + 6 本上线：[Tiny Habits](books/tiny-habits/SKILL.md)（celebration-as-engine，与 Atomic Habits 形成对照）+ [Mindset](books/mindset/SKILL.md)（honest-scope-warning 设计，正面引用 Sisk 2018 / Yeager 2019 学术批评）· **Hybrid 方法验证**：研究 agent 并行跑 + 我写 SKILL.md + 你测。10 本种子 slate 走完一半
+- [ ] **v0.4** — Why We Sleep（第二本健康）+ Stolen Focus（第二本认知）继续 hybrid 方法
 - [ ] **v0.5** — 第一个 `packages/` bundle（midlife-health-pack：*Outlive* + *Atomic Habits* + *Why We Sleep*）· 中文版 SKILL.md 试点
 - [ ] **v0.8** — 5 本种子书 · 第二个 package（new-grad-pack）
 - [ ] **v1.0** — 10 本种子书 · 开放外部贡献 PR · GitHub Actions CI 跑 eval
@@ -276,4 +277,4 @@ v1.0 前先做 10 本「种子书」再开放外部 PR。
 
 ---
 
-*v0.2.4 · 2026-05-24 · 4 已发 + 6 计划 · Outlive 加入（health archetype，医疗警告设计）*
+*v0.3.0 · 2026-05-24 · 6 已发 + 4 计划 · Tiny Habits + Mindset 加入 · hybrid 方法验证*
