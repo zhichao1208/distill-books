@@ -1,8 +1,9 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.3.0-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-6-purple.svg)](#books-current--planned)
+[![Version](https://img.shields.io/badge/version-v0.4.0-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-10-purple.svg)](#books-current--planned)
+[![Seed Slate](https://img.shields.io/badge/seed%20slate-complete-success.svg)](BOOKS.md)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-second-quickstart)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
@@ -93,10 +94,10 @@ Skills are plain markdown. Any model that reads markdown can run them. Zero API 
 | 4 | **Outlive** · Peter Attia (2023) | Medicine 3.0 + Centenarian Decathlon | ✓ v0.2.4 (medical-warning-prominent) | [→ BOOKS#outlive](BOOKS.md#4-outlive--peter-attia-md-2023) |
 | 5 | **Tiny Habits** · BJ Fogg (2019) | celebration as engine + B = MAP | ✓ v0.3 | [→ BOOKS#tiny-habits](BOOKS.md#5-tiny-habits--bj-fogg-2019) |
 | 6 | **Mindset** · Carol S. Dweck (2006/2016) | fixed-vs-growth detection + "yet" + honest-scope warning | ✓ v0.3 | [→ BOOKS#mindset](BOOKS.md#6-mindset--carol-s-dweck-2006-updated-2016) |
-| 7 | **Why We Sleep** · Matthew Walker (2017) | sleep as performance multiplier | 🟡 v0.5 candidate | — |
-| 8 | **Stolen Focus** · Johann Hari (2022) | attention as collectively stolen; environmental fix | 🟡 v0.5 candidate | — |
-| 9 | **Die With Zero** · Bill Perkins (2020) | when to spend, counter to PoM | 🟡 v0.8 candidate | — |
-| 10 | **The Let Them Theory** · Mel Robbins (2024) | boundary as release | 🟡 v0.8 candidate | — |
+| 7 | **Why We Sleep** · Matthew Walker (2017) | sleep tactics that hold up + honest scope re Walker's overclaims | ✓ v0.4 (honest-scope) | [→ BOOKS#why-we-sleep](BOOKS.md#7-why-we-sleep--matthew-walker-2017) |
+| 8 | **Stolen Focus** · Johann Hari (2022) | attention as collectively stolen; diagnostic-not-operational | ✓ v0.4 (cite-researchers approach) | [→ BOOKS#stolen-focus](BOOKS.md#8-stolen-focus--johann-hari-2022) |
+| 9 | **Die With Zero** · Bill Perkins (2020) | counter-frame to PoM; over-savers only | ✓ v0.4 (wrong-reader routing) | [→ BOOKS#die-with-zero](BOOKS.md#9-die-with-zero--bill-perkins-2020) |
+| 10 | **The Let Them Theory** · Mel Robbins (2024) | "Let them / Let me" cognitive interrupt; narrower skill | ✓ v0.4 (refusal-when-wrong design) | [→ BOOKS#let-them-theory](BOOKS.md#10-the-let-them-theory--mel-robbins-2024) |
 
 Full per-book entries (intro / reach / what's distinctive / when to copy / what you get) live in [**BOOKS.md**](BOOKS.md), including archetype rationale for the 10-book seed slate and what we will *not* ship.
 
@@ -145,7 +146,8 @@ Full data, methodology limits, failure cases: [Atomic Habits EVAL](books/atomic-
 - [x] **v0.2.3** — Third book shipped: [Deep Work](books/deep-work/SKILL.md) (cognitive/focus archetype) · Phase 3 of 10-book methodology · Outlive proposal locked
 - [x] **v0.2.4** — Fourth book shipped: [Outlive](books/outlive/SKILL.md) (health archetype, medical-warning-prominent in boot, emergency-detection before boot) · EVAL.md dropped as required artifact going forward (user testing IS the gate now); CONTRIBUTING updated
 - [x] **v0.3.0** — Fifth + sixth books shipped: [Tiny Habits](books/tiny-habits/SKILL.md) (celebration-as-engine, contrasts Atomic Habits) + [Mindset](books/mindset/SKILL.md) (honest-scope-warning design, openly cites Sisk 2018 / Yeager 2019 critiques). **Hybrid methodology validated**: research-only agents (in parallel) + I write SKILL.md + user tests. Halfway through 10-book seed slate.
-- [ ] **v0.4** — Why We Sleep (second health) + Stolen Focus (second cognitive) following same hybrid methodology
+- [x] **v0.4.0** — **10-BOOK SEED SLATE COMPLETE.** Shipped 4 books in one round (Why We Sleep, Stolen Focus, Die With Zero, The Let Them Theory) using 4 parallel research agents + me writing SKILL.md. Slate now spans 5 archetypes with 2 books each. **Six honest-scope / safety designs across the slate** (Outlive medical / Mindset academic critique / Why We Sleep Guzey critique / Stolen Focus researcher-citing / Die With Zero wrong-reader-routing / Let Them safety-refusal). This is the repo's most distinctive feature vs other book-to-skill projects.
+- [ ] **v0.5** — First `packages/` bundle (proposed: midlife-health-pack = Outlive + Why We Sleep + Atomic Habits + Atomic Habits). External contributor PRs accepted from here. Real-API eval option for users with their own API key.
 - [ ] **v0.5** — First `packages/` bundle (midlife-health-pack: *Outlive* + *Atomic Habits* + *Why We Sleep*)
 - [ ] **v0.8** — 5 seed books, second package (new-grad-pack)
 - [ ] **v1.0** — 10 seed books · External contributions open · GitHub Actions CI runs eval on every PR
@@ -265,4 +267,4 @@ Book copyrights belong to authors and publishers. Takedown requests handled with
 
 ---
 
-*v0.3.0 · 2026-05-24 · 6 shipped + 4 planned · Tiny Habits + Mindset join · hybrid methodology validated*
+*v0.4.0 · 2026-05-24 · **10-book seed slate COMPLETE** · 5 archetypes × 2 books · 6 honest-scope designs · hybrid methodology proven at scale*

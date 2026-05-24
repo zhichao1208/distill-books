@@ -1,8 +1,9 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.3.0-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-6-purple.svg)](#书目已发--计划)
+[![Version](https://img.shields.io/badge/version-v0.4.0-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-10-purple.svg)](#书目已发--计划)
+[![Seed Slate](https://img.shields.io/badge/种子-完成-success.svg)](BOOKS.md)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-秒上手)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
@@ -102,10 +103,10 @@ skill 内容是英文，AI 会用你说话的语言回应。中文输入 → 中
 | 4 | **Outlive** · Peter Attia (2023) | Medicine 3.0 + Centenarian Decathlon | ✓ v0.2.4（医疗警告显眼） | [→ BOOKS](BOOKS.md#4-outlive--peter-attia-md-2023) |
 | 5 | **Tiny Habits** · BJ Fogg (2019) | celebration as engine + B = MAP | ✓ v0.3 | [→ BOOKS](BOOKS.md#5-tiny-habits--bj-fogg-2019) |
 | 6 | **Mindset** · Carol S. Dweck (2006/2016) | fixed-vs-growth + "yet" + honest-scope warning | ✓ v0.3 | [→ BOOKS](BOOKS.md#6-mindset--carol-s-dweck-2006-updated-2016) |
-| 7 | **Why We Sleep** · Matthew Walker (2017) | 睡眠作为性能放大器 | 🟡 v0.5 候选 | — |
-| 8 | **Stolen Focus** · Johann Hari (2022) | 注意力被集体偷走；环境层面修复 | 🟡 v0.5 候选 | — |
-| 9 | **Die With Zero** · Bill Perkins (2020) | 何时该花，反 PoM | 🟡 v0.8 候选 | — |
-| 10 | **The Let Them Theory** · Mel Robbins (2024) | 边界作为释放 | 🟡 v0.8 候选 | — |
+| 7 | **Why We Sleep** · Matthew Walker (2017) | 睡眠操作核心 + 对 Walker overclaim 的诚实 | ✓ v0.4（honest-scope）| [→ BOOKS](BOOKS.md#7-why-we-sleep--matthew-walker-2017) |
+| 8 | **Stolen Focus** · Johann Hari (2022) | 注意力被集体偷走；诊断不操作 | ✓ v0.4（cite-researchers）| [→ BOOKS](BOOKS.md#8-stolen-focus--johann-hari-2022) |
+| 9 | **Die With Zero** · Bill Perkins (2020) | 反 PoM；只给 over-savers | ✓ v0.4（wrong-reader 路由）| [→ BOOKS](BOOKS.md#9-die-with-zero--bill-perkins-2020) |
+| 10 | **The Let Them Theory** · Mel Robbins (2024) | "Let them / Let me" 认知中断 | ✓ v0.4（refusal-when-wrong 设计）| [→ BOOKS](BOOKS.md#10-the-let-them-theory--mel-robbins-2024) |
 
 完整 per-book 内容（介绍 / 影响 / 特点 / 用法 / 期待）见 [**BOOKS.md**](BOOKS.md)（英文），含 10 本种子书的 archetype 平衡逻辑 + 不做哪几类书。
 
@@ -151,7 +152,8 @@ Delta +89。这是这个项目存在的核心理由。
 - [x] **v0.2.3** — 第 3 本上线：[Deep Work](books/deep-work/SKILL.md)（cognitive/focus archetype）· 10 本方法论的 Phase 3 · Outlive proposal 已定
 - [x] **v0.2.4** — 第 4 本上线：[Outlive](books/outlive/SKILL.md)（health archetype，boot 顶部显眼医疗警告，急救词在 boot 之前先拦）· EVAL.md 不再是必需 artifact（用户测试就是质量门）；CONTRIBUTING 已更新
 - [x] **v0.3.0** — 第 5 + 6 本上线：[Tiny Habits](books/tiny-habits/SKILL.md)（celebration-as-engine，与 Atomic Habits 形成对照）+ [Mindset](books/mindset/SKILL.md)（honest-scope-warning 设计，正面引用 Sisk 2018 / Yeager 2019 学术批评）· **Hybrid 方法验证**：研究 agent 并行跑 + 我写 SKILL.md + 你测。10 本种子 slate 走完一半
-- [ ] **v0.4** — Why We Sleep（第二本健康）+ Stolen Focus（第二本认知）继续 hybrid 方法
+- [x] **v0.4.0** — **10 本种子 slate 完成。** 一轮 ship 4 本（Why We Sleep, Stolen Focus, Die With Zero, The Let Them Theory），用 4 个并行 research agent + 我写 SKILL.md。Slate 横跨 5 个 archetype，每个 2 本。**6 个 honest-scope / safety 设计**（Outlive 医疗 / Mindset 学术批评 / Why We Sleep Guzey 批评 / Stolen Focus 引用底层研究者 / Die With Zero 错误读者路由 / Let Them 安全拒绝）—— 这是 repo 与其它 book-to-skill 项目的最强差异化
+- [ ] **v0.5** — 第一个 `packages/` bundle（拟选 midlife-health-pack）· 开始接受外部贡献者 PR · 用户可选自带 API key 跑真测评
 - [ ] **v0.5** — 第一个 `packages/` bundle（midlife-health-pack：*Outlive* + *Atomic Habits* + *Why We Sleep*）· 中文版 SKILL.md 试点
 - [ ] **v0.8** — 5 本种子书 · 第二个 package（new-grad-pack）
 - [ ] **v1.0** — 10 本种子书 · 开放外部贡献 PR · GitHub Actions CI 跑 eval
@@ -277,4 +279,4 @@ v1.0 前先做 10 本「种子书」再开放外部 PR。
 
 ---
 
-*v0.3.0 · 2026-05-24 · 6 已发 + 4 计划 · Tiny Habits + Mindset 加入 · hybrid 方法验证*
+*v0.4.0 · 2026-05-24 · **10 本种子 slate 完成** · 5 archetype × 2 本 · 6 个 honest-scope 设计 · hybrid 方法规模化验证*

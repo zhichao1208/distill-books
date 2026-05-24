@@ -195,7 +195,131 @@ Open the skill and the boot states the scope upfront: where the tools work (ling
 
 ---
 
-## Planned slate (v0.5 → v1.0)
+### 7. Why We Sleep · Matthew Walker (2017)
+
+**About**  
+UC Berkeley sleep scientist's framework for sleep — the two-process model (sleep pressure + circadian), NREM/REM functions, CBT-I-over-pills for insomnia, alcohol-REM disruption, caffeine half-life, sleep hygiene basics. The skill carries the OPERATIONAL core (what to do tonight) and **declines** Walker's strong disease-prediction claims (WHO "sleep epidemic," cancer/Alzheimer's specifics) which have been seriously challenged by Guzey 2019 and follow-up academic critiques.
+
+**Reach** — Goodreads ~4.31 / 5, ~140k+ ratings · widely cited (Joe Rogan, TED) · arguably the most-distributed sleep-medicine book of the late 2010s
+
+**Why this book + honest scope**: of the sleep-domain books, Walker has the best operational synthesis FOR a general reader. The book also has well-documented credibility issues — the skill addresses these by carrying tactics (cool dark room, consistent schedule, caffeine cutoff, alcohol-REM, CBT-I routing) while declining the over-claimed disease causation. Honest-scope design like Mindset.
+
+**Copy this skill when you say** — "I can't fall asleep" / "I'm tired but wired" / "I wake at 3am" / "caffeine or alcohol seems to wreck my sleep" / "I want a real sleep foundation"
+
+**What you get** — Boot states scope (operational tactics work; disease overclaims don't). Cold-start diagnoses bottleneck (caffeine timing / alcohol / screen / racing mind). Three scenes: wired-but-tired immediate response, caffeine-or-alcohol-specific protocols, route-to-CBT-I-or-clinician when tactics aren't enough. **Routes to sleep medicine** for suspected apnea, restless legs, or insomnia disorder (3+ months, 3+ nights/week).
+
+→ Skill: [books/why-we-sleep/SKILL.md](books/why-we-sleep/SKILL.md) · Sources: [source-notes.md](books/why-we-sleep/source-notes.md)
+
+---
+
+### 8. Stolen Focus · Johann Hari (2022)
+
+**About**  
+The book argues attention is being collectively stolen by ~12 environmental forces (engagement engineering, interruption, sleep debt, diet, pollution, loss of free play, etc.), not by personal weakness. The skill is the **diagnostic counterpart to Deep Work**: where Newport gives the operational manual, Hari gives the diagnosis ("you cannot out-discipline an industry designed to defeat your willpower"). This skill helps users reframe self-blame, then routes to Deep Work (operating manual) or Tiny Habits (environment design) for tactics.
+
+**Reach** — Goodreads ~4.27 / 5 · NYT bestseller · widely discussed in tech/attention-policy circles
+
+**Why this book + honest scope** — Hari had a 2011-2012 plagiarism scandal in his journalism career. The skill addresses this by **citing the underlying researchers** (Gloria Mark on switching cost, Tristan Harris on attention engineering, Andrew Przybylski on social media, Mihaly Csikszentmihalyi on flow) rather than "Hari says X." The synthesis is the value. The ADHD chapter is contested in the ADHD community; the skill routes to clinical evaluation rather than substituting for it.
+
+**Copy this skill when you say** — "I can't focus and I keep blaming myself" / "is attention loss really my fault" / "I want to delete all my apps but" / "I think I might have ADHD"
+
+**What you get** — Boot explains scope (diagnostic, not operational) and Hari source-credibility approach. Cold-start: reframe self-blame as environment-shaped, then identify which 1-2 of the 12 forces are biggest for you. Routes to **Deep Work skill for individual tactics**, **Tiny Habits for environment design**, **clinical evaluation for suspected ADHD**. Three scenes: the self-blame reframe, the 12-forces diagnostic, and "when individual fixes aren't enough" (systemic / policy framing).
+
+→ Skill: [books/stolen-focus/SKILL.md](books/stolen-focus/SKILL.md) · Sources: [source-notes.md](books/stolen-focus/source-notes.md)
+
+---
+
+### 9. Die With Zero · Bill Perkins (2020)
+
+**About**  
+The explicit **counter-frame to Psychology of Money**: where Housel says "save just to save; enough is a state," Perkins says "wealth not spent IS waste; intentionally peak your Net Worth Curve at 45-60 then decline to zero by death." Core concepts: Time Buckets (life is decades with different physical/time capacities for experiences), Memory Dividend (experiences pay compounding returns through memory), give-while-alive (kids get more utility from inheritance at 30 than at 60).
+
+**Reach** — Goodreads ~4.20 / 5 · cult bestseller in FIRE / personal finance / Tim Ferriss communities
+
+**Why this book — and a critical safety warning**: Die With Zero is the **right tool for over-savers** (people with safety net + retirement runway who can't enjoy what they have). It is the **WRONG tool — actively harmful — for under-savers**. The skill's boot has the most explicit "wrong reader" routing in the repo:
+- No 6-month emergency fund? Route to Psychology of Money skill
+- Retirement runway uncertain? See fee-only advisor BEFORE applying this
+- Meaning comes from work/craft/faith (not experiences)? Book doesn't fit
+- Frail-tail concern (dementia, disability, longevity)? Book's time-bucket model has blind spots
+
+**Copy this skill when you say** — "I have money but feel guilty spending it" / "I keep postponing experiences for 'someday'" / "I want to give my kids money now" / "I'm 50 and afraid to enjoy what I worked for"
+
+**What you get** — Boot screens for the wrong reader carefully. For right-readers: cold-start framing (Net Worth Curve, Time Buckets, Memory Dividend). Three scenes: over-saver-can't-spend (with 6 sub-types), inheritance-timing (give-while-alive structure + family conversation), experience-vs-stuff (4-test diagnostic). Skill explicitly contrasts itself with Psychology of Money — both books are right for different users.
+
+→ Skill: [books/die-with-zero/SKILL.md](books/die-with-zero/SKILL.md) · Sources: [source-notes.md](books/die-with-zero/source-notes.md)
+
+---
+
+### 10. The Let Them Theory · Mel Robbins (2024)
+
+**About — deliberately a narrower skill**  
+The core methodology is one cognitive interrupt phrase: "Let them" (release rumination about others' uncontrollable behavior) + "Let me" (redirect to your own agency). The skill is **deliberately narrower than other skills in the slate** because the source methodology is thin (multiple reviewers call the book "30-40 pages padded to 300"). The skill has 2 scenes instead of 3, simpler cold-start, less complex state-first table. **Honest about the source.**
+
+**Reach** — #1 NYT bestseller through 2025 · Goodreads ~4.05 / 5 (lower than other slate books, reflecting some critical reception)
+
+**Why this book — two non-negotiable honesty notes built into boot**:
+1. **The phrase is NOT Robbins's invention.** Cassie B. Phillips wrote the viral "Let Them" poem in 2022; Robbins did not originally credit her. Deeper ancestor: Stoic dichotomy of control (Epictetus, ~125 CE). Skill credits both in boot.
+2. **"Let them" is NOT a response to actual harm.** Abuse, harassment, situations where you have responsibility (your minor kids, your team), crisis situations — the skill **REFUSES** to apply the slogan and routes to safety resources / professional help.
+
+**Copy this skill when you say** — "my friend hasn't texted back" / "my mom keeps criticizing" / "I can't stop wondering what they think" / "my adult sibling is making choices I disagree with"
+
+**What you get** — Boot explains origin + safety limits. Cold-start: name the rumination loop, apply "Let them / Let me" interrupt, identify what's in vs out of your control. Two scenes: ruminating-about-others (the core use, with 5 sub-types), when-let-them-is-wrong (refusal + routing). The skill is honest that a slogan does what it does, and no more.
+
+→ Skill: [books/let-them-theory/SKILL.md](books/let-them-theory/SKILL.md) · Sources: [source-notes.md](books/let-them-theory/source-notes.md)
+
+---
+
+## 10-book seed slate: COMPLETE ✓
+
+All 10 books shipped as of v0.4.0 (2026-05-24).
+
+| # | Book | Archetype | Notable design feature |
+|---|---|---|---|
+| 1 | Atomic Habits | behavior systems | identity vote + atomic unit (the foundational lens) |
+| 2 | Psychology of Money | mental models / money | hard rule: no specific investment advice |
+| 3 | Deep Work | cognitive / focus | 4 scheduling philosophies; structural_shallow exit |
+| 4 | Outlive | health / body | medical warning prominent in boot; emergency-detection before boot |
+| 5 | Tiny Habits | behavior systems #2 | celebration as engine; honest contrast with Atomic Habits |
+| 6 | Mindset | mindset / identity | honest-scope warning (cites Sisk 2018, Yeager 2019 critiques) |
+| 7 | Why We Sleep | health / body #2 | honest-scope warning (cites Guzey 2019 critique); medical routing |
+| 8 | Stolen Focus | cognitive / focus #2 | diagnostic-not-operational; cite-underlying-researchers approach |
+| 9 | Die With Zero | money #2 | explicit counter-frame to PoM; "wrong reader" routing |
+| 10 | The Let Them Theory | mindset / identity #2 | deliberately narrower; origin credit; refusal-when-wrong scene |
+
+**Six honest-scope / safety designs across the slate** — Outlive, Mindset, Why We Sleep, Stolen Focus, Die With Zero, Let Them Theory all have explicit "this book doesn't apply when X" or "the popular framing overstates Y" stances. This is the skill repo's most distinctive feature vs other book-to-skill projects.
+
+## Future slate (v0.5 → v2.0 — beyond the seed 10)
+
+These are candidates for expansion past the seed slate.
+
+### Archetype: behavior systems
+
+| Book | Author / year | Distinctive lens | Status |
+|---|---|---|---|
+| **The Power of Habit** | Charles Duhigg, 2012 | Cue / routine / reward (predecessor to AH) | v0.6 candidate |
+
+### Archetype: cognitive / focus
+
+| Book | Author / year | Distinctive lens | Status |
+|---|---|---|---|
+| **Make It Stick** | Brown / Roediger / McDaniel, 2014 | Retrieval > re-reading; spaced retrieval | v0.6 candidate |
+
+### Archetype: health / body
+
+| Book | Author / year | Distinctive lens | Status |
+|---|---|---|---|
+| **Breath** | James Nestor, 2020 | Nasal-only + slow exhale; breathing as posture | v0.8 candidate |
+
+### Archetype: mental models / decisions
+
+| Book | Author / year | Distinctive lens | Status |
+|---|---|---|---|
+| **Thinking, Fast and Slow** | Daniel Kahneman, 2011 | System 1 / 2; the bias menu | v0.8 candidate |
+| **Range** | David Epstein, 2019 | Sampling period before specialization | v1.0 candidate |
+
+---
+
+## Planned slate (legacy planning section, superseded by COMPLETE marker above)
 
 Seven more books to round out the 10-book seed. Selection rule: span ≥4 archetypes, no two books occupy the same lens-shape, every book passes the "could you cold-start this in 15 seconds?" test.
 
@@ -232,16 +356,18 @@ Seven more books to round out the 10-book seed. Selection rule: span ≥4 archet
 |---|---|---|---|
 | **The Let Them Theory** | Mel Robbins, 2024 | Boundary as release (#1 bestseller 2025, freshly relevant) | v0.8 candidate |
 
-### Candidate 10-book seed slate
-
-Picking from the above, an opinionated 10-book seed:
+### Candidate 10-book seed slate (ALL ✓ COMPLETE)
 
 1. **Atomic Habits** ✓
 2. **Psychology of Money** ✓
-3. **Deep Work** ✓ (first cognitive/focus archetype)
-4. **Outlive** ✓ (first health archetype; medical-warning-prominent design)
-5. **Tiny Habits** ✓ (second behavior book, contrasts AH — celebration vs identity)
-6. **Mindset** ✓ (first identity archetype, honest-scope-warning design)
+3. **Deep Work** ✓
+4. **Outlive** ✓ (medical-warning design)
+5. **Tiny Habits** ✓ (counterpart to Atomic Habits — celebration vs identity)
+6. **Mindset** ✓ (honest-scope-warning design — Sisk + Yeager critiques)
+7. **Why We Sleep** ✓ (honest-scope-warning design — Guzey critique)
+8. **Stolen Focus** ✓ (diagnostic + cite-researchers approach)
+9. **Die With Zero** ✓ (counter-frame to PoM + wrong-reader routing)
+10. **The Let Them Theory** ✓ (deliberately narrower + refusal scene)
 7. **Why We Sleep** — health, sleep as foundation
 8. **Stolen Focus** — cognitive, current (2022)
 9. **Die With Zero** — money, counter to PoM (when to spend, not save)
@@ -278,4 +404,4 @@ If a draft can't fill in any one of those, the book isn't ready.
 
 ---
 
-*v0.3.0 · 2026-05-24 · 6 shipped + 4 planned · hybrid agent-research methodology validated*
+*v0.4.0 · 2026-05-24 · **10-book seed slate COMPLETE** · 6 honest-scope designs across slate · hybrid agent-research methodology validated at scale (4 books in one round)*
