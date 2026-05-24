@@ -20,16 +20,13 @@ Under the following terms:
 
 ---
 
-NOTES ON THE BOOKS REFERENCED
+ON BOOK CONTENT AND TAKEDOWN REQUESTS
 
-The methodologies discussed in this repository are summarized and adapted
-from published books, whose copyright belongs to their respective authors
-and publishers. This repository contains:
+The methodologies in this repository are summarized and adapted from
+published books. The full attribution policy, list of public sources used,
+and the takedown procedure (24-hour response, no lawyer needed) are
+documented in README.md under "版权与基于公开内容的说明".
 
-- Editorial interpretation and structural reorganization of public methods
-- AI interaction design built around those methods
-- No verbatim reproduction of book text beyond fair use
-
-If an author or publisher believes any skill in this repository infringes
-their rights, please file a GitHub issue. We will remove or revise the
-content immediately.
+If you are a rights holder and have concerns about any skill in this
+repository, please file a GitHub issue or email zhichao1208@gmail.com
+with subject "[Takedown] <Book Title>".
