@@ -1,9 +1,9 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.5.0-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-20-purple.svg)](BOOKS.md)
-[![Archetypes](https://img.shields.io/badge/archetypes-10-success.svg)](BOOKS.md)
+[![Version](https://img.shields.io/badge/version-v0.6.0-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-30-purple.svg)](BOOKS.md)
+[![Archetypes](https://img.shields.io/badge/archetypes-14-success.svg)](BOOKS.md)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-second-quickstart)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
@@ -108,8 +108,18 @@ Skills are plain markdown. Any model that reads markdown can run them. Zero API 
 | 18 | **The Whole-Brain Child** · Siegel & Bryson (2011) | Connect-before-redirect + "name it to tame it" | ✓ v0.5 (neuroscience-simplification honest) | [→ BOOKS#18](BOOKS.md#18-the-whole-brain-child--daniel-j-siegel--tina-payne-bryson-2011) |
 | 19 | **Decisive** · Heath brothers (2013) | WRAP framework + 4 villains of decision-making | ✓ v0.5 (opinion-on-when-WRAP-applies) | [→ BOOKS#19](BOOKS.md#19-decisive--chip-heath--dan-heath-2013) |
 | 20 | **Thinking in Bets** · Annie Duke (2018) | Resulting + calibrated confidence + bet framing | ✓ v0.5 (pairs with Decisive) | [→ BOOKS#20](BOOKS.md#20-thinking-in-bets--annie-duke-2018) |
+| 21 | **How to Change** · Katy Milkman (2021) | obstacle-diagnostic + fresh-start + temptation bundling + commitment device + implementation intention + default architecture + advice-giving | ✓ v0.6 (8% post-intervention durability + commitment-device backfire honest) | [→ BOOKS#how-to-change](BOOKS.md#21-how-to-change--katy-milkman-2021) |
+| 22 | **Make It Stick** · Brown / Roediger / McDaniel (2014) | retrieval > re-reading + spaced + interleaved + desirable difficulties + fluency illusion + no learning styles | ✓ v0.6 (material-dependent interleaving + expertise-reversal warning) | [→ BOOKS#make-it-stick](BOOKS.md#22-make-it-stick--brown--roediger--mcdaniel-2014) |
+| 23 | **Breath** · James Nestor (2020) | nasal-only default + slow exhale ~6 bpm + practice-by-practice evidence ladder | ✓ v0.6 (evidence-graded; mouth-tape contested; Mike Mew refused) | [→ BOOKS#breath](BOOKS.md#23-breath--james-nestor-2020) |
+| 24 | **Grit** · Angela Duckworth (2016) | Hard Thing Rule + deliberate practice + discover-and-deepen interest | ✓ v0.6 (heaviest honest-scope after BKS — Credé 2017 + Kohn 4-part + Range cross-ref) | [→ BOOKS#grit](BOOKS.md#24-grit--angela-duckworth-2016) |
+| 25 | **Drive** · Daniel H. Pink (2009) | Autonomy / Mastery / Purpose; intrinsic-vs-extrinsic for work type | ✓ v0.6 (SDT translation + ROWE walkback + Google 20% honest + floor-condition warning) | [→ BOOKS#drive](BOOKS.md#25-drive--daniel-h-pink-2009) |
+| 26 | **Designing Your Life** · Burnett & Evans (2016) | Odyssey Plans + Wayfinding + prototype conversations + reframe | ✓ v0.6 (life design — NEW archetype; affluent-bias + design-thinking-critique honest) | [→ BOOKS#designing-your-life](BOOKS.md#26-designing-your-life--burnett--evans-2016) |
+| 27 | **How to Talk So Kids Will Listen** · Faber & Mazlish (1980) | 5 tool-clusters: feelings / cooperation / alt-to-punishment / autonomy / descriptive praise | ✓ v0.6 (parenting #2; 1980 practitioner-tested + scripted-feel warning + cultural translation) | [→ BOOKS#how-to-talk](BOOKS.md#27-how-to-talk-so-kids-will-listen--faber--mazlish-1980) |
+| 28 | **The Power of Now** · Eckhart Tolle (1997) | present-moment + cognitive defusion + body anchor (metaphysics bracketed) | ✓ v0.6 (spirituality/presence — NEW; Welwood bypassing + Britton meditation adverse effects + HARD clinical routing) | [→ BOOKS#power-of-now](BOOKS.md#28-the-power-of-now--eckhart-tolle-1997) |
+| 29 | **Four Thousand Weeks** · Oliver Burkeman (2021) | finitude as starting point; deliberate neglect; counter-frame to GTD + Deep Work | ✓ v0.6 (finitude/time-philosophy — NEW; privilege baseline + Heidegger simplified + Slow Productivity partial reconciliation) | [→ BOOKS#four-thousand-weeks](BOOKS.md#29-four-thousand-weeks--oliver-burkeman-2021) |
+| 30 | **The Body Keeps the Score** · Bessel van der Kolk (2014) | trauma literacy: window of tolerance + autonomic states + modality evidence map | ✓ v0.6 (trauma/healing — NEW; STRICTEST honest-scope — 2018 firing + MDMA FDA Aug-2024 rejection + first-line PE/CPT/TF-CBT named) | [→ BOOKS#body-keeps-score](BOOKS.md#30-the-body-keeps-the-score--bessel-van-der-kolk-2014) |
 
-Full per-book entries (intro / reach / what's distinctive / when to copy / what you get) live in [**BOOKS.md**](BOOKS.md), including archetype rationale for the 10-book seed slate and what we will *not* ship.
+Full per-book entries (intro / reach / what's distinctive / when to copy / what you get) live in [**BOOKS.md**](BOOKS.md), including archetype rationale for the seed slate and what we will *not* ship.
 
 ---
 
@@ -157,12 +167,12 @@ Full data, methodology limits, failure cases: [Atomic Habits EVAL](books/atomic-
 - [x] **v0.2.4** — Fourth book shipped: [Outlive](books/outlive/SKILL.md) (health archetype, medical-warning-prominent in boot, emergency-detection before boot) · EVAL.md dropped as required artifact going forward (user testing IS the gate now); CONTRIBUTING updated
 - [x] **v0.3.0** — Fifth + sixth books shipped: [Tiny Habits](books/tiny-habits/SKILL.md) (celebration-as-engine, contrasts Atomic Habits) + [Mindset](books/mindset/SKILL.md) (honest-scope-warning design, openly cites Sisk 2018 / Yeager 2019 critiques). **Hybrid methodology validated**: research-only agents (in parallel) + I write SKILL.md + user tests. Halfway through 10-book seed slate.
 - [x] **v0.4.0** — **10-BOOK SEED SLATE COMPLETE.** Shipped 4 books in one round (Why We Sleep, Stolen Focus, Die With Zero, The Let Them Theory) using 4 parallel research agents + me writing SKILL.md. Slate now spans 5 archetypes with 2 books each. **Six honest-scope / safety designs across the slate** (Outlive medical / Mindset academic critique / Why We Sleep Guzey critique / Stolen Focus researcher-citing / Die With Zero wrong-reader-routing / Let Them safety-refusal). This is the repo's most distinctive feature vs other book-to-skill projects.
-- [x] **v0.5.0** — **BATCH 2: 10 more books = 20-BOOK SHELF.** Shipped Power of Habit, Thinking Fast and Slow, Range, So Good They Can't Ignore You, Crucial Conversations, Nonviolent Communication, Daring Greatly, Whole-Brain Child, Decisive, Thinking in Bets. 5 NEW archetypes added (Career, Communication, Vulnerability, Parenting, Decision-making). 10 parallel research agents + me writing SKILL.md. Nearly every skill in 20-book shelf carries honest-scope design (ego depletion retraction / Kahneman priming retraction / survivorship bias / corporate-pitch flag / power-imbalance refusal / Vulnerability Inc. critique / neuroscience simplification flag / etc.). **Scenes deferred to v0.5.1** — SKILL.md + source-notes shipped; scene depth files coming next round.
-- [ ] **v0.5.1** — Scene files for all 10 batch-2 books (2 scenes each, ~20 files) + scene files for the 4 batch-1 books that had only stub scenes. Bring scenes to parity with batch-1 books.
-- [ ] **v0.6** — First `packages/` bundle (midlife-health-pack = Outlive + Why We Sleep + Atomic Habits) · external contributor PRs accepted
-- [ ] **v0.5** — First `packages/` bundle (midlife-health-pack: *Outlive* + *Atomic Habits* + *Why We Sleep*)
-- [ ] **v0.8** — 5 seed books, second package (new-grad-pack)
-- [ ] **v1.0** — 10 seed books · External contributions open · GitHub Actions CI runs eval on every PR
+- [x] **v0.5.0** — **BATCH 2: 10 more books = 20-BOOK SHELF.** Shipped Power of Habit, Thinking Fast and Slow, Range, So Good They Can't Ignore You, Crucial Conversations, Nonviolent Communication, Daring Greatly, Whole-Brain Child, Decisive, Thinking in Bets. 5 NEW archetypes added (Career, Communication, Vulnerability, Parenting, Decision-making). 10 parallel research agents + me writing SKILL.md. Nearly every skill in 20-book shelf carries honest-scope design.
+- [x] **v0.6.0** — **BATCH 3: 10 more books = 30-BOOK SHELF · 4 NEW ARCHETYPES.** Shipped How to Change, Make It Stick, Breath, Grit, Drive, Designing Your Life, How to Talk So Kids Will Listen, The Power of Now, Four Thousand Weeks, The Body Keeps the Score. 4 NEW archetypes (life design, spirituality/presence, finitude/time-philosophy, trauma/healing). Existing archetypes reinforced (behavior systems → 4 books, cognitive/focus → 3, health/body → 3, mindset/identity → 3, career → 3, parenting → 2). 10 parallel research agents + me writing SKILL.md. **Strictest honest-scope skill in the entire slate: Body Keeps the Score** (literacy-only, crisis-first, modality evidence ladder, MDMA FDA Aug-2024 rejection, first-line PE/CPT/TF-CBT named alongside body-based). Power of Now adds Welwood spiritual-bypassing critique + Britton lab meditation adverse-effects routing. Grit adds Credé 2017 meta + Kohn 4-part critique + explicit Range cross-reference. **Scenes deferred to v0.6.1** — SKILL.md + source-notes shipped this round.
+- [ ] **v0.6.1** — Scene files for all 10 batch-2 books + 10 batch-3 books + 4 batch-1 books that had only stub scenes (~24 files total). Bring scene depth to parity across the 30-book shelf.
+- [ ] **v0.7** — First `packages/` bundle (midlife-health-pack = Outlive + Why We Sleep + Atomic Habits) · external contributor PRs accepted
+- [ ] **v0.8** — Second package (new-grad-pack: Atomic Habits + Deep Work + Psychology of Money + Designing Your Life + So Good They Can't Ignore You) · additional book candidates from waitlist
+- [ ] **v1.0** — 30+ seed books stable · External contributions open · GitHub Actions CI runs eval on every PR
 - [ ] **v2.0** — 50+ books · Bilingual (English primary, Chinese mirror) · Standalone site (distillbooks.dev or similar)
 - [ ] **Ambition** — 100+ books. Methodology books keep getting written, so this repo isn't supposed to "finish."
 
@@ -279,4 +289,4 @@ Book copyrights belong to authors and publishers. Takedown requests handled with
 
 ---
 
-*v0.5.0 · 2026-05-24 · **20-book shelf** · 10 archetypes covered · honest-scope nearly every skill · hybrid methodology shipped 10 books in one round*
+*v0.6.0 · 2026-05-27 · **30-book shelf** · 14 archetypes covered (4 new this round: life design / spirituality / finitude / trauma) · honest-scope nearly every skill · hybrid methodology shipped 10 books in one round again*

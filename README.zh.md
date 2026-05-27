@@ -1,9 +1,9 @@
 # distill-books
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.5.0-orange.svg)](#roadmap)
-[![Books](https://img.shields.io/badge/books-20-purple.svg)](BOOKS.md)
-[![Archetypes](https://img.shields.io/badge/archetype-10-success.svg)](BOOKS.md)
+[![Version](https://img.shields.io/badge/version-v0.6.0-orange.svg)](#roadmap)
+[![Books](https://img.shields.io/badge/books-30-purple.svg)](BOOKS.md)
+[![Archetypes](https://img.shields.io/badge/archetype-14-success.svg)](BOOKS.md)
 [![Setup](https://img.shields.io/badge/setup-zero-brightgreen.svg)](#30-秒上手)
 [![Sponsor](https://img.shields.io/badge/sponsor-☕-pink.svg)](https://www.buymeacoffee.com/zhichao1208)
 
@@ -117,6 +117,16 @@ skill 内容是英文，AI 会用你说话的语言回应。中文输入 → 中
 | 18 | **The Whole-Brain Child** · Siegel & Bryson (2011) | 连接-再-引导 + "name it to tame it" | ✓ v0.5（neuroscience 简化诚实）| [→ BOOKS](BOOKS.md#18-the-whole-brain-child--daniel-j-siegel--tina-payne-bryson-2011) |
 | 19 | **Decisive** · Heath brothers (2013) | WRAP framework + 4 决策反派 | ✓ v0.5（WRAP 适用 / 不适用观点）| [→ BOOKS](BOOKS.md#19-decisive--chip-heath--dan-heath-2013) |
 | 20 | **Thinking in Bets** · Annie Duke (2018) | Resulting + calibrated confidence + 下注思维 | ✓ v0.5（与 Decisive 配对）| [→ BOOKS](BOOKS.md#20-thinking-in-bets--annie-duke-2018) |
+| 21 | **How to Change** · Katy Milkman (2021) | obstacle-diagnostic + fresh-start + temptation bundling + commitment device + implementation intention + default architecture + advice-giving | ✓ v0.6（8% post-intervention 持久性诚实 + 承诺装置反作用诚实）| [→ BOOKS](BOOKS.md#21-how-to-change--katy-milkman-2021) |
+| 22 | **Make It Stick** · Brown / Roediger / McDaniel (2014) | 检索练习 > 反复阅读 + 间隔 + 交错 + 期望性难度 + fluency illusion + 不存在学习风格 | ✓ v0.6（interleaving 材料依赖 + 专家逆转效应诚实）| [→ BOOKS](BOOKS.md#22-make-it-stick--brown--roediger--mcdaniel-2014) |
+| 23 | **Breath** · James Nestor (2020) | 鼻呼吸默认 + ~6 次/分慢呼气 + 实践-逐条-evidence 阶梯 | ✓ v0.6（evidence-graded；嘴贴 contested；Mike Mew 拒绝）| [→ BOOKS](BOOKS.md#23-breath--james-nestor-2020) |
+| 24 | **Grit** · Angela Duckworth (2016) | Hard Thing Rule + 刻意练习 + discover-and-deepen 兴趣 | ✓ v0.6（继 BKS 之后最重 honest-scope —— Credé 2017 + Kohn 4 part 批评 + 与 Range 互引）| [→ BOOKS](BOOKS.md#24-grit--angela-duckworth-2016) |
+| 25 | **Drive** · Daniel H. Pink (2009) | Autonomy / Mastery / Purpose；按工作类型匹配 internal vs external | ✓ v0.6（SDT 翻译 + ROWE 撤回 + Google 20% 时间诚实 + floor-condition 警告）| [→ BOOKS](BOOKS.md#25-drive--daniel-h-pink-2009) |
+| 26 | **Designing Your Life** · Burnett & Evans (2016) | Odyssey Plans + Wayfinding + 原型对话 + 重新框定 | ✓ v0.6（life design - 新 archetype；富人 / Stanford / 网络偏见 + 设计思维批评内置）| [→ BOOKS](BOOKS.md#26-designing-your-life--burnett--evans-2016) |
+| 27 | **How to Talk So Kids Will Listen** · Faber & Mazlish (1980) | 5 个工具簇：接住情绪 / 描述-不-评判 / 替代惩罚 / 自主 / 描述式表扬 | ✓ v0.6（育儿 #2；1980 实践验证 + scripted-feel 警告 + 文化翻译）| [→ BOOKS](BOOKS.md#27-how-to-talk-so-kids-will-listen--faber--mazlish-1980) |
+| 28 | **The Power of Now** · Eckhart Tolle (1997) | 当下注意 + 认知去融合 + 身体锚 (形而上学被括起来) | ✓ v0.6（spirituality/presence - 新 archetype；Welwood 灵性逃避 + Britton 冥想副作用研究 + 硬性临床路由）| [→ BOOKS](BOOKS.md#28-the-power-of-now--eckhart-tolle-1997) |
+| 29 | **Four Thousand Weeks** · Oliver Burkeman (2021) | 有限性作为起点；故意忽略；反向于 GTD + Deep Work | ✓ v0.6（finitude/time-philosophy - 新 archetype；特权基线 + Heidegger 简化 + Slow Productivity 部分调和）| [→ BOOKS](BOOKS.md#29-four-thousand-weeks--oliver-burkeman-2021) |
+| 30 | **The Body Keeps the Score** · Bessel van der Kolk (2014) | 创伤识读：耐受窗口 + 自主状态 + 治疗方式 evidence 地图 | ✓ v0.6（trauma/healing - 新 archetype；slate 中最严 honest-scope —— 2018 解雇 + MDMA FDA 2024-08 拒绝 + 一线 PE/CPT/TF-CBT 并列）| [→ BOOKS](BOOKS.md#30-the-body-keeps-the-score--bessel-van-der-kolk-2014) |
 
 完整 per-book 内容（介绍 / 影响 / 特点 / 用法 / 期待）见 [**BOOKS.md**](BOOKS.md)（英文），含 10 本种子书的 archetype 平衡逻辑 + 不做哪几类书。
 
@@ -163,7 +173,8 @@ Delta +89。这是这个项目存在的核心理由。
 - [x] **v0.2.4** — 第 4 本上线：[Outlive](books/outlive/SKILL.md)（health archetype，boot 顶部显眼医疗警告，急救词在 boot 之前先拦）· EVAL.md 不再是必需 artifact（用户测试就是质量门）；CONTRIBUTING 已更新
 - [x] **v0.3.0** — 第 5 + 6 本上线：[Tiny Habits](books/tiny-habits/SKILL.md)（celebration-as-engine，与 Atomic Habits 形成对照）+ [Mindset](books/mindset/SKILL.md)（honest-scope-warning 设计，正面引用 Sisk 2018 / Yeager 2019 学术批评）· **Hybrid 方法验证**：研究 agent 并行跑 + 我写 SKILL.md + 你测。10 本种子 slate 走完一半
 - [x] **v0.4.0** — **10 本种子 slate 完成。** 一轮 ship 4 本（Why We Sleep, Stolen Focus, Die With Zero, The Let Them Theory），用 4 个并行 research agent + 我写 SKILL.md。Slate 横跨 5 个 archetype，每个 2 本。**6 个 honest-scope / safety 设计**（Outlive 医疗 / Mindset 学术批评 / Why We Sleep Guzey 批评 / Stolen Focus 引用底层研究者 / Die With Zero 错误读者路由 / Let Them 安全拒绝）—— 这是 repo 与其它 book-to-skill 项目的最强差异化
-- [x] **v0.5.0** — **第二批：10 本上线 = 20 本书架。** 10 个并行 research agent + 我写 SKILL.md。5 个新 archetype 加入（职业 / 沟通 / 脆弱性 / 育儿 / 决策）。几乎每本书都带 honest-scope 设计（ego depletion retraction / Kahneman priming retraction / survivorship bias / corporate-pitch flag / power-imbalance refusal / Vulnerability Inc. 批评 / neuroscience 简化 flag 等）。**Scenes 推迟到 v0.5.1** — 这轮先 ship SKILL.md + source-notes，scene 深度文件下一轮跟上。
+- [x] **v0.5.0** — **第二批：10 本上线 = 20 本书架。** 10 个并行 research agent + 我写 SKILL.md。5 个新 archetype 加入（职业 / 沟通 / 脆弱性 / 育儿 / 决策）。几乎每本书都带 honest-scope 设计。
+- [x] **v0.6.0** — **第三批：10 本上线 = 30 本书架 · 4 个新 archetype。** 第三轮 10 个并行 research agent + 我写 SKILL.md。新书：How to Change · Make It Stick · Breath · Grit · Drive · Designing Your Life · How to Talk So Kids Will Listen · The Power of Now · Four Thousand Weeks · The Body Keeps the Score。4 个新 archetype（life design / spirituality·presence / finitude·time-philosophy / trauma·healing）。已有 archetype 加固（behavior systems → 4 本，cognitive/focus → 3 本，health/body → 3 本，mindset/identity → 3 本，career → 3 本，parenting → 2 本）。**整个 slate 最严 honest-scope skill：Body Keeps the Score**（literacy-only · 危机优先 · 治疗方式 evidence 阶梯 · MDMA FDA 2024-08 拒绝 · 一线 PE/CPT/TF-CBT 并列命名）。Power of Now 加 Welwood 灵性逃避 + Britton 冥想副作用研究 + 硬性临床路由。Grit 加 Credé 2017 meta + Kohn 4 part 批评 + Range 互引。**Scenes 推迟到 v0.6.1**。
 - [ ] **v0.5.1** — batch 2 的 10 本 + batch 1 的 4 本（PoH / TFAS / Range / SGTCIY）的 scene 文件补齐
 - [ ] **v0.6** — 第一个 `packages/` bundle · 开始接受外部贡献者 PR
 - [ ] **v0.5** — 第一个 `packages/` bundle（midlife-health-pack：*Outlive* + *Atomic Habits* + *Why We Sleep*）· 中文版 SKILL.md 试点
@@ -291,4 +302,4 @@ v1.0 前先做 10 本「种子书」再开放外部 PR。
 
 ---
 
-*v0.5.0 · 2026-05-24 · **20 本书架** · 10 个 archetype · 几乎每本都带 honest-scope 设计 · hybrid 方法一轮 ship 10 本*
+*v0.6.0 · 2026-05-27 · **30 本书架** · 14 个 archetype（本轮新增 4 个：life design / spirituality / finitude / trauma）· 几乎每本都带 honest-scope 设计 · hybrid 方法又一轮 ship 10 本*

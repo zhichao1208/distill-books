@@ -313,26 +313,80 @@ The core methodology is one cognitive interrupt phrase: "Let them" (release rumi
 
 ---
 
-## 20-book shelf status (v0.5.0)
+## Batch 3 (v0.6.0) — 10 more books shipped, 4 NEW archetypes added
 
-5 archetypes from batch 1 + 5 NEW archetypes from batch 2 = 10 archetypes covered.
+### 21. How to Change · Katy Milkman (2021)
+
+**Lens**: Obstacle-diagnostic — pick the specific obstacle (impulsivity / procrastination / forgetfulness / laziness / low confidence / social), deploy the matched tool (fresh-start framing, temptation bundling, commitment device, implementation intention, default architecture, advice-giving). Milkman is the **researcher among popularizers** — Wharton professor running pre-registered megastudies, foreword by Duckworth. **Honest about**: Milkman's OWN gym megastudy (Nature 2021, n=61,293) showed only **8% of interventions had detectable post-intervention effects** beyond the 4-week window; flu-vaccine megastudy lift was modest (+2pp / +6.8%); DellaVigna & Linos 2022 showed published nudge effects are ~6× the all-trials average due to publication bias; commitment-device backfire for low-income / anxious users (Anett John 2018); "flexibility in habits" finding partly contradicts Atomic Habits. → [books/how-to-change/SKILL.md](books/how-to-change/SKILL.md)
+
+### 22. Make It Stick · Brown / Roediger / McDaniel (2014)
+
+**Lens**: Retrieval > re-reading + spaced > massed + interleaved > blocked + desirable difficulties + fluency illusion + learning-styles rebuttal (Pashler 2008). Co-authored by two working cognitive psychologists (Roediger NAS-elected, McDaniel CIRCLE director) + journalist Brown. **One of the most empirically defensible books in the slate** — testing-effect meta-analysis (Adesope 2017): g ≈ 0.61 across 217 studies. **Honest about**: classroom effects are smaller than single-study lab gaps imply (g ≈ 0.5 not the dramatic 50% vs 40%); interleaving is material-dependent (Brunmair 2019 meta: g=0.67 paintings, g=0.34 math, g=-0.39 word lists); expertise-reversal effect (difficulty must be productive struggle); ADHD / dyscalculia / severe anxiety are NOT technique problems. → [books/make-it-stick/SKILL.md](books/make-it-stick/SKILL.md)
+
+### 23. Breath · James Nestor (2020)
+
+**Lens**: Practice-by-practice evidence ladder — nasal-only as default (Lundberg NO), slow exhale ~6 bpm for HRV (Laborde 2022 meta — STRONGEST evidence in the book), longer-exhale-than-inhale for parasympathetic activation. **Honest about**: Nestor is a journalist, not a clinician; the Stanford "experiment" is N=2 anecdote; mouth-taping has only 9 small studies (Fangmeyer 2024 scoping review), AASM has NOT endorsed; Cochrane 2020 review on Buteyko-for-asthma: "probably did not improve" core outcomes; Wim Hof / tummo has caused multiple drowning deaths in water (NEVER in water); holotropic breathwork has CV / psychosis / pregnancy contraindications; Mike Mew (mewing) lost dental license 2019, expelled BOS 2022; right-nostril digestion / left-nostril creativity claims are pseudoscience. Hard route to clinician for suspected sleep apnea, asthma, COPD, panic disorder, PTSD, CV disease, pregnancy. → [books/breath/SKILL.md](books/breath/SKILL.md)
+
+### 24. Grit · Angela Duckworth (2016)
+
+**Lens**: Hard Thing Rule (parenting practice) + deliberate practice (Ericsson translated) + discover-and-deepen interest model. **Heaviest honest-scope in the slate alongside Body Keeps the Score**: Credé / Tynan / Harms 2017 meta-analysis (n=66,807, 88 samples) — grit's correlation with performance is modest (r ≈ 0.18), Consistency-of-Interest subscale is empirically dead (r ≈ 0.06), grit is "jangle fallacy" relabel of conscientiousness (ρ ≈ 0.84). Duckworth herself withdrew the Grit Scale from California CORE Districts high-stakes K-12 use in 2015. Alfie Kohn's 4-part critique (victim-blaming / conformism / imposed-goals / strategic-quitting) built in. Range explicitly contests grit — skill routes there when the question is actually match-quality. → [books/grit/SKILL.md](books/grit/SKILL.md)
+
+### 25. Drive · Daniel H. Pink (2009)
+
+**Lens**: Autonomy / Mastery / Purpose — Pink's translation of Self-Determination Theory (Deci & Ryan, 40+ years) for managers; if-then rewards on creative work backfire (Glucksberg, Amabile). **Honest about**: Cerasoli 2014 meta (125 studies, 212,468 subjects) is the corrective — intrinsic predicts QUALITY, extrinsic predicts QUANTITY, largely independent NOT antagonistic; Pink overstates the anti-incentive headline. Best Buy ROWE dismantled March 2013 by Hubert Joly. Google "20% time" is now ~"120% time" per Quartz 2013 — substantially curtailed. SDT recognizes 4 flavors of extrinsic motivation (external / introjected / identified / integrated); Pink collapses to binary. Framework presupposes salaried-professional floor — doesn't apply to gig / hourly / contingent below the floor. → [books/drive/SKILL.md](books/drive/SKILL.md)
+
+### 26. Designing Your Life · Burnett & Evans (2016)
+
+**Lens**: Stanford d.school design-thinking applied to life decisions. Odyssey Plans (three alternate 5-year futures) + Wayfinding journal (energy/engagement tracking) + prototype conversations / prototype experiences + reframe anchor problems + Workview/Lifeview Compass. **NEW archetype: life design.** **Honest about**: affluent + Stanford-network + metropolitan-professional bias (Odyssey Plans presuppose network, slack, mobility); thin empirical base — no RCTs, no longitudinal cohort study, no peer-reviewed outcomes paper; design-thinking-as-universal-methodology is contested in design research itself (Lucy Kimbell 2011, Natasha Iskander HBR 2018); corporate-workshop funnel ($1.5k–$3.5k per seat); "80% hidden job market" figure is folklore-grade (1970s outplacement-industry); "follow your energy" inherits a passion-trap variant when energy signal is broken (burnout / depression). → [books/designing-your-life/SKILL.md](books/designing-your-life/SKILL.md)
+
+### 27. How to Talk So Kids Will Listen · Faber & Mazlish (1980)
+
+**Lens**: Five tool-clusters — (1) acknowledge feelings before cooperation, (2) describe-don't-judge to engage cooperation, (3) alternatives to punishment via problem-solving, (4) build autonomy via choice + respect for struggle, (5) descriptive praise (no "good job!"), (6) freeing kids from family-script labels. Intellectual descendant of Haim Ginott. **Honest about**: pre-modern evidence base (1980; workshop case studies, not RCTs — 40+ years of practitioner adoption is the validation); aligns reasonably with later research (Lieberman 2007 affect-labeling, Mueller-Dweck 1998 process praise) but wasn't designed against it; "scripted-feel" failure mode (same as NVC); manipulative-when-misused risk; presupposes good-faith parenting (NOT for abuse / coercive co-parenting); developed in 1970s middle-class American culture — autonomy chapter especially needs cultural translation for collectivist / hierarchical family contexts; for autism / ADHD / sensory issues / anxiety / trauma the methods need adaptation (route to Ross Greene's *Explosive Child* / Delahooke's *Beyond Behaviors*). Parenting-archetype pair with *The Whole-Brain Child*: Faber/Mazlish gives the WORDS; Siegel/Bryson explains the WHY at brain level. → [books/how-to-talk/SKILL.md](books/how-to-talk/SKILL.md)
+
+### 28. The Power of Now · Eckhart Tolle (1997)
+
+**Lens**: Present-moment attention as rumination-interrupt; "watcher" consciousness / cognitive defusion ("notice the thought"); body / breath / sense-perception as anchor; psychological-time vs clock-time as worry-interrupt frame; surrender / acceptance of what is. **NEW archetype: spirituality / presence.** ~16M+ copies (with *A New Earth* sequel ~10M+); Oprah Book Club 2008. **Heavy honest-scope**: Tolle has no clinical, scientific, or academic credentials; the empirically-supported core is mindfulness translated from Buddhist vocabulary (MBSR research — Hofmann 2010, Khoury 2013 meta-analyses); the METAPHYSICAL framing (pain-body as energy entity, "awakening" as state, consciousness-as-separate-substance) is religious / philosophical NOT empirical. **Welwood's spiritual-bypassing critique** (1980s+, Tricycle 2011) is the canonical pushback. **Britton lab adverse-effects research** (Lindahl et al. PLOS ONE 2017): meditation can produce anxiety, depersonalization, traumatic re-experiencing. Treleaven's *Trauma-Sensitive Mindfulness* (2018) is the trauma-safe corrective. **HARD route to clinicians** for active suicidal ideation, severe depression / anxiety / psychosis / mania / PTSD with active flashbacks / eating disorders — Tolle's own awakening narrative encourages waiting that may be harmful. → [books/power-of-now/SKILL.md](books/power-of-now/SKILL.md)
+
+### 29. Four Thousand Weeks · Oliver Burkeman (2021)
+
+**Lens**: Finitude as starting point — ~4000 weeks is average lifespan; "getting on top of everything" is mathematically incoherent; deliberate neglect, not faster execution. Efficiency trap (Hartmut Rosa) — processing inbox faster increases inbox volume. "Joy of missing out" / settling (Robert Goodin) — commitment requires closing alternatives. Cosmic insignificance / radical patience (Landau, Arendt). **NEW archetype: finitude / time-philosophy.** **Honest about**: it's a philosophy book disguised as time-management (most 3-star reviews say "came for tactics, got Heidegger"); privilege baseline mostly unaddressed in book (caregivers, gig workers, low-wage shift workers don't have "choose what to neglect" as a meaningful frame — Burkeman engages this in his Substack *The Imperfectionist*); Heidegger's *Being and Time* is substantially simplified; "give up on getting it all done" can license chronic non-completion (different skill needed — clinical for ADHD / executive function); anti-productivity overshoot (some optimization is valuable — surgery checklists, flight protocols). **Counter-frame to Deep Work + GTD**; Newport's *Slow Productivity* (2024) is the partial reconciliation. → [books/four-thousand-weeks/SKILL.md](books/four-thousand-weeks/SKILL.md)
+
+### 30. The Body Keeps the Score · Bessel van der Kolk (2014)
+
+**Lens**: Trauma literacy + vocabulary (window of tolerance, fight-flight-freeze-fawn, polyvagal-informed states, implicit vs explicit memory, somatic-before-cognitive frame) + evidence-graded modality map (EMDR strong / yoga adjunctive / IFS emerging / neurofeedback contested / MDMA REJECTED / first-line PE/CPT/TF-CBT named). **NEW archetype: trauma / healing.** **STRICTEST honest-scope skill in the entire 30-book slate**: van der Kolk **fired from Trauma Center 2018** (Boston Globe — material context, trauma work is specifically about power); modality evidence varies enormously (EMDR strong per APA/NICE/WHO/VA-DoD; MDMA-assisted therapy **rejected by FDA August 2024** when Lykos NDA got Complete Response Letter — not standard care); the book DE-EMPHASIZES first-line evidence-based treatments (Prolonged Exposure / Foa, Cognitive Processing Therapy / Resick, TF-CBT) which the skill names alongside; "body keeps the score" metaphor commonly misread as literal cellular storage — Frontiers in Neuroscience 2023 paper argues it's "biologically inaccurate" as commonly understood; trauma-definition expansion concern (when category includes everything, precision lost). **The skill is LITERACY-ONLY**: crisis-first routing (988 US / Samaritans UK / Telefonseelsorge DE), refusal to validate self-diagnosis, refusal to recommend specific modalities as treatment plans, routing to trauma-trained clinicians for any actual work. Judith Herman's *Trauma and Recovery* (1992) is the more rigorous foundational text. → [books/body-keeps-score/SKILL.md](books/body-keeps-score/SKILL.md)
+
+---
+
+## 30-book shelf status (v0.6.0)
+
+5 archetypes from batch 1 + 5 NEW archetypes from batch 2 + 4 NEW archetypes from batch 3 = **14 archetypes covered**.
 
 | Archetype | Books |
 |---|---|
-| Behavior systems | Atomic Habits · Tiny Habits · **Power of Habit** |
-| Mental models / money | Psychology of Money · Die With Zero · **Thinking Fast and Slow** |
-| Cognitive / focus | Deep Work · Stolen Focus |
-| Health / body | Outlive · Why We Sleep |
-| Mindset / identity | Mindset · The Let Them Theory |
-| **Career** (new) | **Range · So Good They Can't Ignore You** |
-| **Communication** (new) | **Crucial Conversations · Nonviolent Communication** |
-| **Vulnerability / shame** (new) | **Daring Greatly** |
-| **Parenting** (new) | **The Whole-Brain Child** |
-| **Decision-making** (new) | **Decisive · Thinking in Bets** |
+| Behavior systems | Atomic Habits · Tiny Habits · Power of Habit · **How to Change** |
+| Mental models / money | Psychology of Money · Die With Zero · Thinking Fast and Slow |
+| Cognitive / focus | Deep Work · Stolen Focus · **Make It Stick** |
+| Health / body | Outlive · Why We Sleep · **Breath** |
+| Mindset / identity | Mindset · The Let Them Theory · **Grit** |
+| Career | Range · So Good They Can't Ignore You · **Drive** |
+| Communication | Crucial Conversations · Nonviolent Communication |
+| Vulnerability / shame | Daring Greatly |
+| Parenting | The Whole-Brain Child · **How to Talk So Kids Will Listen** |
+| Decision-making | Decisive · Thinking in Bets |
+| **Life design** (new in batch 3) | **Designing Your Life** |
+| **Spirituality / presence** (new in batch 3) | **The Power of Now** |
+| **Finitude / time-philosophy** (new in batch 3) | **Four Thousand Weeks** |
+| **Trauma / healing** (new in batch 3) | **The Body Keeps the Score** |
 
-**12+ honest-scope / safety designs across the 20-book shelf** — Outlive, Mindset, Why We Sleep, Stolen Focus, Die With Zero, Let Them Theory + Power of Habit (ego depletion), Thinking Fast Slow (priming retraction), Range (survivorship), Crucial Conversations (corporate pitch), NVC (power imbalance), Daring Greatly (Vulnerability Inc.), Whole-Brain Child (neuroscience simplification). Plus structural Decisive and TIB scope-honest design. Effectively **every skill in the shelf** carries some honest-scope feature.
+**~22 honest-scope / safety designs across the 30-book shelf**:
 
-This is the repo's defining feature vs other book-to-skill projects.
+Batch 1: Outlive (medical-warning-prominent) · Mindset (Sisk/Yeager critiques) · Why We Sleep (Guzey critique) · Stolen Focus (cite-researchers approach) · Die With Zero (wrong-reader routing) · Let Them Theory (origin credit + refusal-when-wrong).
+
+Batch 2: Power of Habit (ego depletion retraction) · Thinking Fast and Slow (Kahneman 2017 priming retraction) · Range (survivorship bias) · Crucial Conversations (corporate-pitch flag) · NVC (power-imbalance refusal) · Daring Greatly (Vulnerability Inc. critique) · Whole-Brain Child (neuroscience-simplification flag) · Decisive + TIB (structural scope-honest).
+
+Batch 3: How to Change (8% post-intervention durability + DellaVigna-Linos pub bias) · Make It Stick (interleaving material-dependence + expertise reversal) · Breath (practice-by-practice evidence ladder + Mike Mew refusal) · **Grit (Credé 2017 + Kohn 4-part + Range cross-ref — heaviest after BKS)** · Drive (ROWE walkback + Google 20% honest) · Designing Your Life (Stanford-bias + design-thinking critique) · How to Talk (pre-modern evidence + cultural translation) · **Power of Now (Welwood bypassing + Britton adverse effects + HARD clinical route)** · Four Thousand Weeks (privilege baseline + Heidegger simplified) · **Body Keeps Score (STRICTEST — literacy-only + 2018 firing + MDMA FDA Aug-2024 rejection + first-line PE/CPT named)**.
+
+Effectively **every skill in the 30-book shelf** carries an honest-scope feature. This is the repo's defining feature vs other book-to-skill projects.
 
 ## Original 10-book seed slate (COMPLETE ✓ in v0.4.0)
 
@@ -467,4 +521,4 @@ If a draft can't fill in any one of those, the book isn't ready.
 
 ---
 
-*v0.5.0 · 2026-05-24 · **20-book shelf** · 10 archetypes covered · honest-scope design across nearly every skill · hybrid methodology shipped 10 books in one round*
+*v0.6.0 · 2026-05-27 · **30-book shelf** · 14 archetypes covered (4 new this round: life design / spirituality / finitude / trauma) · honest-scope nearly every skill · hybrid methodology shipped 10 books in one round again*
